@@ -12,24 +12,20 @@
         Data Analyst at Medlytix March 2021 - June 2021<br>
     </p>
     <style>
-table, th, td {
-  border:1px solid black;
-}
-</style>
-<body>
-<table style="width:100%">
-<h2>Experience</h2>
+<table>
   <tr>
-    <th>Position</th>
     <th>Company</th>
-    <th>Dates</th>
+    <th>Contact</th>
+    <th>Country</th>
   </tr>
   <tr>
-    <td>Equifax</td>
-    <td>Medlytix</td>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
   </tr>
   <tr>
-    <td>January 2021 - Present/td>
-    <td>March 2021 - June 2021/td>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
   </tr>
 </table>
