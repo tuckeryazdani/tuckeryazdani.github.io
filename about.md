@@ -18,28 +18,20 @@ table, th, td {
 </style>
 <body>
 
-<h2>A basic HTML table</h2>
+<h2>Experience</h2>
 
 <table style="width:100%">
   <tr>
+    <th>Position</th>
     <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Dates</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Equifax</td>
+    <td>Medlytix</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>January 2021 - Present/td>
+    <td>March 2021 - June 2021/td>
   </tr>
 </table>
-
-<p>To undestand the example better, we have added borders to the table.</p>
-
-</body>
-      
-</body>
