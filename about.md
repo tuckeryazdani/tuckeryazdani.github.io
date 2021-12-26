@@ -8,5 +8,7 @@
   
   <div>
     <h2>Experience</h2>
-    <p> Graduate Research Assistant at Equifax January 2022 - Present </p>
+    <p> Graduate Research Assistant at Equifax January 2022 - Present
+        Data Analyst at Medlytix March 2021 - June 2021
+    </p>
 </body>
