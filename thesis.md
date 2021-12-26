@@ -1,3 +1,8 @@
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="thesis.html">Thesis</a></li>
+</ul>
 <h1> Thesis </h1>
 <body>
   Coming Soon
