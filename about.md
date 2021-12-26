@@ -3,7 +3,7 @@
 <body>
   <h2>Introduction</h2>
   <div>
-  I am a first year masters student at Kennesaw State University studying computer science with a concentration in artifical intelligence.
+  I am a first year masters student at Kennesaw State University studying computer science with a concentration in artifical intelligence. I studied mathematics with a concentration with statistics for my undergraduate degree.
   </div>
   
   <div>
