@@ -17,7 +17,7 @@ table, th, td {
 }
 </style>
 <body>
-
+<table style="width:100%">
 <h2>Experience</h2>
   <tr>
     <th>Position</th>
