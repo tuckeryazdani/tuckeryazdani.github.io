@@ -3,7 +3,24 @@
 <body>
   <h2>Introduction</h2>
   <div>
-  I am a first year masters student at Kennesaw State University studying computer science with a concentration in artifical intelligence. I studied mathematics with a concentration with statistics for my undergraduate degree.
+    <h1> Education </h1>
+    <table style="width:150%">
+  <tr>
+    <th>Degree</th>
+    <th>University</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td>M.S. in Computer Science (Concentration in Artifical Intelligence)</td>
+    <td>Kennesaw State University</td>
+    <td>Expected December 2023</td>
+  </tr>
+  <tr>
+    <td>B.S. in Mathematics (Concentration in Statistics) </td>
+    <td>University of West Georgia</td>
+    <td>December 2019</td>
+  </tr>
+</table>
   </div>
   
   <div>
