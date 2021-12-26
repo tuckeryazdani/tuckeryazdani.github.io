@@ -1,6 +1,7 @@
 <h1> About Me </h1>
 
 <body>
+  <h2>Introduction</h2>
   <div>
   I am a first year masters student at Kennesaw State University studying computer science with a concentration in artifical intelligence.
   </div>
