@@ -10,9 +10,9 @@
     <h2>Experience</h2>
 <table style="width:150%">
   <tr>
-    <th>style="text-align:center">Position</th>
-    <th>style="text-align:center">Company</th>
-    <th>style="text-align:center">Dates</th>
+    <th>style="text-align:center"Position</th>
+    <th>style="text-align:center"Company</th>
+    <th>style="text-align:center"Dates</th>
   </tr>
   <tr>
     <td>Graduate Research Assitant</td>
