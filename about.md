@@ -8,5 +8,5 @@
   
   <div>
     <h2>Experience</h2>
-    
+    <p> Graduate Research Assistant at Equifax January 2022 - Present </p>
 </body>
