@@ -23,7 +23,7 @@
     <td/td>
   </tr>
   <tr>
-    <td>>Data Analyst<</td>
+    <td>Data Analyst</td>
     <td>Francisco Chang</td>
     <td>Mexico</td>
   </tr>
