@@ -11,7 +11,6 @@
     <p> Graduate Research Assistant at Equifax January 2022 - Present<br>
         Data Analyst at Medlytix March 2021 - June 2021<br>
     </p>
-    <style>
 <table>
   <tr>
     <th>Position</th>
