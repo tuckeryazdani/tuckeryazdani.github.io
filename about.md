@@ -25,5 +25,3 @@
     <td>March 2021 - June 2021</td>
   </tr>
 </table>
-let x = "5"
- 
