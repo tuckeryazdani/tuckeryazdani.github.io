@@ -1,8 +1,3 @@
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="about.html">About</a>
-  <a href="thesis.html">Thesis</a>
-</div>
 <ul>
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="about.html">About</a></li>
