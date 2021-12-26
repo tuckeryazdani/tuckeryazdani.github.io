@@ -4,7 +4,7 @@
   <li><a href="thesis.html">Thesis</a></li>
 </ul>
 <h1> Tucker Yazdani </h1>
-![website1](https://user-images.githubusercontent.com/84822334/147420767-84a60115-9b7f-4e6e-b48f-dd7b7fd89fa6.jpgstyle="width:"400")
+![website1](https://user-images.githubusercontent.com/84822334/147420767-84a60115-9b7f-4e6e-b48f-dd7b7fd89fa6.jpg)
 
 <body> 
   <br><br><br>
