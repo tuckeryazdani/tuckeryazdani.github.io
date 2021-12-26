@@ -8,7 +8,7 @@
   
   <div>
     <h2>Experience</h2>
-<table style="width:200%">
+<table style="width:150%">
   <tr>
     <th>Position</th>
     <th>Company</th>
