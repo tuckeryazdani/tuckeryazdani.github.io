@@ -5,3 +5,16 @@
   Website Links:<br>
   <a href="about.html" title="About Me">About Me</a>
 </body>
+ <head>
+ <style type ="text/css" >
+   .footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+   }  
+</style>
+</head>
+<body>
+    <div class="footer">All Rights Reserved</div>
+</body>
