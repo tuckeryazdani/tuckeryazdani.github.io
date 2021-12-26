@@ -19,8 +19,6 @@ table, th, td {
 <body>
 
 <h2>Experience</h2>
-
-<table style="width:100%">
   <tr>
     <th>Position</th>
     <th>Company</th>
