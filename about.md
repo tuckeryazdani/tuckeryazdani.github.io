@@ -14,14 +14,13 @@
     <style>
 <table>
   <tr>
+    <th>Position</th>
     <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Dates</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Graduate Research Assitant</td>
+    <td>Data Analyst</td>
   </tr>
   <tr>
     <td>Centro comercial Moctezuma</td>
