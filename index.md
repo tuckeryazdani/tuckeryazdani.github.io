@@ -5,6 +5,7 @@
 </ul>
 
 <h1> Tucker Yazdani </h1>
+<img src=”https://photos.google.com/search/_tra_/photo/AF1QipPZqE6GcmEeBBqMd5EXUn8XblY25MuJpF-u-dhW”>
 <body> 
   <br><br><br>
   My Linedin Profile:  <a href="https://www.linkedin.com/in/tuckeryazdani/" title="LinkedIn">LinkedIn</a><br>
