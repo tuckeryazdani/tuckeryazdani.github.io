@@ -1,5 +1,5 @@
 <ul>
-  <li><a class="active" href="#home">Home</a></li>
+  <li><a class="active" href="/">Home</a></li>
   <li><a href="about.html">About</a></li>
   <li><a href="thesis.html">Thesis</a></li>
 </ul>
