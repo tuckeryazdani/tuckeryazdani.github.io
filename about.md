@@ -20,10 +20,10 @@
   </tr>
   <tr>
     <td>Graduate Research Assitant</td>
-    <td>Data Analyst</td>
+    <td/td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
+    <td>>Data Analyst<</td>
     <td>Francisco Chang</td>
     <td>Mexico</td>
   </tr>
