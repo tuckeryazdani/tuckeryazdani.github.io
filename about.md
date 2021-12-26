@@ -7,7 +7,7 @@
 <body>
   <h2>Introduction</h2>
   <div>
-    <h1> Education </h1>
+    <h2> Education </h2>
     <table style="width:150%">
   <tr>
     <th>Degree</th>
