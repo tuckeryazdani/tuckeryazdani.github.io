@@ -20,11 +20,12 @@
   </tr>
   <tr>
     <td>Graduate Research Assitant</td>
-    <td/td>
+    <td>Equifax</td>
+    <td>January 2021 - Present </td>
   </tr>
   <tr>
     <td>Data Analyst</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>Medlytix</td>
+    <td>March 2021 - June 2021</td>
   </tr>
 </table>
