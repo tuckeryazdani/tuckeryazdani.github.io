@@ -10,6 +10,10 @@
 
 <body>
   <link href="main.css" rel="stylesheet">
+  <h3> Personal Website <h3>
+  <p> 
+    This is my personal website to showcase my knowledge of HTML/CSS and JavaScript. This probject is also a way for me to improve my knowledge on these languages by applying them to a real website. 
+  </p>
   <br><br><br>
   <h2> Information </h2>
   My Linedin Profile:  <a href="https://www.linkedin.com/in/tuckeryazdani/" title="LinkedIn">LinkedIn</a><br>
