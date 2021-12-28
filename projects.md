@@ -4,8 +4,11 @@
   <li><a href="projects.html">Projects</a></li>
   <li><a href="thesis.html">Thesis</a></li>
 </ul>
+<head>
 <h1> Projects </h1>
+</head>
 <body>
+  <link href="main.css" rel="stylesheet">
   <div>
   <p> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, 12/2019<p>
   <ul> 
