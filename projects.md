@@ -9,7 +9,7 @@
 </head>
 <body>
   <link href="main.css" rel="stylesheet">
-  <p> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, 12/2019<p>
+  <p> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, 12/2019</p>
   <ul> 
     <li>Built a program in Python that uses linear algebra and number theory to decode Affine Digraph Ciphers.</li>
     <li>Presented my work in front of an audience of my peers and professors.</li>
