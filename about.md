@@ -4,8 +4,11 @@
   <li><a href="projects.html">Projects</a></li>
   <li><a href="thesis.html">Thesis</a></li>
 </ul>
+<head>
 <h1> About Me </h1>
+</head>
 <body>
+  <link href="main.css" rel="stylesheet">
   <h2>Introduction</h2>
   <div>
     <h2> Education </h2>
