@@ -21,5 +21,5 @@
   My GitHub Profile:   <a href="https://github.com/tuckeryazdani" title="LinkedIn">GitHub</a><br>
   Personal Email: tuckeryazdani@gmail.com<br>
   Student Email: tyazdani@students.kennesaw.edu<br>
-  <p>
+  </p>
 </body>
