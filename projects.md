@@ -16,5 +16,7 @@
     <li>Presented my work in front of an audience of my peers and professors.</li>
   </ul>
   </div>
+  <div>
   <p> Advanced Algorithims Project: Coming Soon. </p>
+  </div>
 </body>
