@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <link href="main.css" rel="stylesheet">
   <br><br><br>
   <h2> Information </h2>
   My Linedin Profile:  <a href="https://www.linkedin.com/in/tuckeryazdani/" title="LinkedIn">LinkedIn</a><br>
