@@ -9,10 +9,10 @@
 </head>
 <body>
   <link href="main.css" rel="stylesheet">
-  <p> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, 12/2019</p>
+  <h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, 12/2019</h3>
   <ul> 
     <li>Built a program in Python that uses linear algebra and number theory to decode Affine Digraph Ciphers.</li>
     <li>Presented my work in front of an audience of my peers and professors.</li>
   </ul>
-  <p> Advanced Algorithims Project: Coming Soon. </p>
+  <h3> Advanced Algorithims Project: Coming Soon. </h3>
 </body>
