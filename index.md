@@ -10,7 +10,7 @@
 
 <body>
   <link href="main.css" rel="stylesheet">
-  <h3> Personal Website <h3>
+  <h3> Personal Website </h3>
   <p> 
     This is my personal website to showcase my knowledge of HTML/CSS and JavaScript. This probject is also a way for me to improve my knowledge on these languages by applying them to a real website. 
   </p>
