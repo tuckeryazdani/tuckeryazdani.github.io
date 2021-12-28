@@ -16,8 +16,10 @@
   </p>
   <br><br><br>
   <h2> Information </h2>
+  <p>
   My Linedin Profile:  <a href="https://www.linkedin.com/in/tuckeryazdani/" title="LinkedIn">LinkedIn</a><br>
   My GitHub Profile:   <a href="https://github.com/tuckeryazdani" title="LinkedIn">GitHub</a><br>
   Personal Email: tuckeryazdani@gmail.com<br>
   Student Email: tyazdani@students.kennesaw.edu<br>
+  <p>
 </body>
