@@ -20,7 +20,7 @@
   <p>
   My Linedin Profile:  <a href="https://www.linkedin.com/in/tuckeryazdani/" title="LinkedIn">LinkedIn</a><br>
   My GitHub Profile:   <a href="https://github.com/tuckeryazdani" title="GitHub">GitHub</a><br>
-  LeetCode: <a href="https://leetcode.com/tuckeryazdani/" title="LeetCode">LeetCode</a><br>
+  My LeetCode: <a href="https://leetcode.com/tuckeryazdani/" title="LeetCode">LeetCode</a><br>
   Personal Email: tuckeryazdani@gmail.com<br>
   Student Email: tyazdani@students.kennesaw.edu<br>
   </p>
