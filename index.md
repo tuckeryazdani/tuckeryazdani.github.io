@@ -18,9 +18,13 @@
   <br><br><br>
   <h2> Information </h2>
   <p>
-  My Linedin Profile:  <a href="https://www.linkedin.com/in/tuckeryazdani/" title="LinkedIn">LinkedIn</a><br>
-  My GitHub Profile:   <a href="https://github.com/tuckeryazdani" title="GitHub">GitHub</a><br>
-  My LeetCode: <a href="https://leetcode.com/tuckeryazdani/" title="LeetCode">LeetCode</a><br>
+  My Linedin Profile:    <a href="https://www.linkedin.com/in/tuckeryazdani/" title="LinkedIn">LinkedIn</a><br>
+  My GitHub Profile:     <a href="https://github.com/tuckeryazdani" title="GitHub">GitHub</a><br>
+  My LeetCode Profile:   <a href="https://leetcode.com/tuckeryazdani/" title="LeetCode">LeetCode</a><br>
+  My CodeCademy Profile: <a href="https://leetcode.com/tuckeryazdani/" title="LeetCode">LeetCode</a><br>
+  </p)
+  <h3> Contact Information </h3>
+  <p>
   Personal Email: tuckeryazdani@gmail.com<br>
   Student Email: tyazdani@students.kennesaw.edu<br>
   </p>
