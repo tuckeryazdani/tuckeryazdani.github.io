@@ -22,7 +22,7 @@
   My LeetCode Profile:   <a href="https://leetcode.com/tuckeryazdani/" title="LeetCode">LeetCode</a><br>
   My CodeCademy Profile: <a href="https://leetcode.com/tuckeryazdani/" title="LeetCode">LeetCode</a><br>
   </p>
-  <h3> Contact Information </h3>
+  <h2> Contact Information </h2>
   <p>
   Personal Email: tuckeryazdani@gmail.com<br>
   Student Email: tyazdani@students.kennesaw.edu<br>
