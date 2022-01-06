@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en"> 
   <a href="https://tuckeryazdani.github.io/MyWebsite/" class="button"><button>Home</button></a>
   <a href="about.html" class="button"><button>About</button></a>
   <a href="projects.html" class="button"><button>Projects</button></a>
@@ -32,3 +34,4 @@
   Student Email: tyazdani@students.kennesaw.edu<br>
   </p>
 </body>
+</html>
