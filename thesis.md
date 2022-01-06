@@ -1,9 +1,7 @@
-<ul>
-  <li><a class="active" href="https://tuckeryazdani.github.io/mywebsite/">Home</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="projects.html">Projects</a></li>
-  <li><a href="thesis.html">Thesis</a></li>
-</ul>
+  <a href="https://tuckeryazdani.github.io/mywebsite/" class="button"><button>Home</button></a>
+  <a href="about.html" class="button"><button>About</button></a>
+  <a href="projects.html" class="button"><button>Projects</button></a>
+  <a href="thesis.html" class="button"><button>Thesis</button></a>
 <head>
 <h1> Thesis </h1>
 </head>
