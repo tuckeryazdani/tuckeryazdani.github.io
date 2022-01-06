@@ -5,6 +5,7 @@
   <li><a href="thesis.html">Thesis</a></li>
 </ul>
 <button <button onclick="changeColor()"> Test </button>
+<p> Test is active </p>
 <head>
 <h1> Tucker Yazdani </h1>
 </head>
