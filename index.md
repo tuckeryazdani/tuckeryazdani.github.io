@@ -8,6 +8,7 @@
 <body>
 <script src="main.js"></script>
   <button> Home </button> <button> About </button> <button> Projects </button> <button> Thesis </button> 
+  <a href="https://tuckeryazdani.github.io/mywebsite/" class="button">Home</a>
 <p> Test is active </p>
 </body>
 <head>
