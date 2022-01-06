@@ -14,7 +14,7 @@
   <div id="container" style="white-space:nowrap">
 
     <div id="image" style="display:inline;">
-        <img src="https://user-images.githubusercontent.com/84822334/148321401-8be1b2c1-fa1b-4cbb-881f-ef801837c9c7.jpg"/>
+        <img src="https://user-images.githubusercontent.com/84822334/148321401-8be1b2c1-fa1b-4cbb-881f-ef801837c9c7.jpg" width="220" height="320"/>
     </div>
 
     <div id="texts" style="display:inline; white-space:nowrap;"> 
