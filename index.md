@@ -4,7 +4,7 @@
   <li><a href="projects.html">Projects</a></li>
   <li><a href="thesis.html">Thesis</a></li>
 </ul>
-<button> Test </button>
+<button <button onclick="changeColor()"> Test </button>
 <head>
 <h1> Tucker Yazdani </h1>
 </head>
