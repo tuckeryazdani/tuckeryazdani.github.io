@@ -14,10 +14,10 @@
   <p> Disclaimer: This is a work in progress. </p>
   <h2> Information </h2>
   <p>
-  My Linedin Profile:    <a href="https://www.linkedin.com/in/tuckeryazdani/" title="LinkedIn">LinkedIn</a><br>
-  My GitHub Profile:     <a href="https://github.com/tuckeryazdani" title="GitHub">GitHub</a><br>
-  My LeetCode Profile:   <a href="https://leetcode.com/tuckeryazdani/" title="LeetCode">LeetCode</a><br>
-  My CodeCademy Profile: <a href="https://leetcode.com/tuckeryazdani/" title="LeetCode">CodeCademy</a><br>
+  My Linedin Profile:    <a href="https://www.linkedin.com/in/tuckeryazdani/">LinkedIn</a><br>
+  My GitHub Profile:     <a href="https://github.com/tuckeryazdani">GitHub</a><br>
+  My LeetCode Profile:   <a href="https://leetcode.com/tuckeryazdani/">LeetCode</a><br>
+  My CodeCademy Profile: <a href="https://www.codecademy.com/profiles/tuckerY0098840537">CodeCademy</a><br>
   </p>
   <h2> Contact Information </h2>
   <p>
