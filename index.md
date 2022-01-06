@@ -7,7 +7,7 @@
 <script>
   function changeColor(){
     let newColor = getRandomColor();
-    document.body.style.backgroundColor = newColor;\
+    document.body.style.background = newColor;\
   }
 </script>
 <button onlick="changeColor()"> Change Background </button>
