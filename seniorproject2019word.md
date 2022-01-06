@@ -7,6 +7,6 @@
   <a href="thesis.html" class="button"><button>Thesis</button></a>
   <hr>
 
-<iframe src="https://docs.google.com/gview?url="https://github.com/tuckeryazdani/MyWebsite/files/7824176/Senior.Project.pdf"
-&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
+  <h1> Coming Soon </h1>
+  
 </html>
