@@ -20,7 +20,7 @@
     <th>Date</th>
   </tr>
   <tr>
-    <td>M.S. in Computer Science (Concentration in Artifical Intelligence)</td>
+    <td>M.S. in Computer Science</td>
     <td>Kennesaw State University</td>
     <td>Expected December 2023</td>
   </tr>
