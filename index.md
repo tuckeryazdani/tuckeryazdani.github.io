@@ -7,7 +7,7 @@
 </ul>
 <body>
 <script src="main.js"></script>
-  <button> About </button> <button> Projects </button> <button> Thesis </button>
+  <button> Home </button> <button> About </button> <button> Projects </button> <button> Thesis </button> 
 <p> Test is active </p>
 </body>
 <head>
