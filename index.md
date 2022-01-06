@@ -10,7 +10,7 @@
     document.body.style.backgroundColor = newColor;\
   }
 </script>
-<button> Change Background onlick="changeColor()"</button>
+<button onlick="changeColor()"> Change Background </button>
 <head>
 <h1> Tucker Yazdani </h1>
 </head>
