@@ -24,7 +24,7 @@
   My Linedin Profile:    <a href="https://www.linkedin.com/in/tuckeryazdani/" title="LinkedIn">LinkedIn</a><br>
   My GitHub Profile:     <a href="https://github.com/tuckeryazdani" title="GitHub">GitHub</a><br>
   My LeetCode Profile:   <a href="https://leetcode.com/tuckeryazdani/" title="LeetCode">LeetCode</a><br>
-  My CodeCademy Profile: <a href="https://leetcode.com/tuckeryazdani/" title="LeetCode">LeetCode</a><br>
+  My CodeCademy Profile: <a href="https://leetcode.com/tuckeryazdani/" title="LeetCode">CodeCademy</a><br>
   </p>
   <h2> Contact Information </h2>
   <p>
