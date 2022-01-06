@@ -1,4 +1,10 @@
 <html lang="en"> 
+  <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
   <hr>
   <a href="https://tuckeryazdani.github.io/MyWebsite/" class="button"><button>Home</button></a>
   <a href="about.html" class="button"><button>About</button></a>
