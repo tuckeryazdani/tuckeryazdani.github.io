@@ -7,7 +7,7 @@
 </ul>
 <body>
 <script src="main.js"></script>
-<button <button onclick="changeColor()"> Test </button>
+<button onclick="changeColor()"> Test </button>
 <p> Test is active </p>
 </body>
 <head>
