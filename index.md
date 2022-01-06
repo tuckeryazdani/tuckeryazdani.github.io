@@ -8,7 +8,7 @@
 <body>
 <script src="main.js"></script>
   <button> Home </button> <button> About </button> <button> Projects </button> <button> Thesis </button> 
-  <a href="https://tuckeryazdani.github.io/mywebsite/" class="button">Home</a>
+  <a href="https://tuckeryazdani.github.io/mywebsite/" class="button"><button>Home</button></a>
   <a href="about.html" class="button">About</a>
   <a href="projects.html" class="button">Projects</a>
   <a href="thesis.html" class="button">Thesis</a>
