@@ -14,7 +14,7 @@
 <hr>
 <body>
   <h2> Personal Website </h2>
-  <p> This is my personal website to showcase my knowledge of HTML/CSS and JavaScript. This probject is also a way for me to improve my knowledge on these languages by applying them to a real website. </p>
+  <p> This is my personal website to showcase my knowledge of HTML/CSS and JavaScript. I am currently a M.S. Computer Science student at Kennesaw State University. I plan to graduate from KSU in December 2022. Then I will decide if I want to continue to get my Ph.D or work in the industry. </p>
   <p> Disclaimer: This is a work in progress. </p>
   <h2> Information </h2>
   <p>
