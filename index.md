@@ -6,7 +6,7 @@
 <head>
 <h1> Tucker Yazdani </h1>
 </head>
-<img src="![TuckerProfessional1](https://user-images.githubusercontent.com/84822334/148321401-8be1b2c1-fa1b-4cbb-881f-ef801837c9c7.jpg)" width="220" height="320" > ==$0
+<img src="![TuckerProfessional1](https://user-images.githubusercontent.com/84822334/148321401-8be1b2c1-fa1b-4cbb-881f-ef801837c9c7.jpg)" width="220" height="320">
 
 <body>
   <link href="main.css" rel="stylesheet">
