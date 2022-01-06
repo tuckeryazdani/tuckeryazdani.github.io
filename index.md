@@ -5,7 +5,6 @@
   <a href="thesis.html" class="button"><button>Thesis</button></a>
 <p> Test is active </p>
 <link href="main.css" rel="stylesheet">
-<button onlick="changeColor()"> Change Background </button>
 <head>
 <h1> Tucker Yazdani </h1>
 </head>
