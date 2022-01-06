@@ -7,11 +7,17 @@
 <p> Test is active </p>
 <link href="main.css" rel="stylesheet">
 <script>
-  function changeColor(){
-    let newColor = getRandomColor();
-    document.body.style.background = newColor;\
-  }
+    // Function to change webpage background color
+    function changeBodyBg(color){
+        document.body.style.background = color;
+    }
+    
+    // Function to change heading background color
+    function changeHeadingBg(color){
+        document.getElementById("heading").style.background = color;
+    }
 </script>
+<button type="button" onclick="changeBodyBg('yellow');">Yellow</button>
 <button onlick="changeColor()"> Change Background </button>
 <head>
 <h1> Tucker Yazdani </h1>
