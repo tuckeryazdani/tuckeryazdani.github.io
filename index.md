@@ -7,7 +7,7 @@
 </ul>
 <body>
 <script src="main.js"></script>
-<a class = "navigation_button" href="about.html">About</a>
+  <button> About </button> <button> Projects </button> <button> Thesis </button>
 <p> Test is active </p>
 </body>
 <head>
