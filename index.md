@@ -1,9 +1,11 @@
+
 <ul>
   <li><a class="active" href="https://tuckeryazdani.github.io/mywebsite/">Home</a></li>
   <li><a href="about.html">About</a></li>
   <li><a href="projects.html">Projects</a></li>
   <li><a href="thesis.html">Thesis</a></li>
 </ul>
+<script src="main.js"></script>
 <button <button onclick="changeColor()"> Test </button>
 <p> Test is active </p>
 <head>
