@@ -7,7 +7,7 @@
 </ul>
 <body>
 <script src="main.js"></script>
-<button onclick=href="about.html"> Test </button>
+<a class = "navigation_button" href="about.html">About</a>
 <p> Test is active </p>
 </body>
 <head>
