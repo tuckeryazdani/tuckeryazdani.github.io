@@ -4,6 +4,13 @@
   <a href="thesis.html" class="button"><button>Thesis</button></a>
 <p> Test is active </p>
 <link href="main.css" rel="stylesheet">
+<script>
+  function changeColor(){
+    let newColor = getRandomColor();
+    document.body.style.backgroundColor = newColor;\
+  }
+</script>
+<button> Change Background onlick="changeColor()"</button>
 <head>
 <h1> Tucker Yazdani </h1>
 </head>
