@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en"> 
   <a href="https://tuckeryazdani.github.io/MyWebsite/" class="button"><button>Home</button></a>
   <a href="about.html" class="button"><button>About</button></a>
