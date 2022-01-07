@@ -42,6 +42,7 @@
   <a href="thesis.html" class="button"><button>Thesis</button></a>
   <hr>
 -->
+<script src="navbar.js"></script>
 
 <p> Test is active. (If you see this, I am currently working on and experimenting with the website.) </p>
 <head>
