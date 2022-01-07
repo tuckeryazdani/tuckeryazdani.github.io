@@ -1,5 +1,4 @@
 <html>
-<!--
 <link href="main.css" rel="stylesheet">
 <div class="topnav">
   <a class="active" href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
@@ -7,11 +6,7 @@
   <a href="projects.html">Projects</a>
   <a href="thesis.html">Thesis</a>
 </div>
--->
-<h3> JS2 </h3>
-<script src="js/navbar.js" type="text/javascript"></script>
-
-<p> Test is active. (If you see this, I am currently working on and experimenting with the website.) </p>
+<p> Test is active. </p>
 <head>
 <title> Tucker Yazdani </title>
   <h1> Tucker Yazdani </h1>
