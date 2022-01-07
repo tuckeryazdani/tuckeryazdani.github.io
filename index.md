@@ -24,7 +24,7 @@
 }
 </style>
 <div class="topnav">
-  <a class="active" href="#home">Home</a>
+  <a class="active" href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
@@ -34,13 +34,14 @@
   <h2>Top Navigation Example</h2>
   <p>Some content..</p>
 </div>
-<html lang="en">
+<!--<html lang="en">
   <hr>
-  <a href="https://tuckeryazdani.github.io/MyWebsite/" class="button"><button>Home</button></a>
+  <a href="" class="button"><button>Home</button></a>
   <a href="about.html" class="button"><button>About</button></a>
   <a href="projects.html" class="button"><button>Projects</button></a>
   <a href="thesis.html" class="button"><button>Thesis</button></a>
   <hr>
+-->
 <p> Test is active </p>
 <link href="main.css" rel="stylesheet">
 <head>
