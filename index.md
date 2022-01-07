@@ -1,28 +1,4 @@
-<style>
-  .topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #FFD700;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #FFD700;
-  color: white;
-}
-</style>
+<html>
 <!--
 <link href="main.css" rel="stylesheet">
 <div class="topnav">
@@ -32,7 +8,7 @@
   <a href="thesis.html">Thesis</a>
 </div>
 -->
-<h3> JS Code is Now Active. </h3>
+<h3> JS </h3>
 <script src="navbar.js" type="text/javascript"></script>
 
 <p> Test is active. (If you see this, I am currently working on and experimenting with the website.) </p>
