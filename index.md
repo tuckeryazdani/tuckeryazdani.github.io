@@ -25,23 +25,26 @@
 </style>
 <div class="topnav">
   <a class="active" href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="thesis.html">Thesis</a>
 </div>
 
 <div style="padding-left:16px">
   <h2>Top Navigation Example</h2>
   <p>Some content..</p>
 </div>
-<!--<html lang="en">
+
+<!--
+<html lang="en">
   <hr>
-  <a href="" class="button"><button>Home</button></a>
+  <a href="https://tuckeryazdani.github.io/MyWebsite/" class="button"><button>Home</button></a>
   <a href="about.html" class="button"><button>About</button></a>
   <a href="projects.html" class="button"><button>Projects</button></a>
   <a href="thesis.html" class="button"><button>Thesis</button></a>
   <hr>
 -->
+
 <p> Test is active </p>
 <link href="main.css" rel="stylesheet">
 <head>
