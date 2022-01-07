@@ -32,6 +32,7 @@
   <a href="thesis.html">Thesis</a>
 </div>
 -->
+<h3> JS Code is Now Active. </h3>
 <script src="navbar.js"></script>
 
 <p> Test is active. (If you see this, I am currently working on and experimenting with the website.) </p>
