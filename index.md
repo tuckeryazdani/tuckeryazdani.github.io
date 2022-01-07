@@ -23,6 +23,7 @@
   color: white;
 }
 </style>
+<link href="template.css" rel="stylesheet">
 <link href="main.css" rel="stylesheet">
 <div class="topnav">
   <a class="active" href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
