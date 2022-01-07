@@ -23,6 +23,7 @@
   color: white;
 }
 </style>
+<link href="main.css" rel="stylesheet">
 <div class="topnav">
   <a class="active" href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
   <a href="about.html">About</a>
@@ -41,7 +42,6 @@
 -->
 
 <p> Test is active </p>
-<link href="main.css" rel="stylesheet">
 <head>
 <title> Tucker Yazdani </title>
   <h1> Tucker Yazdani </h1>
