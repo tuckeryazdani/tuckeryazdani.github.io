@@ -54,7 +54,7 @@
   <h2> Information </h2>
   <p>
   Linedin Profile:    <a href="https://www.linkedin.com/in/tuckeryazdani/">LinkedIn</a><br>
-  Linedin Profile:    <a href="https://www.linkedin.com/in/tuckeryazdani/"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png"LinkedIn</a><br>
+  Linedin Profile:    <a href="https://www.linkedin.com/in/tuckeryazdani/"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" width="50" height="50"</a><br>
   GitHub Profile:     <a href="https://github.com/tuckeryazdani">GitHub</a><br>
   LeetCode Profile:   <a href="https://leetcode.com/tuckeryazdani/">LeetCode</a><br>
   CodeCademy Profile: <a href="https://www.codecademy.com/profiles/tuckerY0098840537">CodeCademy</a><br>
