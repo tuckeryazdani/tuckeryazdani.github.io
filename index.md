@@ -8,8 +8,8 @@
   <a href="thesis.html">Thesis</a>
 </div>
 -->
-<h3> JS </h3>
-<script src="navbar.js" type="text/javascript"></script>
+<h3> JS1 </h3>
+<script src="//navbar.js" type="text/javascript"></script>
 
 <p> Test is active. (If you see this, I am currently working on and experimenting with the website.) </p>
 <head>
