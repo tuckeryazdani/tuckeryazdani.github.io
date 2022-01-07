@@ -14,7 +14,7 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #FFD700;
   color: black;
 }
 
@@ -28,11 +28,6 @@
   <a href="about.html">About</a>
   <a href="projects.html">Projects</a>
   <a href="thesis.html">Thesis</a>
-</div>
-
-<div style="padding-left:16px">
-  <h2>Top Navigation Example</h2>
-  <p>Some content..</p>
 </div>
 
 <!--
