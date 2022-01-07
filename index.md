@@ -33,7 +33,7 @@
 </div>
 -->
 <h3> JS Code is Now Active. </h3>
-<script src="navbar.js"></script>
+<script src="navbar.js" type="text/javascript"></script>
 
 <p> Test is active. (If you see this, I am currently working on and experimenting with the website.) </p>
 <head>
