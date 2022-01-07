@@ -42,7 +42,7 @@
   <hr>
 -->
 
-<p> Test is active </p>
+<p> Test is active. (If you see this, I am currently working on and experimenting with the website.) </p>
 <head>
 <title> Tucker Yazdani </title>
   <h1> Tucker Yazdani </h1>
