@@ -32,6 +32,7 @@
   <a href="thesis.html">Thesis</a>
 </div>
 -->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <!--
 <html lang="en">
   <hr>
