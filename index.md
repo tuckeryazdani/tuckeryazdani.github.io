@@ -32,16 +32,6 @@
   <a href="thesis.html">Thesis</a>
 </div>
 -->
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<!--
-<html lang="en">
-  <hr>
-  <a href="https://tuckeryazdani.github.io/MyWebsite/" class="button"><button>Home</button></a>
-  <a href="about.html" class="button"><button>About</button></a>
-  <a href="projects.html" class="button"><button>Projects</button></a>
-  <a href="thesis.html" class="button"><button>Thesis</button></a>
-  <hr>
--->
 <script src="navbar.js"></script>
 
 <p> Test is active. (If you see this, I am currently working on and experimenting with the website.) </p>
