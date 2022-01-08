@@ -15,7 +15,7 @@
         position: absolute;
         top: 0px;
         right: 0px;
-        margin: 1px 1px 1px 1px;
+        margin: 20px 20px 20px 20px;
     }
 </style>
 
