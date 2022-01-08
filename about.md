@@ -6,6 +6,11 @@
   <a href="projects.html">Projects</a>
   <a href="thesis.html">Thesis</a>
 </div>
+  <style>
+table, th, td {
+ border: 0px;
+}
+</style>
 <head>
 <h1> About Me </h1>
 </head>
