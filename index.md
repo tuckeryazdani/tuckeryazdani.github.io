@@ -15,12 +15,13 @@
         position: absolute;
         top: 0px;
         right: 0px;
-        margin: 20px 20px 20px 20px;
     }
 </style>
 
 <div id="content">
 <a href="https://www.linkedin.com/in/tuckeryazdani/"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" width="20" height="20" title="LinkedIn"></a>
+</div>
+<div id="content">
 <a href="https://github.com/tuckeryazdani/"><img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" width="20" height="20" title="GitHub"></a>
 </div>
 <p> Test is active. </p>
