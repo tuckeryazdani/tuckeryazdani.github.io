@@ -41,7 +41,7 @@
   <tr>
     <td>Graduate Research Assitant</td>
     <td>Equifax</td>
-    <td>January 2021 - Present </td>
+    <td>January 2022 - Present </td>
   </tr>
   <tr>
     <td>Data Analyst</td>
