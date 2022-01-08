@@ -1,6 +1,5 @@
 <html>
 <link href="main.css" rel="stylesheet">
-  <title> Tucker Yazdani </title>
 <div class="topnav">
   <a class="active" href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
   <a href="about.html">About</a>
@@ -13,8 +12,12 @@
 </div>
 <p> Test is active. </p>
 <head>
-<title> Tucker Yazdani </title>
-  <h1> Tucker Yazdani </h1>
+  <div align="left">
+    <h1> Tucker Yazdani </h1>
+    <h6> Graduate Research Assitant at Equifax </h6>
+    <h6> M.S. Student for Computer Science at KSU </h6>
+    <h6> B.S. Mathematics (Cocnentration in Statistics) at UWG </h6>
+  </div>
 </head>
 <center><a href="https://user-images.githubusercontent.com/84822334/148321401-8be1b2c1-fa1b-4cbb-881f-ef801837c9c7.jpg" target="_blank" ><img src="https://user-images.githubusercontent.com/84822334/148321401-8be1b2c1-fa1b-4cbb-881f-ef801837c9c7.jpg" width="200" height="320" align="left"/></a></center>
 <body>
