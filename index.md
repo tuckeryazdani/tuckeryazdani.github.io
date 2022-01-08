@@ -1,3 +1,4 @@
+<html>
 <link href="main.css" rel="stylesheet">
   <title> Tucker Yazdani </title>
 <div class="topnav">
@@ -17,7 +18,6 @@
         right: 0px;
     }
 </style>
-<html>
 <div id="content">
 <a href="https://www.linkedin.com/in/tuckeryazdani/"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" width="20" height="20" title="LinkedIn"></a>
 <br>
