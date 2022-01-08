@@ -9,11 +9,13 @@
 <style>
     #content {
         position: relative;
+  
     }
     #content img {
         position: absolute;
         top: 0px;
         right: 0px;
+        margin: 1px 1px 1px 1px;
     }
 </style>
 
