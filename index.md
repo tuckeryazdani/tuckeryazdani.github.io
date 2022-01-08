@@ -18,7 +18,6 @@
 </head>
 <center><a href="https://user-images.githubusercontent.com/84822334/148321401-8be1b2c1-fa1b-4cbb-881f-ef801837c9c7.jpg" target="_blank" ><img src="https://user-images.githubusercontent.com/84822334/148321401-8be1b2c1-fa1b-4cbb-881f-ef801837c9c7.jpg" width="200" height="320" align="left"/></a></center>
 <body>
-  <br>
   <h2> Personal Website </h2>
   <p> This is my personal website to showcase my knowledge of HTML/CSS and JavaScript. I am currently a M.S. Computer Science student at Kennesaw State University, and I work as a graduate research assitant for Equifax where I work in PySpark, SQL, and Scala. I plan to graduate from KSU in December 2022. Then I plan on continuing my education by pursuing a doctorate in computer science. </p>
   <p> Disclaimer: This is a work in progress. </p>
