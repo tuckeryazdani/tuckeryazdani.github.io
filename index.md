@@ -17,7 +17,6 @@
 
 <div id="content">
 <a href="https://www.linkedin.com/in/tuckeryazdani/"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" width="20" height="20"></a><br>
-    <div>some text...</div>
 </div>
 <p> Test is active. </p>
 <head>
