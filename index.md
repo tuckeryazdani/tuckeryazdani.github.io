@@ -15,8 +15,8 @@
   <div align="left">
     <h1> Tucker Yazdani </h1>
     <h6> Graduate Research Assitant at Equifax </h6>
-    <h6> M.S. Student in Computer Science at KSU </h6>
-    <h6> B.S. Mathematics (Cocnentration in Statistics) at UWG </h6>
+    <h6> M.S. Student in Computer Science </h6>
+    <h6> B.S. Mathematics (Cocnentration in Statistics) </h6>
   </div>
   <hr>
 </head>
