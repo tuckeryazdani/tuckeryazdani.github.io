@@ -19,11 +19,6 @@
     <h6> B.S. Mathematics (Cocnentration in Statistics) </h6>
   </div>
 </head>
-<style>
-img {
-  border: 5px solid #555;
-}
-</style>
 <a href="https://user-images.githubusercontent.com/84822334/148321401-8be1b2c1-fa1b-4cbb-881f-ef801837c9c7.jpg" target="_blank" ><img src="https://user-images.githubusercontent.com/84822334/148321401-8be1b2c1-fa1b-4cbb-881f-ef801837c9c7.jpg" width="200" height="320" align="left"/></a>
 <body>
   <h2> Personal Website </h2>
