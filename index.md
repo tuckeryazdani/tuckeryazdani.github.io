@@ -7,7 +7,9 @@
   <a href="projects.html">Projects</a>
   <a href="thesis.html">Thesis</a>
 </div>
-<style>
+  
+<!--
+  <style>
     #content {
         position: relative;
   
@@ -18,13 +20,14 @@
         right: 0px;
     }
 </style>
-<div id="content">
-<a href="https://www.linkedin.com/in/tuckeryazdani/"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" width="20" height="20" title="LinkedIn"></a>
+-->
+  
+<div <!--id="content"-->>
+<a href="https://www.linkedin.com/in/tuckeryazdani/"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" width="20" height="20" align = "right" title="LinkedIn"></a>
 <br>
-<a href="https://github.com/tuckeryazdani/"><img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" width="20" height="20" title="GitHub"></a>
+<a href="https://github.com/tuckeryazdani/"><img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" width="20" height="20" align = "right" title="GitHub"></a>
 </div>
 <p> Test is active. </p>
-  <p> Image test active. </p>
 <head>
 <title> Tucker Yazdani </title>
   <h1> Tucker Yazdani </h1>
