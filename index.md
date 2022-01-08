@@ -1,5 +1,6 @@
 <html>
 <link href="main.css" rel="stylesheet">
+  <title> Tucker Yazdani </title>
 <div class="topnav">
   <a class="active" href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
   <a href="about.html">About</a>
