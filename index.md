@@ -7,9 +7,7 @@
   <a href="thesis.html">Thesis</a>
 </div>
 <style>
-    #content {
-        position: relative;
-    }
+
     #content img {
         position: absolute;
         top: 0px;
