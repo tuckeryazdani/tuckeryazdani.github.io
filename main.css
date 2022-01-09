@@ -5,7 +5,9 @@ body {
 h1 {
   color: black;
 }
-
+h3.resume{
+ float: right; 
+}
 p {
   font-family: verdana;
   color: black;
