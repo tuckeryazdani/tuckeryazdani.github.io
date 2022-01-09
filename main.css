@@ -59,6 +59,8 @@ hr{
   color: white;
 }
 th{
-    background: #f2f2f2;
+    text-align: center;
+    color: white;
+    background: #333;
     font-weight: 1000;
 }
