@@ -23,7 +23,7 @@
   <h2> Personal Website </h2>
   <p> This is my personal website to showcase my knowledge of HTML/CSS and JavaScript. I am currently a M.S. Computer Science student at Kennesaw State University, and I work as a graduate research assitant for Equifax where I work in PySpark, SQL, and Scala. I plan to graduate from KSU in December 2022. Then I plan on continuing my education by pursuing a doctorate in computer science. </p>
   <p> Disclaimer: This is a work in progress. </p>
-  <br><br>
+  <br><br><br>
   <h2> Information </h2>
   <p>
   Linedin Profile:    <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">LinkedIn</a><br>
