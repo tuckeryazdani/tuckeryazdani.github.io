@@ -58,3 +58,7 @@ hr{
   background-color: #00008b;
   color: white;
 }
+th{
+    background: dodgerblue;
+    font-weight: 1000;
+}
