@@ -13,7 +13,6 @@
 <head>
   <div align="left">
     <h1> Tucker Yazdani </h1>
-    <a href="https://github.com/tuckeryazdani/MyWebsite/files/7836015/TuckerYazdaniResumeWebsite.pdf" target="_blank"> <h3 class="resume">Resume</h3> </a>
     <h6> Graduate Research Assitant at Equifax </h6>
     <h6> M.S. Student in Computer Science </h6>
     <h6> B.S. Mathematics (Concentration in Statistics) </h6>
