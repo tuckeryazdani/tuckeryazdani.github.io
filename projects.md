@@ -17,6 +17,10 @@
     <li>Presented my work in front of an audience of my peers and professors.</li>
   </ul>
   <a href="https://tuckeryazdani.github.io/MyWebsite/"><h3> Porfolio </h3></a>
+  <ul>
+    <li> Built a website outlining my education, experience, and other infromation about me. </li>
+    <li> More Coming Soon </li>
+  </ul>
   <h3> Advanced Algorithims Project: Coming Soon. </h3>
 </body>
 </html>
