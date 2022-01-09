@@ -19,18 +19,15 @@ p {
 img {
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #555;
 }
 img.social{
   float: right;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 1px solid #555;
 }
 img.profile{
   border-radius: 50%;
-  border: 1px solid #555;
 }
 .center {
   display: block;
