@@ -18,7 +18,7 @@
   </ul>
   <a href="https://tuckeryazdani.github.io/MyWebsite/"><h3> Porfolio </h3></a>
   <ul>
-    <li> Built a website outlining my education, experience, and other relevant information. </li>
+    <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
     <li> More Coming Soon </li>
   </ul>
   <h3> Advanced Algorithims Project: Coming Soon. </h3>
