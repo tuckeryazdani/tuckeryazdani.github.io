@@ -17,7 +17,7 @@
     <li>Wrote a research paper outlining the project.</li>
     <li>Presented my work in front of an audience of my peers and professors.</li>
   </ul>
-  <a href="https://tuckeryazdani.github.io/MyWebsite/"><h3> Porfolio: Personal Website </h3></a>
+  <a href="https://tuckeryazdani.github.io/MyWebsite/" target="_blank"><h3> Porfolio: Personal Website </h3></a>
   <ul>
     <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
     <li> More Coming Soon </li>
