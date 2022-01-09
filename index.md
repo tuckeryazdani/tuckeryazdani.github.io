@@ -7,7 +7,7 @@
   <a href="thesis.html">Thesis</a>
 </div>
 <div>
-<a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" width="10" height="20" align="right" title="LinkedIn"></a>
+<a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" width="20" height="20" align="right" title="LinkedIn"></a>
 <a href="https://github.com/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" width="20" height="20" align="right" title="GitHub"></a>
 </div>
 <head>
