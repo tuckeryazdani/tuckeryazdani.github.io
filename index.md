@@ -27,10 +27,10 @@
   <br>
   <h2> Information </h2>
   <p>
-  Linedin Profile:    <a href="https://www.linkedin.com/in/tuckeryazdani/">LinkedIn</a><br>
-  GitHub Profile:     <a href="https://github.com/tuckeryazdani">GitHub</a><br>
-  LeetCode Profile:   <a href="https://leetcode.com/tuckeryazdani/">LeetCode</a><br>
-  CodeCademy Profile: <a href="https://www.codecademy.com/profiles/tuckerY0098840537">CodeCademy</a><br>
+  Linedin Profile:    <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">LinkedIn</a><br>
+  GitHub Profile:     <a href="https://github.com/tuckeryazdani" target="_blank">GitHub</a><br>
+  LeetCode Profile:   <a href="https://leetcode.com/tuckeryazdani/" target="_blank">LeetCode</a><br>
+  CodeCademy Profile: <a href="https://www.codecademy.com/profiles/tuckerY0098840537" target="_blank">CodeCademy</a><br>
   </p>
   <h2> Contact Information </h2>
   <p>
