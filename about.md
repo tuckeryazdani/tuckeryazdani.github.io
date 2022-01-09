@@ -54,13 +54,3 @@ table, th, td {
     <td>March 2021 - June 2021</td>
   </tr>
 </table>
- 
-  <h2> Current Coursework </h2>
-  <table>
-    <th> Course </th>
-    <tr> Foundations of Programming </tr>
-    <tr> Data Structures and Algorithims </tr>
-    <tr> Advanced Algorithims </tr>
-    <tr> Database Systems </tr>
-    <tr> Theory of Computation </tr>
-  </table>
