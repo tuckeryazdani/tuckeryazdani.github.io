@@ -22,8 +22,9 @@ img {
 }
 img.social{
   float: right;
-  width: 30px
-  height: 30px
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 img.profile{
   border-radius: 50%;
