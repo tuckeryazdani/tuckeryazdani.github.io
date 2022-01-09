@@ -61,7 +61,7 @@ $(function(){
 });
 </script>
 <html>
- <form id="form" action="javascript:void('');" class="add_comment">
+ <form id="form" action="javascript:void('');">
 
         <label>Name
           <input id="name" type="string" name="name">
