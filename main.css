@@ -25,6 +25,9 @@ img.social{
   width: 30px
   height: 30px
 }
+img.profile{
+  border-radius: 50%;
+}
 .center {
   display: block;
   margin-left: auto;
