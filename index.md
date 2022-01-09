@@ -12,7 +12,6 @@
   </nav>
 <head>
   <div align="left">
-    <h1> Tucker Yazdani </h1>
     <h6> Graduate Research Assitant at Equifax </h6>
     <h6> M.S. Student in Computer Science </h6>
     <h6> B.S. Mathematics (Concentration in Statistics) </h6>
