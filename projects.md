@@ -14,10 +14,10 @@
   <a href="./seniorproject2019word.html" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, 12/2019</h3></a>
   <ul> 
     <li>Built a program in Python that uses linear algebra and number theory to decode Affine Digraph Ciphers.</li>
-    <li>Wrote a research paper describing the project and how it works.</li>
+    <li>Wrote a research paper outlining the project.</li>
     <li>Presented my work in front of an audience of my peers and professors.</li>
   </ul>
-  <a href="https://tuckeryazdani.github.io/MyWebsite/"><h3> Porfolio </h3></a>
+  <a href="https://tuckeryazdani.github.io/MyWebsite/"><h3> Porfolio: Personal Website </h3></a>
   <ul>
     <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
     <li> More Coming Soon </li>
