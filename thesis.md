@@ -10,6 +10,7 @@
 <h1> Thesis </h1>
 </head>
 <body>
+  <link href="about.html" rel="alternate">
   <link href="main.css" rel="stylesheet">
   Coming Soon
 </body>
