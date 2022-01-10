@@ -16,6 +16,10 @@ p {
   font-family: verdana;
   color: black;
 }
+p.bio{
+  font-family: Garamond;
+  color: grey;
+}
 img {
   margin-left: auto;
   margin-right: auto;
