@@ -1,11 +1,6 @@
 <html lang="en"> 
 <link href="main.css" rel="stylesheet">
-<div class="topnav">
-  <a href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
-  <a class="active" href="about.html">About</a>
-  <a href="projects.html">Projects</a>
-  <a href="thesis.html">Thesis</a>
-</div>
+<script src="main.js"></script>
   <style>
 table, th, td {
  border: 0px;
