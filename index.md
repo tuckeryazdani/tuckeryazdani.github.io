@@ -12,9 +12,11 @@
   </nav>
 <head>
   <div align="left">
-    <h6> Graduate Research Assitant at Equifax </h6>
-    <h6> M.S. Student in Computer Science </h6>
-    <h6> B.S. Mathematics (Concentration in Statistics) </h6>
+    <p class="bio">
+      Graduate Research Assitant at Equifax
+      M.S. Student in Computer Science
+      B.S. Mathematics (Concentration in Statistics)
+    </p>
   </div>
 </head>
   <div>
