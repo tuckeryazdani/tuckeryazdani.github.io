@@ -1,11 +1,6 @@
 <html lang="en"> 
 <link href="main.css" rel="stylesheet">
-<div class="topnav">
-  <a href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
-  <a href="about.html">About</a>
-  <a class="active" href="projects.html">Projects</a>
-  <a href="thesis.html">Thesis</a>
-</div>
+<script src="main.js"></script>
 <head>
 <h1> Projects </h1>
 </head>
