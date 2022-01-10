@@ -13,9 +13,9 @@
 <head>
   <div align="left">
     <p class="bio">
-      Graduate Research Assitant at Equifax
-      M.S. Student in Computer Science
-      B.S. Mathematics (Concentration in Statistics)
+      Graduate Research Assitant at Equifax<br>
+      M.S. Student in Computer Science<br>
+      B.S. Mathematics (Concentration in Statistics)<br>
     </p>
   </div>
 </head>
