@@ -17,6 +17,7 @@
       M.S. Student in Computer Science<br>
       B.S. Mathematics (Concentration in Statistics)<br>
     </p>
+    <script src="main.js"></script>
   </div>
 </head>
   <div>
