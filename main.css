@@ -19,6 +19,7 @@ p {
 p.bio{
   font-family: Garamond;
   color: grey;
+  font-style: italic;
 }
 img {
   margin-left: auto;
