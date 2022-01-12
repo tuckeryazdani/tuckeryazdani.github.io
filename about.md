@@ -10,7 +10,8 @@
   </a><a href="https://github.com/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub"></a>
 <style>
   table, th, td {
- border: 0px;
+    border: 0px;
+    table-layout: fixed;
 }
 </style>
 <head>
