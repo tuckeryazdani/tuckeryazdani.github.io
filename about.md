@@ -51,9 +51,4 @@
     <td>Equifax</td>
     <td>January 2022 - Present </td>
   </tr>
-  <tr>
-    <td>Data Analyst</td>
-    <td>Medlytix</td>
-    <td>March 2021 - June 2021</td>
-  </tr>
 </table>
