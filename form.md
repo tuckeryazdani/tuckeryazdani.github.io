@@ -1,3 +1,1 @@
-<form action="/my-handling-form-page" method="post">
-
-</form>
+<h1> Coming Soon. </h1>
