@@ -20,7 +20,7 @@
   <div>
 <a href="https://user-images.githubusercontent.com/84822334/148703247-771b3563-5673-49d2-910d-3812aa07511a.jpg" target="_blank" ><img src="https://user-images.githubusercontent.com/84822334/148703247-771b3563-5673-49d2-910d-3812aa07511a.jpg" class="profile" width="200" height="230" align="left"/></a>
     <h2> Personal Website </h2>
-    <p> This is my personal website to showcase my knowledge of HTML/CSS and JavaScript. I am currently a M.S. Computer Science student at Kennesaw State University, and I work as a graduate research assitant for Equifax where I work in PySpark, SQL, and Scala. I plan to graduate from KSU in December 2022. Then I plan on continuing my education by pursuing a doctorate in computer science. </p>
+    <p> This is my personal website to showcase my knowledge of HTML/CSS and JavaScript. I am currently a M.S. Computer Science student at Kennesaw State University, and I work as a graduate research assitant for Equifax where I work with technologies such as PySpark, MySQL, and Scala. I plan to graduate from KSU in December 2022.</p>
     <p> Disclaimer: This is a work in progress. </p>
   </div>
   <h2> Information </h2>
