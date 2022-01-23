@@ -1,0 +1,20 @@
+<style>
+  body{
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1536061.jpg&f=1&nofb=1");
+ background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+  }
+icon{
+  background-color: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+.icon:hover {
+  background-color: RoyalBlue;
+}
+</style>
