@@ -23,9 +23,9 @@
     <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
     <li> More Coming Soon </li>
   </ul>
-  <h3> Reddit Reminder Bot, (1/23/2022) </h3>
+  <h3> Reddit Stock Predicition Bot, (1/23/2022) </h3>
   <ul>
-    <li> Created a Reddit bot in Python that will remind you to view a post after a time that you set by commenting !RemindMeBot that isn't case-sensitive. </li>
+    <li> Created a Python script that returns frequencies of popular stocks mentioned in the popular investing reddit “WallStreetBets” along with the comments to gain some insight on popular stock trends. </li>
     <li> Currently developing other features as well. </li>
   </ul>
   <h3> Advanced Algorithims Project: Coming Soon, Kennesaw State University, (Date TBA) </h3>
