@@ -43,9 +43,14 @@
     <th>Company</th>
     <th>Dates</th>
   </tr>
+    <tr>
+    <td>Software Development Intern</td>
+    <td>ArrayFire</td>
+    <td>March 2022 - Present </td>
+  </tr>
   <tr>
     <td>Graduate Research Assitant</td>
     <td>Equifax</td>
-    <td>January 2022 - Present </td>
+    <td>January 2022 - February 2022 </td>
   </tr>
 </table>
