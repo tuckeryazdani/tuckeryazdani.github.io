@@ -8,7 +8,6 @@
 <head>
   <div align="left">
     <p class="bio">
-      Software Development Intern at ArrayFire<br>
       M.S. Student in Computer Science<br>
       B.S. Mathematics (Concentration in Statistics)<br>
     </p>
