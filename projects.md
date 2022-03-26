@@ -28,6 +28,6 @@
     <li> Currently creating a subreddit statistics page that will display statistics for subreddits providing top posts from the community, top comments from the community, and more. </li>
     <li> Currently developing other features as well. </li>
   </ul>
-  <h3> Advanced Algorithims Project: Coming Soon, Kennesaw State University, (Date TBA) </h3>
+  <h3> <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022">Advanced Algorithims Project: Coming Soon, Kennesaw State University, (Date TBA) </h3></a>
 </body>
 </html>
