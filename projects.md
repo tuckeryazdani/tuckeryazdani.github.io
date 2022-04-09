@@ -1,4 +1,3 @@
-<html lang="en"> 
 <link href="main.css" rel="stylesheet">
 <div class="topnav"> 
   <a href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
@@ -8,7 +7,6 @@
 <head>
 <h1> Projects </h1>
 </head>
-<body>
   <link href="main.css" rel="stylesheet">
   <a href="./seniorproject2019word.html" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, (12/2019) </h3></a>
   <ul> 
@@ -28,5 +26,3 @@
     <li> Currently creating a subreddit statistics page that will display statistics for subreddits providing top posts from the community, top comments from the community, and more. </li>
     <li> Currently developing other features as well. </li>
   <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022"  target="_blank"><h3>Advanced Algorithims Project: Coming Soon, Kennesaw State University, (3/2022)</h3></a>
-  </body>
-  </html>
