@@ -29,5 +29,3 @@
     <li> Currently developing other features as well. </li>
   </ul>
   <h3> <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022"  target="_blank">Advanced Algorithims Project: Coming Soon, Kennesaw State University, (3/2022) </h3></a>
-</body>
-</html>
