@@ -1,3 +1,4 @@
+<html>
 <link href="main.css" rel="stylesheet">
 <div class="topnav"> 
   <a href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
@@ -26,3 +27,4 @@
     <li> Currently creating a subreddit statistics page that will display statistics for subreddits providing top posts from the community, top comments from the community, and more. </li>
     <li> Currently developing other features as well. </li>
   <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022"  target="_blank"><h3>Advanced Algorithims Project: Coming Soon, Kennesaw State University, (3/2022)</h3></a>
+    </html>
