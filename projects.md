@@ -28,7 +28,7 @@
   <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022"  target="_blank"> <h3>Advanced Algorithims Project: Coming Soon, Kennesaw State University, (3/2022)</h3> </a>
   <a href="https://twitter.com/WSB_Journal"><h3> The Wall Street Bets Journal </h3> </a>
   <ul>
-    <li> Created a Python script that returns frequencies of popular stocks mentioned in the popular investing reddit community WallStreetBets and gets stock market updates from Yahoo Finance regarding those stocks.
+    <li>Created a Python script that returns frequencies of popular stocks mentioned in the popular investing reddit community WallStreetBets and gets stock market updates from Yahoo Finance regarding those stocks.
     </li>
     <li>Created a Twitter account that uses the Twitter API to automatically post weekly updates based on these insights.
     </li>
