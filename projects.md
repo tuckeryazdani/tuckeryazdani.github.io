@@ -1,3 +1,4 @@
+<html>
 <link href="main.css" rel="stylesheet">
 <div class="topnav"> 
   <a href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
@@ -32,3 +33,4 @@
     <li>Created a Twitter account that uses the Twitter API to automatically post weekly updates based on these insights.
     </li>
   </ul>
+</html>
