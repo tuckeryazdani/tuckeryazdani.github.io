@@ -8,7 +8,7 @@
 <head>
 <h1> Projects </h1>
 </head>
-    <a href="https://twitter.com/WSB_Journal"> <h3> The Wall Street Bets Journal </h3> </a>
+    <a href="https://twitter.com/WSB_Journal"> <h3> The Wall Street Bets Journal (04/2022) </h3> </a>
   <ul>
     <li>Created a Python script that returns frequencies of popular stocks mentioned in the popular investing reddit community WallStreetBets and gets stock market updates from Yahoo Finance regarding those stocks.</li>
     </li>
