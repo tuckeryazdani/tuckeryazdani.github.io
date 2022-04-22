@@ -1,7 +1,7 @@
 <html lang="en"> 
 <link href="main.css" rel="stylesheet">
 <div class="topnav"> 
-  <a href="https://tuckeryazdani.github.io/MyWebsite/">Home</a>
+  <a href="https://tuckeryazdani.github.io/">Home</a>
   <a class="active" href="about.html">About</a>
   <a href="projects.html">Projects</a>
   </div>  
