@@ -29,7 +29,6 @@
   <h2> Contact Information </h2>
   <p>
   Personal Email: tuckeryazdani@gmail.com<br>
-  Student Email: tyazdani@students.kennesaw.edu<br>
   </p>
 </html>
   <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn">
