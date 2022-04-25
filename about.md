@@ -25,11 +25,6 @@
     <th>Date</th>
   </tr>
   <tr>
-    <td>M.S. in Computer Science</td>
-    <td>Kennesaw State University</td>
-    <td>Expected December 2023</td>
-  </tr>
-  <tr>
     <td>B.S. in Mathematics (Concentration in Statistics) </td>
     <td>University of West Georgia</td>
     <td>December 2019</td>
