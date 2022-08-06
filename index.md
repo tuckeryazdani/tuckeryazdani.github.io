@@ -40,7 +40,7 @@
     <li>Created a Twitter account that uses the Twitter API to automatically post weekly updates based on these insights. </li>
     <li>GitHub Script URL: <a href="https://github.com/tuckeryazdani/wsb_journal/blob/main/wsb.py"> Wall Street Bets Journal Script</a></li>
   </ul>
-  <a href="./seniorproject2019word.html" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, (12/2019) </h3></a>
+  <a href="https://github.com/tuckeryazdani/SeniorProject2019" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, (12/2019) </h3></a>
   <ul> 
     <li>Built a program in Python that uses linear algebra and number theory to decode Affine Digraph Ciphers.</li>
     <li>Wrote a research paper outlining the project.</li>
