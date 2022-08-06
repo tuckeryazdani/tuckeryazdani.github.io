@@ -38,7 +38,7 @@
     <th>Dates</th>
   </tr>
   <tr>
-    <td>Data Engineer</td>
+    <td>Software Engineer</td>
     <td>XSOLIS</td>
     <td>April 2022 - Present</td>
   </tr>
@@ -47,4 +47,8 @@
     <td>ArrayFire</td>
     <td>March 2022 - April 2022</td>
   </tr>
+  <tr>
+    <td>Data Engineer Intern (Contract)</td>
+    <td>Equifax</td>
+    <td>January 2022 - February 2022</td>
 </table>
