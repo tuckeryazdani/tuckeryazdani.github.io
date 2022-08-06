@@ -51,4 +51,5 @@
     <td>Data Engineer Intern (Contract)</td>
     <td>Equifax</td>
     <td>January 2022 - February 2022</td>
+  </tr>
 </table>
