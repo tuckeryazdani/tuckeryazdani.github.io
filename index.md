@@ -26,9 +26,9 @@
 <h1> Projects </h1>
     </head>
     <h3><a>XSOLIS: Cortex Random Sample Generator (No link available) (04/2022)</a></h3>
-      <ul>		                                                                                   <li>Created a web application that uses Python libraries Bokeh and Pandas as well as  HTML, and SQL to create a user interface that allows clients to display a randomly selected sample under the restrictions of parameters they choose.</li>
+      <ul>		                                                                                   
+        <li>Created a web application that uses Python libraries Bokeh and Pandas as well as  HTML, and SQL to create a user interface that allows clients to display a randomly selected sample under the restrictions of parameters they choose.</li>
 <li>This project was praised during the XSOLIS monthly company meeting by our Chief Medical Officer for its utility.</li>
-  
   </ul>
     <a href="https://twitter.com/WSB_Journal"> <h3> The Wall Street Bets Journal (04/2022) </h3> </a>
   <ul>
@@ -47,7 +47,7 @@
     <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
     <li> More Coming Soon </li>
   </ul>
-   <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022"  target="_blank"> <h3>Advanced Algorithims Project: Coming Soon, Kennesaw State University, (3/2022)</h3> </a>
+   <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022"  target="_blank"> <h3>Advanced Algorithims Project: Kennesaw State University, (3/2022)</h3> </a>
   </div>
   <center>
   <h2> Contact Information </h2>
