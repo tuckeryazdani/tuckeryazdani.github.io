@@ -10,7 +10,8 @@
 </head>
 <h1> Projects </h1>
     <h3><a>XSOLIS: Cortex Random Sample Generator (No link available) (04/2022)</a></h3>
-      <ul>		                                                                                   <li>Created a web application that uses Python libraries Bokeh and Pandas as well as  HTML, and SQL to create a user interface that allows clients to display a randomly selected sample under the restrictions of parameters they choose.</li>
+      <ul>
+        <li>Created a web application that uses Python libraries Bokeh and Pandas as well as  HTML, and SQL to create a user interface that allows clients to display a randomly selected sample under the restrictions of parameters they choose.</li>
 <li>This project was praised during the XSOLIS monthly company meeting by our Chief Medical Officer for its utility.</li>
   
   </ul>
@@ -20,7 +21,7 @@
     <li>Created a Twitter account that uses the Twitter API to automatically post weekly updates based on these insights. </li>
     <li>GitHub Script URL: <a href="https://github.com/tuckeryazdani/wsb_journal/blob/main/wsb.py"> Wall Street Bets Journal Script</a></li>
   </ul>
-  <a href="./seniorproject2019word.html" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, (12/2019) </h3></a>
+  <a href="https://github.com/tuckeryazdani/SeniorProject2019" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, (12/2019) </h3></a>
   <ul> 
     <li>Built a program in Python that uses linear algebra and number theory to decode Affine Digraph Ciphers.</li>
     <li>Wrote a research paper outlining the project.</li>
