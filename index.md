@@ -8,7 +8,7 @@
 <head>
   <div align="left">
     <p class="bio">
-      Data Engineer <br>
+      Software Engineer <br>
       B.S. Mathematics (Concentration in Statistics)<br>
     </p>
   </div>
