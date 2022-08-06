@@ -9,7 +9,6 @@
 <h1> Projects </h1>
 </head>
 <h1> Projects </h1>
-    </head>
     <h3><a>XSOLIS: Cortex Random Sample Generator (No link available) (04/2022)</a></h3>
       <ul>		                                                                                   <li>Created a web application that uses Python libraries Bokeh and Pandas as well as  HTML, and SQL to create a user interface that allows clients to display a randomly selected sample under the restrictions of parameters they choose.</li>
 <li>This project was praised during the XSOLIS monthly company meeting by our Chief Medical Officer for its utility.</li>
