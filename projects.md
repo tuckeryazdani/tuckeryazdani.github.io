@@ -32,5 +32,4 @@
     <li> More Coming Soon </li>
   </ul>
    <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022"  target="_blank"> <h3>Advanced Algorithims Project: Kennesaw State University, (3/2022)</h3> </a>
-  </div>
 </html>
