@@ -22,6 +22,7 @@
   <br>
   <div>
     <head>
+      </br>
 <h1> Projects </h1>
 </head>
     <a href="https://twitter.com/WSB_Journal"> <h3> The Wall Street Bets Journal (04/2022) </h3> </a>
