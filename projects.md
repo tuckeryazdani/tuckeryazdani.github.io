@@ -12,7 +12,7 @@
   <ul>
     <li>Created a Python script that returns frequencies of popular stocks mentioned in the popular investing reddit community WallStreetBets and gets stock market updates from Yahoo Finance regarding those stocks. </li>
     <li>Created a Twitter account that uses the Twitter API to automatically post weekly updates based on these insights. </li>
-    <li>GitHub Script URL: <a href="https://github.com/tuckeryazdani/wsb_journal/blob/main/wsb.py"</a></li>
+    <li>GitHub Script URL: <a href="https://github.com/tuckeryazdani/wsb_journal/blob/main/wsb.py"> Link to Script</a></li>
   </ul>
   <a href="./seniorproject2019word.html" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, (12/2019) </h3></a>
   <ul> 
