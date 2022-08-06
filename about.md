@@ -17,6 +17,7 @@
 <body>
   <link href="main.css" rel="stylesheet">
   <h2>Introduction</h2>
+  <p> I am Tucker Yazdani, and this page will outline my education and experience. Please feel free to reach out to me with any questions.</p>
     <h2> Education </h2>
     <table style="width:150%">
   <tr>
