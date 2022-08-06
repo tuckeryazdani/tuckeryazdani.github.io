@@ -24,9 +24,11 @@
     <head>
       <br>
       <h1> Photos </h1>
+      <center>
       <a href="[https://user-images.githubusercontent.com/84822334/183260703-14d949a8-52c0-493d-be90-43987e2d8694.jpg](https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg)" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg" width="200" height="230" align="left"></a>
       <a href="https://user-images.githubusercontent.com/84822334/183260770-db7e975a-4224-45e7-95eb-2886852ca457.png" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183260770-db7e975a-4224-45e7-95eb-2886852ca457.png" width="200" height="230" align="left"></a>
-<br>
+      </center>
+        <br>
       <h1> Projects </h1>
     </head>
     <h3><a>XSOLIS: Cortex Random Sample Generator (No link available) (04/2022)</a></h3>
