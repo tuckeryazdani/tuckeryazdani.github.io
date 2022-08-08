@@ -25,8 +25,9 @@
       <br>
       <h1> Photos </h1>
       <a href="https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg" width="200" height="230" align="center"></a>
-      <a href="https://user-images.githubusercontent.com/84822334/183260770-db7e975a-4224-45e7-95eb-2886852ca457.png" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183260770-db7e975a-4224-45e7-95eb-2886852ca457.png" width="200" height="230" align="center"></a>
-        <br>
+      <a href="https://user-images.githubusercontent.com/84822334/183260770-db7e975a-4224-45e7-95eb-2886852ca457.png" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183526933-92cb9365-3660-487e-8b8f-c328955ddb29.JPG" width="200" height="230" align="center"></a>
+      <a href="https://user-images.githubusercontent.com/84822334/183526933-92cb9365-3660-487e-8b8f-c328955ddb29.JPG" target="_blank"><img src="" width="200" height="230" align="center"></a>
+      <br>
       <h1> Projects </h1>
     </head>
     <h3><a>XSOLIS: Cortex Random Sample Generator (No link available) (04/2022)</a></h3>
