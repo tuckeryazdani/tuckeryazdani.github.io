@@ -51,7 +51,7 @@
     <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
     <li> More Coming Soon </li>
   </ul> 
-    <a href="https://github.com/tuckeryazdani/xlwings/blob/main/xlwings.py" ><h3> xlwings Financial Spreadsheet Creation</h3>
+    <a href="https://github.com/tuckeryazdani/xlwings/blob/main/xlwings.py" ><h3> xlwings Financial Spreadsheet Creation</h3></a>
       <ul>
         <li> Created a Python script that populates a financial spreadsheet using popular Python library xlwings. </li>
       </ul>
