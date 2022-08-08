@@ -50,7 +50,11 @@
   <ul>
     <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
     <li> More Coming Soon </li>
-  </ul>
+  </ul> 
+    <a href="https://github.com/tuckeryazdani/xlwings/blob/main/xlwings.py" ><h3> xlwings Financial Spreadsheet Creation</h3>
+      <ul>
+        <li> Created a Python script that populates a financial spreadsheet using popular Python library xlwings. </li>
+      </ul>
    <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022"  target="_blank"> <h3>Advanced Algorithims Project: Kennesaw State University, (3/2022)</h3> </a>
   </div>
   <center>
