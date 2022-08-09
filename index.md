@@ -24,7 +24,7 @@
     <head>
       <br>
       <h1> Photos </h1>
-      <a href="https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183546766-ed49c0ad-0f6c-4060-9f03-979fe70a4b0c.png" width="200" height="230" align="center"></a>
+      <a href="https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg" width="200" height="230" align="center"></a>
       <a href="" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183546849-cbfd48bd-bd0d-4e94-9fec-19e7b38bd67b.png"  width="200" height="230" align="center"></a>
       <br>
       <h1> Projects </h1>
