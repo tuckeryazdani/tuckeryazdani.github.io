@@ -13,6 +13,9 @@
     </p>
   </div>
 </head>
+  <script>
+  document.write('hello world')
+  </script>
   <div>
 <a href="https://user-images.githubusercontent.com/84822334/148703247-771b3563-5673-49d2-910d-3812aa07511a.jpg" target="_blank" ><img src="https://user-images.githubusercontent.com/84822334/148703247-771b3563-5673-49d2-910d-3812aa07511a.jpg" class="profile" width="200" height="230" align="left"/></a>
     <h2> Personal Website </h2>
