@@ -23,42 +23,12 @@
   </div>
   <br>
   <div>
-    <head>
       <br>
       <h1> Photos </h1>
       <a href="https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg" width="200" height="230" align="center"></a>
       <a href="" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183546849-cbfd48bd-bd0d-4e94-9fec-19e7b38bd67b.png"  width="200" height="230" align="center"></a>
       <br>
       <h1> Projects </h1>
-    </head>
-    <h3><a>XSOLIS: Cortex Random Sample Generator (No link available) (04/2022)</a></h3>
-      <ul>		                                                                                   
-        <li>Created a web application that uses Python libraries Bokeh and Pandas as well as  HTML, and SQL to create a user interface that allows clients to display a randomly selected sample under the restrictions of parameters they choose.</li>
-<li>This project was praised during the XSOLIS monthly company meeting by our Chief Medical Officer for its utility.</li>
-  </ul>
-    <a href="https://twitter.com/WSB_Journal"> <h3> The Wall Street Bets Journal (04/2022) </h3> </a>
-  <ul>
-    <li>Created a Python script that returns frequencies of popular stocks mentioned in the popular investing reddit community WallStreetBets and gets stock market updates from Yahoo Finance regarding those stocks. </li>
-    <li>Created a Twitter account that uses the Twitter API to automatically post weekly updates based on these insights. </li>
-    <li>GitHub Script URL: <a href="https://github.com/tuckeryazdani/wsb_journal/blob/main/wsb.py"> Wall Street Bets Journal Script</a></li>
-  </ul>
-  <a href="https://github.com/tuckeryazdani/SeniorProject2019" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, (12/2019) </h3></a>
-  <ul> 
-    <li>Built a program in Python that uses linear algebra and number theory to decode Affine Digraph Ciphers.</li>
-    <li>Wrote a research paper outlining the project.</li>
-    <li>Presented my work in front of an audience of my peers and professors.</li>
-  </ul>
-  <a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank"><h3> Porfolio: Personal Website, (1/10/2022) </h3></a>
-  <ul>
-    <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
-    <li> More Coming Soon </li>
-  </ul> 
-    <a href="https://github.com/tuckeryazdani/xlwings/blob/main/xlwings.py" ><h3> xlwings Financial Spreadsheet Creation</h3></a>
-      <ul>
-        <li> Created a Python script that populates a financial spreadsheet using popular Python library xlwings. </li>
-      </ul>
-   <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022"  target="_blank"> <h3>Advanced Algorithims Project: Kennesaw State University, (3/2022)</h3> </a>
-  </div>
   <center>
   <h2> Contact Information </h2>
   <p>
