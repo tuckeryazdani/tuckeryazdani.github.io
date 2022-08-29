@@ -22,7 +22,6 @@
     <p> Disclaimer: This is a work in progress. </p>
   </div>
   <br>
-  <div>
       <br>
       <h1> Photos </h1>
       <a href="https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg" width="200" height="230" align="center"></a>
