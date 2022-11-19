@@ -17,7 +17,7 @@
 <body>
   <link href="main.css" rel="stylesheet">
   <h2>Introduction</h2>
-  <p> I am Tucker Yazdani, and this page will outline my education and experience. I graduated from the University of West Georgia with a B.S. in Mathematics with a concentration in statistics. I'm currently working as a software engineer for SaaS company called XSOLIS. Please feel free to reach out to me with any questions.</p>
+  <p> I am Tucker Yazdani, and this page will outline my education and experience. I graduated from the University of West Georgia with a B.S. in Mathematics with a concentration in statistics.</p>
     <h2> Education </h2>
     <table style="width:150%">
   <tr>
