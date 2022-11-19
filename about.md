@@ -39,11 +39,6 @@
     <th>Dates</th>
   </tr>
   <tr>
-    <td>Software Engineer</td>
-    <td>XSOLIS</td>
-    <td>April 2022 - Present</td>
-  </tr>
-  <tr>
     <td>Software Development Intern</td>
     <td>ArrayFire</td>
     <td>March 2022 - April 2022</td>
