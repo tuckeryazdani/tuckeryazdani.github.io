@@ -40,7 +40,7 @@
   </tr>
   <tr>
     <td>Data Engineer</td>
-    <td>SXtoneX</td>
+    <td>StoneX</td>
     <td>September 2022 - Present</td>
   </tr>
   <tr>
