@@ -31,12 +31,22 @@
     <td>December 2019</td>
   </tr>
 </table>
-    <h2>Relevant Experience</h2>
+    <h2>Experience</h2>
 <table style="width:150%">
   <tr>
     <th>Position</th>
     <th>Company</th>
     <th>Dates</th>
+  </tr>
+  <tr>
+    <td>Data Engineer</td>
+    <td>SXtoneX</td>
+    <td>September 2022 - Present</td>
+  </tr>
+  <tr>
+    <td>Data Engineer</td>
+    <td>XSOLIS</td>
+    <td>April 2022 - September 2022</td>
   </tr>
   <tr>
     <td>Software Development Intern</td>
