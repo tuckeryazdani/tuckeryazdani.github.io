@@ -4,6 +4,7 @@
   <a class="active" href="https://tuckeryazdani.github.io/">Home</a>
   <a href="about.html">About</a>
   <a href="projects.html">Projects</a>
+  <a href="twitter.htnml">Twitter</a>
   </div>
   <div id='1'>
   </div>
