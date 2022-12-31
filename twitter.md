@@ -15,6 +15,13 @@
       B.S. Mathematics (Concentration in Statistics)<br>
     </p>
   </div>
+  <p>
+Welcome to my project.
+
+This project is fully automated in Python using various APIs to pull data, get stock market updates depending on that data, and posting that data to Twitter.
+I have updated this program to be able to then take that tweet and publish it to my website using git, so that it will now show up here as well for logging purposes.
+Creator: Tucker Yazdani
+  </p>
 </head>
 <body><br><br> <p>
 <br>    Top trending stock on Wall Street Bets 
