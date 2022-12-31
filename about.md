@@ -12,6 +12,12 @@
     table-layout: fixed;
 }
 </style>
+    <div align="left">
+    <p class="bio">
+      Software Engineer <br>
+      B.S. Mathematics (Concentration in Statistics)<br>
+    </p>
+  </div>
 <head>
 <h1> About Me </h1>
 </head>
