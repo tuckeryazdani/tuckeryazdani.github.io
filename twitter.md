@@ -1,10 +1,10 @@
 <html>
 <link href="main.css" rel="stylesheet">
 <div class="topnav"> 
-  <a class="active" href="https://tuckeryazdani.github.io/">Home</a>
+  <a href="https://tuckeryazdani.github.io/">Home</a>
   <a href="about.html">About</a>
   <a href="projects.html">Projects</a>
-  <a href="twitter.html">Twitter</a>
+  <a class="active" href="twitter.html">Twitter</a>
   </div>
   <div id='1'>
   </div>
