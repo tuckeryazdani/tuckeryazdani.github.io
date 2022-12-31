@@ -15,23 +15,17 @@
       B.S. Mathematics (Concentration in Statistics)<br>
     </p>
   </div>
-  <p>
-Welcome to my project.
-
-This project is fully automated in Python using various APIs to pull data, get stock market updates depending on that data, and posting that data to Twitter.
-I have updated this program to be able to then take that tweet and publish it to my website using git, so that it will now show up here as well for logging purposes.
-Creator: Tucker Yazdani
-  </p>
-</head>
-<body><br><br> <p>
-<br>    Top trending stock on Wall Street Bets 
-<br>    (2022-12-31):
+  <h3>
+Welcome to my project.<br>
 <br>
-<br>    Stock: Amazon
-<br>    1 mention(s) 
-<br>    $-2.77 change in value the past 7 days.
-<br>        
-<br></p><br><br>
+This project is fully automated in Python using various APIs to pull data, get stock market updates depending on that data, and posting that data to Twitter.
+I have updated this program to be able to then take that tweet and publish it to my website using git, so that it will now show up here as well for logging purposes.<br>
+Creator: Tucker Yazdani<br>
+<br>
+  </h3>
+</head>
+<body>
+
 
 </body>
   <center>
