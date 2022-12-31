@@ -16,14 +16,22 @@
     </p>
   </div>
 </head>
-<body><br><br> <p>
-    Top trending stock on Wall Street Bets 
-    (2022-12-31):
-
-    Stock: Amazon
-    1 mention(s) 
-    $-2.77 change in value the past 7 days.
-        
+<body><br><br> <p><br>    Top trending stock on Wall Street Bets <br>    (2022-12-31):<br><br>    Stock: Amazon<br>    1 mention(s) <br>    $-2.77 change in value the past 7 days.<br>        <br></p><br><br> <p>
+
+    Top trending stock on Wall Street Bets 
+
+    (2022-12-31):
+
+
+
+    Stock: Amazon
+
+    1 mention(s) 
+
+    $-2.77 change in value the past 7 days.
+
+        
+
 </p>
 
 </body>
