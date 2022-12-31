@@ -8,12 +8,6 @@
 <head>
 <h1> Projects </h1>
 </head>
-    <h3><a>XSOLIS: Cortex Random Sample Generator (No link available) (04/2022)</a></h3>
-      <ul>
-        <li>Created a web application that uses Python libraries Bokeh and Pandas as well as  HTML, and SQL to create a user interface that allows clients to display a randomly selected sample under the restrictions of parameters they choose.</li>
-<li>This project was praised during the XSOLIS monthly company meeting by our Chief Medical Officer for its utility.</li>
-  
-  </ul>
     <a href="https://github.com/tuckeryazdani/wsb_journal/blob/main/wsb.py"> <h3> The Wall Street Bets Journal (04/2022) </h3> </a>
   <ul>
     <li>Created a Python script that returns frequencies of popular stocks mentioned in the popular investing reddit community WallStreetBets and gets stock market updates from Yahoo Finance regarding those stocks. </li>
