@@ -20,7 +20,6 @@ Welcome to my project.<br>
 <br>
 This project is fully automated in Python using various APIs to pull data, get stock market updates depending on that data, and posting that data to Twitter.
 I have updated this program to be able to then take that tweet and publish it to my website using git, so that it will now show up here as well for logging purposes.<br>
-Creator: Tucker Yazdani<br>
 <br>
   </h3>
 </head>
