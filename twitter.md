@@ -23,8 +23,8 @@ I have updated this program to be able to then take that tweet and publish it to
 <br>
   </h3>
 </head>
-<body><br><br>
-  <br><br> <p>
+<body>
+<p>
 <br>    Top trending stock on Wall Street Bets 
 <br>    (2022-12-31):
 <br>
