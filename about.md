@@ -4,6 +4,7 @@
   <a href="https://tuckeryazdani.github.io/">Home</a>
   <a class="active" href="about.html">About</a>
   <a href="projects.html">Projects</a>
+  <a href="twitter.html">Twitter</a>
   </div>  
 <style>
   table, th, td {
