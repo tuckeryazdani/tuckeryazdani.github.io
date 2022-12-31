@@ -7,6 +7,12 @@
   <a href="twitter.html">Twitter</a>
   </div>  
 <head>
+    <div align="left">
+    <p class="bio">
+      Software Engineer <br>
+      B.S. Mathematics (Concentration in Statistics)<br>
+    </p>
+  </div>
 <h1> Projects </h1>
 </head>
     <a href="https://github.com/tuckeryazdani/wsb_journal/blob/main/wsb.py"> <h3> The Wall Street Bets Journal (04/2022) </h3> </a>
