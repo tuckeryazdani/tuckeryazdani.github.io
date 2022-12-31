@@ -29,28 +29,3 @@
   </a><a href="https://github.com/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub"></a>
   </center>
 </html>
-<br><br> <p>
-
-    Top trending stock on Wall Street Bets 
-
-    (2022-12-31):
-
-
-
-    Stock: Amazon
-
-    1 mention(s) 
-
-    $-2.77 change in value the past 7 days.
-
-        
-
-</p><br><br> <p>
-    Top trending stock on Wall Street Bets 
-    (2022-12-31):
-
-    Stock: Amazon
-    1 mention(s) 
-    $-2.77 change in value the past 7 days.
-        
-</p>
