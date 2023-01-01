@@ -15,7 +15,7 @@
   </div>
 <h1> Projects </h1>
 </head>
-    <a href="https://github.com/tuckeryazdani/wsb_journal"> <h3> The Wall Street Bets Journal Updated: (01/2023) </h3> </a>
+    <a href="https://github.com/tuckeryazdani/wsb_journal"> <h3> The Wall Street Bets Journal (04/2022) Updated (01/2023) </h3> </a>
   <ul>
     <li>Created a Python script that returns frequencies of popular stocks mentioned in the popular investing reddit community WallStreetBets and gets stock market updates from Yahoo Finance regarding those stocks. </li>
     <li>Created a Twitter account that uses the Twitter API to automatically post weekly updates based on these insights. </li>
@@ -23,7 +23,7 @@
     <li> Update: The script now has error logging for Twitter errors as a .txt file. </li>
     <li>Twitter URL: <a href="https://twitter.com/WSB_Journal"> Wall Street Bets Journal Twitter</a></li>
   </ul>
-    <a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank"><h3> Porfolio: Personal Website, (4/2022) Updated (1/2023) </h3></a>
+    <a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank"><h3> Porfolio: Personal Website, (4/2022) </h3></a>
   <ul>
     <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
     <li> More Coming Soon </li>
