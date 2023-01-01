@@ -22,7 +22,7 @@ This project is fully automated in Python using various APIs to pull data, get s
 I have updated this program to be able to then take that tweet, add it to the Twitter website HTML page in Python, and then push the changes using git in the os Python library, so that it will now show up here as well for logging purposes.<br>
 <br>
 Twitter link: <br>
-  <a href="https://twitter.com/WSB_Journal"> Wall Street Bets Journal Twitter</a><br>
+  <a href="https://twitter.com/WSB_Journal" target="_blank"> Wall Street Bets Journal Twitter</a><br>
 <br>
   </h3>
 </head>
