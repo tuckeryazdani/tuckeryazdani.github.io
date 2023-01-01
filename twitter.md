@@ -23,7 +23,7 @@ I have updated this program to be able to then take that tweet, add it to the Tw
 <br>
 Twitter links: <br>
   <a href="https://twitter.com/WSB_Journal" target="_blank"> Wall Street Bets Journal Twitter</a><br>
-  <a href="https://github.com/tuckeryazdani/wsb_journal"> <h3> The Wall Street Bets Journal Source Code </h3> </a>
+  <a href="https://github.com/tuckeryazdani/wsb_journal"> The Wall Street Bets Journal Source Code </a>
 
 <br>
   </h3>
