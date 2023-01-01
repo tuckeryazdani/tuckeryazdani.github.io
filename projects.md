@@ -23,16 +23,16 @@
     <li> Update: The script now has error logging for Twitter errors as a .txt file. </li>
     <li>Twitter URL: <a href="https://twitter.com/WSB_Journal"> Wall Street Bets Journal Twitter</a></li>
   </ul>
+    <a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank"><h3> Porfolio: Personal Website, (4/2022) Updated (1/2023) </h3></a>
+  <ul>
+    <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
+    <li> More Coming Soon </li>
+  </ul>
   <a href="https://github.com/tuckeryazdani/SeniorProject2019" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, (12/2019) </h3></a>
   <ul> 
     <li>Built a program in Python that uses linear algebra and number theory to decode Affine Digraph Ciphers.</li>
     <li>Wrote a research paper outlining the project.</li>
     <li>Presented my work in front of an audience of my peers and professors.</li>
-  </ul>
-  <a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank"><h3> Porfolio: Personal Website, (1/10/2022) </h3></a>
-  <ul>
-    <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
-    <li> More Coming Soon </li>
   </ul>
       <a href="https://github.com/tuckeryazdani/xlwings/blob/main/xlwings.py" ><h3> xlwings Financial Spreadsheet Creation</h3></a>
       <ul>
