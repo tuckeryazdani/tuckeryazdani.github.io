@@ -20,10 +20,8 @@
     <li>Created a Python script that returns frequencies of popular stocks mentioned in the popular investing reddit community WallStreetBets and gets stock market updates from Yahoo Finance regarding those stocks. </li>
     <li>Created a Twitter account that uses the Twitter API to automatically post weekly updates based on these insights. </li>
     <li>Twitter URL: <a href="https://twitter.com/WSB_Journal"> Wall Street Bets Journal Twitter</a></li>
-    <li>UPATES:
-    <li> The script now takes the tweet, adds it to the Twitter HTML file as text, and then handles the git commands to automatically update this website. </li>
-    <li> The script now has error logging for Twitter errors as a .txt file. </li>
-    </li>
+    <li> Update: The script now takes the tweet, adds it to the Twitter HTML file as text, and then handles the git commands to automatically update this website. </li>
+    <li> Update: The script now has error logging for Twitter errors as a .txt file. </li>
   </ul>
   <a href="https://github.com/tuckeryazdani/SeniorProject2019" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, (12/2019) </h3></a>
   <ul> 
