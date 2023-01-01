@@ -31,22 +31,6 @@
   <center>
   <h2> Contact Information </h2>
   <p>Personal Email: tuckeryazdani@gmail.com<br></p>
-<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1gy0WvZPkeGk6DrriOpUJrm5WD3kX2MR1DLzi3LUZGEc/prefill" target="hidden_iframe" onsubmit="submitted=true;">
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname">
-  <input type="submit" value="Submit">
-    </form>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-    <script src="assets/js/jquery.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Your submission has been processed...');
-  });
-</script>
     <h2> Links </h2>
   <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn">
   </a><a href="https://github.com/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub"></a>
