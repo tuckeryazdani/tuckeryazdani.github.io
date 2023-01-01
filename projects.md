@@ -26,6 +26,7 @@
     <a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank"><h3> Porfolio: Personal Website, (4/2022) </h3></a>
   <ul>
     <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
+    <li> Added a Twitter page that gets updated with posts from another project named "The Wall Street Bets Journal". </li>
     <li> More Coming Soon </li>
   </ul>
   <a href="https://github.com/tuckeryazdani/SeniorProject2019" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, (12/2019) </h3></a>
