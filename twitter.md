@@ -28,7 +28,6 @@ Twitter links: <br>
   <a href="https://github.com/tuckeryazdani/wsb_journal"> Wall Street Bets Journal Source Code </a>
 <br>
 <p>
-</head>
 <body>
   
   <br><br> <blockquote cite="https://twitter.com/WSB_Journal" class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-01-01):<br><br>    Stock: Amazon<br>    11 mention(s) <br>    $-2.77 change in value the past 7 days.<br>        
