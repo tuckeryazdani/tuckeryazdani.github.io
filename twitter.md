@@ -30,6 +30,8 @@ Twitter links: <br>
 <p>
 <body>
 
+<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-02-03):<br><br>    Stock: Meta<br>    132 mention(s) <br>    $39.23 change in value the past 7 days.<br>        </blockquote>
+
 <br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-01-31):<br><br>    Stock: Meta<br>    60 mention(s) <br>    $5.7 change in value the past 7 days.<br>        </blockquote>
 
   <br><br> <blockquote cite="https://twitter.com/WSB_Journal" class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-01-01):<br><br>    Stock: Amazon<br>    11 mention(s) <br>    $-2.77 change in value the past 7 days.<br>        
