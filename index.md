@@ -18,7 +18,7 @@
 </head>
   <div>
 <a href="https://user-images.githubusercontent.com/84822334/148703247-771b3563-5673-49d2-910d-3812aa07511a.jpg" target="_blank" ><img src="https://user-images.githubusercontent.com/84822334/148703247-771b3563-5673-49d2-910d-3812aa07511a.jpg" class="profile" width="200" height="230" align="left"/></a>
-    <h2> Personal Website </h2>
+    <h2> Personal Website (TEST IS ACTIVE) </h2>
     <p> This is my personal website built to be a directory of links to projects I have worked on. This website also serves to showcase my knowledge of HTML and CSS.</p>
     <p> Disclaimer: This is a work in progress. </p>
   </div>
