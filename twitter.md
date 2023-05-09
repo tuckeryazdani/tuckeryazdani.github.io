@@ -30,6 +30,8 @@ Twitter links: <br>
 <p>
 <body>
 
+<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-05-09):<br><br>    Stock: Meta<br>    29 mention(s) <br>    $-9.81 change in value the past 7 days.<br>        </blockquote>
+
 <br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-05-07):<br><br>    Stock: Google<br>    27 mention(s) <br>    $-2.16 change in value the past 7 days.<br>        </blockquote>
 
 <br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-03-26):<br><br>    Stock: Meta<br>    14 mention(s) <br>    $1.08 change in value the past 7 days.<br>        </blockquote>
