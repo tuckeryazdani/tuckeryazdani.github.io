@@ -30,6 +30,8 @@ Twitter links: <br>
 <p>
 <body>
 
+<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be higher in this season (Spring) by $-46.48.<br></blockquote>
+
 <br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be higher in this season (Fall) by $16.29.<br></blockquote>
 
 <br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be higher in this season (Spring) by $-46.48.<br></blockquote>
