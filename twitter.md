@@ -32,58 +32,7 @@ Twitter links: <br>
 
 <br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be lower in this season (Spring)<br></blockquote>
 
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be lower in this season (Spring) by $-46.48.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be higher in this season (Spring) by $-46.48.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be higher in this season (Fall) by $16.29.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be higher in this season (Spring) by $-46.48.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be higher in this season (Spring) by $-46.48.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be higher in this season (Spring) by $-46.48.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be higher in this season (Fall) by $16.29.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-11)<br><br>Stock: Google<br>43 mention(s) <br>$10.78 change in value the past 7 days.<br>Google (GOOG) tends to be higher in this season (Fall) by $16.29.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-10)<br><br>Stock: Google<br>25 mention(s) <br>$6.3 change in value the past 7 days.<br>Google (GOOG) tends to be higher in this season (Fall) by $16.29.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-10)<br><br>Stock: Google<br>25 mention(s) <br>$6.3 change in value the past 7 days.<br>Google (GOOG) tends to be higher in this season (Fall) by $16.29.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets<br>    (2023-05-10)<br><br>    Stock: Google<br>    25 mention(s) <br>    $6.3 change in value the past 7 days.<br>    Google (GOOG) tends to be higher in this season (Fall) by $16.29.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets<br>    (2023-05-10)<br><br>    Stock: Google<br>    25 mention(s) <br>    $6.3 change in value the past 7 days.<br>    Google (GOOG) tends to be higher in this season by $16.293380753137967.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets<br>    (2023-05-10)<br><br>    Stock: Google<br>    25 mention(s) <br>    $6.3 change in value the past 7 days.<br>    Google (GOOG) tends to be higher in this season.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets<br>    (2023-05-10)<br><br>    Stock: Google<br>    25 mention(s) <br>    $6.3 change in value the past 7 days.<br>    google (GOOG) tends to be higher in this season.<br>        </blockquote>
-
 <br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets<br>    (2023-05-10)<br><br>    Stock: Google<br>    25 mention(s) <br>    $6.3 change in value the past 7 days.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-05-09):<br><br>    Stock: Meta<br>    29 mention(s) <br>    $-9.81 change in value the past 7 days.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-05-07):<br><br>    Stock: Google<br>    27 mention(s) <br>    $-2.16 change in value the past 7 days.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-03-26):<br><br>    Stock: Meta<br>    14 mention(s) <br>    $1.08 change in value the past 7 days.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-03-11):<br><br>    Stock: Meta<br>    12 mention(s) <br>    $4.98 change in value the past 7 days.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-03-05):<br><br>    Stock: Meta<br>    39 mention(s) <br>    $13.21 change in value the past 7 days.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-02-26):<br><br>    Stock: Google<br>    48 mention(s) <br>    $-7.75 change in value the past 7 days.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-02-18):<br><br>    Stock: Google<br>    37 mention(s) <br>    $-0.87 change in value the past 7 days.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-02-11):<br><br>    Stock: Google<br>    139 mention(s) <br>    $-13.94 change in value the past 7 days.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-02-03):<br><br>    Stock: Meta<br>    132 mention(s) <br>    $39.23 change in value the past 7 days.<br>        </blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-01-31):<br><br>    Stock: Meta<br>    60 mention(s) <br>    $5.7 change in value the past 7 days.<br>        </blockquote>
-
-  <br><br> <blockquote cite="https://twitter.com/WSB_Journal" class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-01-01):<br><br>    Stock: Amazon<br>    11 mention(s) <br>    $-2.77 change in value the past 7 days.<br>        
-  </blockquote>
 
   </body>
   <center>
