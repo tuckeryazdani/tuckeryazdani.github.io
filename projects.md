@@ -15,7 +15,7 @@
   </div>
 <h1> Projects </h1>
 </head>
-    <a href="https://github.com/tuckeryazdani/wsb_journal"> <h3> The Wall Street Bets Journal (04/2022) Updated (01/2023) </h3> </a>
+    <a href="https://github.com/tuckeryazdani/wsb_journal"> <h3> The Wall Street Bets Journal (04/2022) </h3> </a>
   <ul>
     <li>Created a Python script that returns frequencies of popular stocks mentioned in the popular investing reddit community WallStreetBets and gets stock market updates from Yahoo Finance regarding those stocks. </li>
     <li>Created a Twitter account that uses the Twitter API to automatically post weekly updates based on these insights. </li>
@@ -27,6 +27,7 @@
   <ul>
     <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
     <li> Added a Twitter page that gets updated with posts from another project named "The Wall Street Bets Journal". </li>
+    <li> Now pulls data from NASDAQ to get seasonal trends on stocks to determine how the stock usually performs compared to average in the current season and the next </li>
     <li> More Coming Soon </li>
   </ul>
   <a href="https://github.com/tuckeryazdani/SeniorProject2019" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, (12/2019) </h3></a>
