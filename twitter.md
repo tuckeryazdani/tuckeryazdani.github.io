@@ -30,6 +30,8 @@ Twitter links: <br>
 <p>
 <body>
 
+<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-26)<br><br>Stock: Meta<br>20 mention(s) <br><br>$15.19 change in value the past 7 days.<br>Meta (META) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br></blockquote>
+
 <br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-19)<br><br>Stock: Amazon<br>29 mention(s) <br><br>$4.07 change in value the past 7 days.<br>Amazon (AMZN) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br></blockquote>
 
 <br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-15)<br><br>Stock: Meta<br>16 mention(s) <br><br>$6.08 change in value the past 7 days.<br>Meta (META) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br></blockquote>
