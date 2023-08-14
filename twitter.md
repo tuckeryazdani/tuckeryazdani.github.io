@@ -30,6 +30,8 @@ Twitter links: <br>
 <p>
 <body>
 
+<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-08-13)<br><br>Stock: Nvidia<br>36 mention(s) <br><br>$-36.6 change in value the past 7 days.<br>Nvidia (NVDA) stock price tends to be lower in the Summer.<br>Next season (Fall) tends to be higher than Summer.<br></blockquote>
+
 <br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-26)<br><br>Stock: Meta<br>20 mention(s) <br><br>$15.19 change in value the past 7 days.<br>Meta (META) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br></blockquote>
 
 <br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-19)<br><br>Stock: Amazon<br>29 mention(s) <br><br>$4.07 change in value the past 7 days.<br>Amazon (AMZN) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br></blockquote>
