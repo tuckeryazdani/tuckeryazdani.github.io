@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me</title>
-  <link href="main.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects</title>
+  <link href="main.css" rel="stylesheet" />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -14,67 +14,79 @@
       background-color: #f4f4f9;
       color: #333;
     }
+
     .topnav {
       background-color: #333;
       overflow: hidden;
       padding: 0.5rem 1rem;
     }
+
     .topnav a {
       color: #f4f4f9;
       text-decoration: none;
       padding: 0.5rem 1rem;
       display: inline-block;
     }
+
     .topnav a:hover {
       background-color: #575757;
     }
+
     .topnav a.active {
       background-color: #0078d4;
     }
-    .bio {
-      font-size: 1rem;
-      line-height: 1.8;
-      margin-top: 1rem;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1rem 0;
-      background-color: #fff;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    th, td {
-      padding: 1rem;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-    th {
-      background-color: #0078d4;
-      color: white;
-    }
-    tr:hover {
-      background-color: #f1f1f1;
-    }
-    h2 {
-      margin-top: 2rem;
-      color: #0078d4;
-    }
-    p {
-      margin: 0.5rem 0;
-    }
-    .social {
-      margin: 0 10px;
-    }
+
     .content {
       max-width: 800px;
       margin: 0 auto;
       padding: 1rem;
     }
+
+    .profile-section {
+      display: flex;
+      align-items: center;
+      margin: 2rem 0;
+    }
+
+    .profile {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-right: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .bio {
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    h1, h2, h3 {
+      color: #0078d4;
+    }
+
+    p {
+      margin: 0.5rem 0;
+    }
+
+    ul {
+      margin-bottom: 2rem;
+    }
+
+    .social {
+      margin: 0 10px;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #ccc;
+    }
   </style>
 </head>
 <body>
+
   <div class="topnav"> 
     <a href="https://tuckeryazdani.github.io/">Home</a>
     <a href="about.html">About</a>
@@ -82,59 +94,82 @@
     <a href="twitter.html">Twitter</a>
     <a href="photos.html">Photos</a>
   </div>
-  
+
+  <div class="content">
+
     <!-- Profile Section -->
-<div class="profile-section">
-  <img src="Photos/Headshot.jpg" class="profile" width="150" height="150" alt="Profile Picture" title="Headshot">
-  <div>
-    <p class="bio">
-      <strong>Software Engineer</strong><br>
-      B.S. Mathematics (Concentration in Statistics)<br>
-    </p>
+    <div class="profile-section">
+      <img src="Photos/Headshot.jpg" class="profile" alt="Profile Picture" title="Headshot" />
+      <div>
+        <p class="bio">
+          <strong>Software Engineer</strong><br>
+          B.S. Mathematics (Concentration in Statistics)<br>
+        </p>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <h1>Projects</h1>
+
+    <a href="https://github.com/tuckeryazdani/wsb_journal">
+      <h3>The Reddit Street Journal (04/2022) Updated (01/2023)</h3>
+    </a>
+    <ul>
+      <li>Created a Python script that returns frequencies of popular stocks mentioned in Reddit investing communities and gets stock market updates from Yahoo Finance.</li>
+      <li>Integrated Twitter API to post weekly updates automatically.</li>
+      <li>Script now updates Twitter HTML and handles git commits for auto-deployment.</li>
+      <li>Includes error logging to `.txt` for Twitter failures.</li>
+      <li>Twitter: <a href="https://twitter.com/WSB_Journal">The Reddit Street Journal Twitter</a></li>
+    </ul>
+
+    <a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank">
+      <h3>Portfolio: Personal Website (04/2022)</h3>
+    </a>
+    <ul>
+      <li>Built a personal website showcasing education, experience, and projects.</li>
+      <li>Includes a Twitter page that pulls from the Reddit Street Journal project.</li>
+      <li>More features coming soon.</li>
+    </ul>
+
+    <a href="https://github.com/tuckeryazdani/SeniorProject2019">
+      <h3>Senior Project: “Autonomizing Affine Digraph Ciphers” (12/2019)</h3>
+    </a>
+    <ul>
+      <li>Developed a Python app using linear algebra and number theory to decode affine digraph ciphers.</li>
+      <li>Wrote and presented a formal research paper.</li>
+    </ul>
+
+    <a href="https://github.com/tuckeryazdani/xlwings/blob/main/xlwings.py">
+      <h3>xlwings Financial Spreadsheet Creation</h3>
+    </a>
+    <ul>
+      <li>Automated financial spreadsheet population using Python and `xlwings`.</li>
+    </ul>
+
+    <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022" target="_blank">
+      <h3>Advanced Algorithms Project: Kennesaw State University (03/2022)</h3>
+    </a>
+    <ul>
+      <li>Created a chess engine as part of an advanced algorithms course.</li>
+    </ul>
+
+    <!-- Footer -->
+    <footer>
+      <div class="contact">
+        <h2>Contact Information</h2>
+        <p>Personal Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
+      </div>
+      <div class="links">
+        <h2>Links</h2>
+        <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
+          <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/tuckeryazdani/" target="_blank">
+          <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub" alt="GitHub" />
+        </a>
+      </div>
+    </footer>
+
   </div>
-</div>
-<h1> Projects </h1>
-</head>
-    <a href="https://github.com/tuckeryazdani/wsb_journal"> <h3> The Reddit Street Journal (04/2022) Updated (01/2023) </h3> </a>
-  <ul>
-    <li>Created a Python script that returns frequencies of popular stocks mentioned in the popular investing Reddit communities and gets stock market updates from Yahoo Finance regarding those stocks. </li>
-    <li>Created a Twitter account that uses the Twitter API to automatically post weekly updates based on these insights. </li>
-    <li> Update: The script now takes the tweet, adds it to the Twitter HTML file as text, and then handles the git commands to automatically update this website.</li>
-    <li> Update: The script now has error logging for Twitter errors as a .txt file. </li>
-    <li>Twitter URL: <a href="https://twitter.com/WSB_Journal"> The Reddit Street Journal Twitter</a></li>
-  </ul>
-    <a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank"><h3> Porfolio: Personal Website, (4/2022) </h3></a>
-  <ul>
-    <li> Built a website outlining my education, experience, projects, and other relevant information. </li>
-    <li> Added a Twitter page that gets updated with posts from another project named "The Wall Street Bets Journal". </li>
-    <li> More Coming Soon </li>
-  </ul>
-  <a href="https://github.com/tuckeryazdani/SeniorProject2019" ><h3> Senior Project: “Autonomizing Affine Digraph Ciphers”, University of West Georgia, (12/2019) </h3></a>
-  <ul> 
-    <li>Built a program in Python that uses linear algebra and number theory to decode Affine Digraph Ciphers.</li>
-    <li>Wrote a research paper outlining the project.</li>
-    <li>Presented my work in front of an audience of my peers and professors.</li>
-  </ul>
-      <a href="https://github.com/tuckeryazdani/xlwings/blob/main/xlwings.py" ><h3> xlwings Financial Spreadsheet Creation</h3></a>
-      <ul>
-        <li> Created a Python script that populates a financial spreadsheet using popular Python library xlwings. </li>
-      </ul>
-     <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022"  target="_blank"> <h3>Advanced Algorithims Project: Kennesaw State University, (3/2022)</h3> </a>
-  <!-- Footer -->
-  <footer>
-    <div class="contact">
-      <h2>Contact Information</h2>
-      <p>Personal Email: tuckeryazdani@gmail.com</p>
-    </div>
-    <div class="links">
-      <h2>Links</h2>
-      <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
-        <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn">
-      </a>
-      <a href="https://github.com/tuckeryazdani/" target="_blank">
-        <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub">
-      </a>
-    </div>
-  </footer>
 </body>
 </html>
