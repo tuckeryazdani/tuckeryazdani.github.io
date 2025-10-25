@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me</title>
-  <link href="main.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Twitter Updates</title>
+  <link href="main.css" rel="stylesheet" />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -14,67 +14,80 @@
       background-color: #f4f4f9;
       color: #333;
     }
+
     .topnav {
       background-color: #333;
       overflow: hidden;
       padding: 0.5rem 1rem;
     }
+
     .topnav a {
       color: #f4f4f9;
       text-decoration: none;
       padding: 0.5rem 1rem;
       display: inline-block;
     }
+
     .topnav a:hover {
       background-color: #575757;
     }
+
     .topnav a.active {
       background-color: #0078d4;
     }
-    .bio {
-      font-size: 1rem;
-      line-height: 1.8;
-      margin-top: 1rem;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1rem 0;
-      background-color: #fff;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    th, td {
-      padding: 1rem;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-    th {
-      background-color: #0078d4;
-      color: white;
-    }
-    tr:hover {
-      background-color: #f1f1f1;
-    }
-    h2 {
-      margin-top: 2rem;
-      color: #0078d4;
-    }
-    p {
-      margin: 0.5rem 0;
-    }
-    .social {
-      margin: 0 10px;
-    }
+
     .content {
       max-width: 800px;
       margin: 0 auto;
       padding: 1rem;
     }
+
+    .profile-section {
+      display: flex;
+      align-items: center;
+      margin: 2rem 0;
+    }
+
+    .profile {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-right: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .bio {
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    h1, h2 {
+      color: #0078d4;
+    }
+
+    blockquote {
+      background-color: #fff;
+      border-left: 4px solid #0078d4;
+      padding: 1rem;
+      margin: 1.5rem 0;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+      border-radius: 8px;
+    }
+
+    .social {
+      margin: 0 10px;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #ccc;
+    }
   </style>
 </head>
 <body>
+
   <div class="topnav"> 
     <a href="https://tuckeryazdani.github.io/">Home</a>
     <a href="about.html">About</a>
@@ -82,64 +95,107 @@
     <a class="active" href="twitter.html">Twitter</a>
     <a href="photos.html">Photos</a>
   </div>
-  
+
+  <div class="content">
+
     <!-- Profile Section -->
-<div class="profile-section">
-  <img src="Photos/Headshot.jpg" class="profile" width="150" height="150" alt="Profile Picture" title="Headshot">
-  <div>
-    <p class="bio">
-      <strong>Software Engineer</strong><br>
-      B.S. Mathematics (Concentration in Statistics)<br>
-    </p>
-  </div>
-</div>
+    <div class="profile-section">
+      <img src="Photos/Headshot.jpg" class="profile" alt="Profile Picture" title="Headshot" />
+      <div>
+        <p class="bio">
+          <strong>Software Engineer</strong><br>
+          B.S. Mathematics (Concentration in Statistics)<br>
+        </p>
+      </div>
+    </div>
 
     <!-- Page Header -->
     <h1>Twitter Updates</h1>
-
     <p>
       Below are the top trending stocks on Wall Street Bets, automated and updated weekly via Python and various APIs. These updates include the number of mentions, price changes, and seasonal trends.
     </p>
 
-<body>
+    <!-- Updates -->
+    <blockquote>
+      <strong>2023-03-26:</strong><br>
+      Stock: Meta<br>
+      14 mention(s)<br>
+      $1.08 change in value the past 7 days.
+    </blockquote>
 
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-03-26):<br><br>    Stock: Meta<br>    14 mention(s) <br>    $1.08 change in value the past 7 days.<br>        </blockquote>
+    <blockquote>
+      <strong>2023-03-11:</strong><br>
+      Stock: Meta<br>
+      12 mention(s)<br>
+      $4.98 change in value the past 7 days.
+    </blockquote>
 
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-03-11):<br><br>    Stock: Meta<br>    12 mention(s) <br>    $4.98 change in value the past 7 days.<br>        </blockquote>
+    <blockquote>
+      <strong>2023-03-05:</strong><br>
+      Stock: Meta<br>
+      39 mention(s)<br>
+      $13.21 change in value the past 7 days.
+    </blockquote>
 
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-03-05):<br><br>    Stock: Meta<br>    39 mention(s) <br>    $13.21 change in value the past 7 days.<br>        </blockquote>
+    <blockquote>
+      <strong>2023-02-26:</strong><br>
+      Stock: Google<br>
+      48 mention(s)<br>
+      $-7.75 change in value the past 7 days.
+    </blockquote>
 
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-02-26):<br><br>    Stock: Google<br>    48 mention(s) <br>    $-7.75 change in value the past 7 days.<br>        </blockquote>
+    <blockquote>
+      <strong>2023-02-18:</strong><br>
+      Stock: Google<br>
+      37 mention(s)<br>
+      $-0.87 change in value the past 7 days.
+    </blockquote>
 
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-02-18):<br><br>    Stock: Google<br>    37 mention(s) <br>    $-0.87 change in value the past 7 days.<br>        </blockquote>
+    <blockquote>
+      <strong>2023-02-11:</strong><br>
+      Stock: Google<br>
+      139 mention(s)<br>
+      $-13.94 change in value the past 7 days.
+    </blockquote>
 
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-02-11):<br><br>    Stock: Google<br>    139 mention(s) <br>    $-13.94 change in value the past 7 days.<br>        </blockquote>
+    <blockquote>
+      <strong>2023-02-03:</strong><br>
+      Stock: Meta<br>
+      132 mention(s)<br>
+      $39.23 change in value the past 7 days.
+    </blockquote>
 
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-02-03):<br><br>    Stock: Meta<br>    132 mention(s) <br>    $39.23 change in value the past 7 days.<br>        </blockquote>
+    <blockquote>
+      <strong>2023-01-31:</strong><br>
+      Stock: Meta<br>
+      60 mention(s)<br>
+      $5.7 change in value the past 7 days.
+    </blockquote>
 
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-01-31):<br><br>    Stock: Meta<br>    60 mention(s) <br>    $5.7 change in value the past 7 days.<br>        </blockquote>
+    <blockquote>
+      <strong>2023-01-01:</strong><br>
+      Stock: Amazon<br>
+      11 mention(s)<br>
+      $-2.77 change in value the past 7 days.
+    </blockquote>
 
-  <br><br> <blockquote cite="https://twitter.com/WSB_Journal" class="twitter-tweet"><br>    Top trending stock on Wall Street Bets <br>    (2023-01-01):<br><br>    Stock: Amazon<br>    11 mention(s) <br>    $-2.77 change in value the past 7 days.<br>        
-  </blockquote>
+    <!-- Footer -->
+    <footer>
+      <div class="contact">
+        <h2>Contact Information</h2>
+        <p>Personal Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
+      </div>
+      <div class="links">
+        <h2>Links</h2>
+        <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
+          <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/tuckeryazdani/" target="_blank">
+          <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub" alt="GitHub" />
+        </a>
+      </div>
+    </footer>
 
-  </body>
-  <!-- Footer -->
-  <footer>
-    <div class="contact">
-      <h2>Contact Information</h2>
-      <p>Personal Email: tuckeryazdani@gmail.com</p>
-    </div>
-    <div class="links">
-      <h2>Links</h2>
-      <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
-        <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn">
-      </a>
-      <a href="https://github.com/tuckeryazdani/" target="_blank">
-        <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub">
-      </a>
-    </div>
-  </footer>
+  </div>
 </body>
 </html>
-
-
