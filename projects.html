@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Photo Gallery | Tucker Yazdani</title>
-  <link rel="stylesheet" href="main.css" />
+  <title>Projects | Tucker Yazdani</title>
+  <link href="main.css" rel="stylesheet" />
 </head>
 <body>
 
+  <!-- Navigation -->
   <div class="topnav">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
+    <a class="active" href="projects.html">Projects</a>
     <a href="twitter.html">Twitter</a>
-    <a class="active" href="photos.html">Photos</a>
+    <a href="photos.html">Photos</a>
   </div>
 
   <div class="content">
@@ -24,46 +25,81 @@
       <div>
         <p class="bio">
           <strong>Tucker Yazdani</strong><br />
-          Software Engineer
+          Software Engineer<br />
+          B.S. Mathematics, Statistics Concentration
         </p>
       </div>
     </div>
 
-    <!-- Travel Photo Gallery -->
-    <h2>Photos</h2>
-    <div class="photos">
-      <a href="Photos/chicago_skydeck_day.jpg" target="_blank"><img src="Photos/chicago_skydeck_day.jpg" alt="Chicago Skydeck Day" /></a>
-      <a href="Photos/chicago_skydeck_night.jpg" target="_blank"><img src="Photos/chicago_skydeck_night.jpg" alt="Chicago Skydeck Night" /></a>
-      <a href="Photos/chicago_skydeck_laying_night.jpg" target="_blank"><img src="Photos/chicago_skydeck_laying_night.jpg" alt="Chicago Skydeck Laying Night" /></a>
-      <a href="Photos/chicago_riverwalk.jpg" target="_blank"><img src="Photos/chicago_riverwalk.jpg" alt="Chicago Riverwalk" /></a>
-      <a href="Photos/dinner_river.jpg" target="_blank"><img src="Photos/dinner_river.jpg" alt="Dinner by the River" /></a>
-      <a href="Photos/chicago_riverwalk_boat.jpg" target="_blank"><img src="Photos/chicago_riverwalk_boat.jpg" alt="Chicago Riverwalk Boat" /></a>
-    </div>
+    <h1>Projects</h1>
 
-    <!-- Cooking Photo Gallery -->
-    <h2>Cooking</h2>
-    <div class="photos">
-      <a href="Photos/FettuciniChickenBasilPesto.jpeg" target="_blank"><img src="Photos/FettuciniChickenBasilPesto.jpeg" alt="Fettuccini Chicken Basil Pesto" /></a>
-      <a href="Photos/GnocchiChickenAlfredo.jpeg" target="_blank"><img src="Photos/GnocchiChickenAlfredo.jpeg" alt="Gnocchi Chicken Alfredo" /></a>
-      <a href="Photos/RedCurryChickenAndRice.jpeg" target="_blank"><img src="Photos/RedCurryChickenAndRice.jpeg" alt="Red Curry Chicken and Rice" /></a>
-      <a href="Photos/RigatoniChickenVodkaSauce.jpeg" target="_blank"><img src="Photos/RigatoniChickenVodkaSauce.jpeg" alt="Rigatoni Chicken Vodka Sauce" /></a>
-      <a href="Photos/ShrimpPenoArrabbiata.jpeg" target="_blank"><img src="Photos/ShrimpPenoArrabbiata.jpeg" alt="Shrimp Peno Arrabbiata" /></a>
-    </div>
+    <!-- Project: Reddit Street Journal -->
+    <a href="https://github.com/tuckeryazdani/wsb_journal" target="_blank">
+      <h3>The Reddit Street Journal (04/2022) — Updated (01/2023)</h3>
+    </a>
+    <ul>
+      <li>Built a Python script that analyzes Reddit investing communities for trending stocks based on mention frequency.</li>
+      <li>Fetched real-time market data using Yahoo Finance API.</li>
+      <li>Automated weekly Twitter posts via Twitter API to report highlights.</li>
+      <li>Auto-updates Twitter section on this website and handles Git commits.</li>
+      <li>Includes `.txt` logging for error tracking.</li>
+      <li>Twitter: <a href="https://twitter.com/WSB_Journal" target="_blank">The Reddit Street Journal Twitter</a></li>
+    </ul>
 
-    <h2>Contact Information</h2>
-    <p>Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
+    <!-- Project: Personal Website -->
+    <a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank">
+      <h3>Portfolio Website (04/2022)</h3>
+    </a>
+    <ul>
+      <li>Built and deployed a personal website with project showcases and contact info.</li>
+      <li>Connected to Reddit Street Journal for live content on the Twitter page.</li>
+      <li>Structured using semantic HTML, CSS, and GitHub Pages deployment.</li>
+    </ul>
 
-    <h2>Links</h2>
-    <p>
-      <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" alt="LinkedIn" /></a>
-      <a href="https://github.com/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" alt="GitHub" /></a>
-    </p>
+    <!-- Project: Senior Research -->
+    <a href="https://github.com/tuckeryazdani/SeniorProject2019" target="_blank">
+      <h3>Senior Project: Autonomizing Affine Digraph Ciphers (12/2019)</h3>
+    </a>
+    <ul>
+      <li>Developed Python program to decrypt affine digraph ciphers using linear algebra and number theory.</li>
+      <li>Authored and presented formal research as part of capstone requirements.</li>
+    </ul>
+
+    <!-- Project: xlwings Automation -->
+    <a href="https://github.com/tuckeryazdani/xlwings/blob/main/xlwings.py" target="_blank">
+      <h3>Financial Spreadsheet Automation with xlwings</h3>
+    </a>
+    <ul>
+      <li>Created a Python tool to automate Excel financial reporting with the <code>xlwings</code> library.</li>
+      <li>Populates formulas, formats data, and streamlines reporting workflows.</li>
+    </ul>
+
+    <!-- Project: Chess Engine -->
+    <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022" target="_blank">
+      <h3>Advanced Algorithms Project: Chess Engine (03/2022)</h3>
+    </a>
+    <ul>
+      <li>Designed and coded a functional chess engine using algorithmic principles in Python.</li>
+      <li>Implemented move generation, board evaluation, and AI logic.</li>
+    </ul>
+
+    <!-- Footer -->
+    <footer>
+      <div class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
+      </div>
+      <div class="links">
+        <h2>Links</h2>
+        <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
+          <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/tuckeryazdani/" target="_blank">
+          <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" alt="GitHub" />
+        </a>
+      </div>
+    </footer>
 
   </div>
-
-  <footer>
-    &copy; 2025 Tucker Yazdani
-  </footer>
-
 </body>
 </html>
