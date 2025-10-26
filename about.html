@@ -3,111 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Me</title>
-  <link href="main.css" rel="stylesheet" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background-color: #f4f4f9;
-      color: #333;
-    }
-
-    .topnav {
-      background-color: #333;
-      overflow: hidden;
-      padding: 0.5rem 1rem;
-    }
-
-    .topnav a {
-      color: #f4f4f9;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      display: inline-block;
-    }
-
-    .topnav a:hover {
-      background-color: #575757;
-    }
-
-    .topnav a.active {
-      background-color: #0078d4;
-    }
-
-    .content {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 1rem;
-    }
-
-    .profile-section {
-      display: flex;
-      align-items: center;
-      margin: 2rem 0;
-    }
-
-    .profile {
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      margin-right: 1rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    .bio {
-      font-size: 1rem;
-      line-height: 1.8;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1rem 0;
-      background-color: #fff;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-      overflow: hidden;
-    }
-
-    th, td {
-      padding: 1rem;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-
-    th {
-      background-color: #0078d4;
-      color: white;
-    }
-
-    tr:hover {
-      background-color: #f1f1f1;
-    }
-
-    h1, h2 {
-      color: #0078d4;
-    }
-
-    p {
-      margin: 0.5rem 0;
-    }
-
-    .social {
-      margin: 0 10px;
-    }
-
-    a img.social {
-      vertical-align: middle;
-    }
-  </style>
+  <title>About Me | Tucker Yazdani</title>
+  <link rel="stylesheet" href="main.css" />
 </head>
 <body>
 
-  <div class="topnav"> 
-    <a href="https://tuckeryazdani.github.io/">Home</a>
+  <!-- Navigation -->
+  <div class="topnav">
+    <a href="index.html">Home</a>
     <a class="active" href="about.html">About</a>
     <a href="projects.html">Projects</a>
     <a href="twitter.html">Twitter</a>
@@ -118,78 +21,89 @@
 
     <!-- Profile Section -->
     <div class="profile-section">
-      <img src="Photos/Headshot.jpg" class="profile" alt="Profile Picture" title="Headshot" />
+      <img src="Photos/Headshot.jpg" class="profile" alt="Profile Picture" />
       <div>
         <p class="bio">
-          <strong>Software Engineer</strong><br>
-          B.S. Mathematics (Concentration in Statistics)<br>
+          <strong>Tucker Yazdani</strong><br />
+          Software Engineer<br />
+          B.S. Mathematics, Statistics Concentration
         </p>
       </div>
     </div>
 
-    <!-- Main Content -->
-    <h1>About Me</h1>
+    <!-- Introduction -->
+    <h2>About Me</h2>
+    <p>
+      I'm a software engineer with a strong background in mathematics and data engineering. 
+      I graduated from the University of West Georgia with a B.S. in Mathematics, specializing in statistics.
+      My passion lies in solving problems through code, building tools that automate tasks, and visualizing data.
+    </p>
 
-    <h2>Introduction</h2>
-    <p>I am Tucker Yazdani, and this page will outline my education and experience. I graduated from the University of West Georgia with a B.S. in Mathematics with a concentration in statistics.</p>
-
+    <!-- Education -->
     <h2>Education</h2>
     <table>
       <tr>
         <th>Degree</th>
         <th>University</th>
-        <th>Date</th>
+        <th>Graduation</th>
       </tr>
       <tr>
-        <td>B.S. in Mathematics (Concentration in Statistics)</td>
+        <td>B.S. Mathematics (Statistics)</td>
         <td>University of West Georgia</td>
-        <td>December 2019</td>
+        <td>Dec 2019</td>
       </tr>
     </table>
 
+    <!-- Experience -->
     <h2>Experience</h2>
     <table>
       <tr>
         <th>Position</th>
         <th>Company</th>
-        <th>Dates</th>
+        <th>Duration</th>
       </tr>
       <tr>
         <td>Data Engineer</td>
         <td>American College of Chest Physicians</td>
-        <td>July 2024 - Present</td>
+        <td>Jul 2024 – Present</td>
       </tr>
       <tr>
         <td>Data Engineer</td>
         <td>StoneX</td>
-        <td>September 2022 - December 2023</td>
+        <td>Sep 2022 – Dec 2023</td>
       </tr>
       <tr>
-        <td>Software Development Intern</td>
+        <td>Software Dev Intern</td>
         <td>ArrayFire (acquired by Intel)</td>
-        <td>March 2022 - April 2022</td>
+        <td>Mar 2022 – Apr 2022</td>
       </tr>
       <tr>
         <td>Data Engineer Intern</td>
         <td>Equifax</td>
-        <td>January 2022 - February 2022</td>
+        <td>Jan 2022 – Feb 2022</td>
       </tr>
     </table>
 
-    <h2>Contact Information</h2>
-    <p>Personal Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
+    <!-- Contact -->
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
 
+    <!-- Links -->
     <h2>Links</h2>
     <p>
       <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
-        <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn" alt="LinkedIn" />
+        <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" alt="LinkedIn" />
       </a>
       <a href="https://github.com/tuckeryazdani/" target="_blank">
-        <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub" alt="GitHub" />
+        <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" alt="GitHub" />
       </a>
     </p>
 
   </div>
+
+  <footer>
+    &copy; 2025 Tucker Yazdani. All rights reserved.
+  </footer>
 
 </body>
 </html>
