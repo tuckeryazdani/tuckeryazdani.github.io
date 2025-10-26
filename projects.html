@@ -3,92 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projects</title>
+  <title>Projects | Tucker Yazdani</title>
   <link href="main.css" rel="stylesheet" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background-color: #f4f4f9;
-      color: #333;
-    }
-
-    .topnav {
-      background-color: #333;
-      overflow: hidden;
-      padding: 0.5rem 1rem;
-    }
-
-    .topnav a {
-      color: #f4f4f9;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      display: inline-block;
-    }
-
-    .topnav a:hover {
-      background-color: #575757;
-    }
-
-    .topnav a.active {
-      background-color: #0078d4;
-    }
-
-    .content {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 1rem;
-    }
-
-    .profile-section {
-      display: flex;
-      align-items: center;
-      margin: 2rem 0;
-    }
-
-    .profile {
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      margin-right: 1rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    .bio {
-      font-size: 1rem;
-      line-height: 1.8;
-    }
-
-    h1, h2, h3 {
-      color: #0078d4;
-    }
-
-    p {
-      margin: 0.5rem 0;
-    }
-
-    ul {
-      margin-bottom: 2rem;
-    }
-
-    .social {
-      margin: 0 10px;
-    }
-
-    footer {
-      margin-top: 3rem;
-      padding-top: 2rem;
-      border-top: 1px solid #ccc;
-    }
-  </style>
 </head>
 <body>
 
-  <div class="topnav"> 
-    <a href="https://tuckeryazdani.github.io/">Home</a>
+  <!-- Navigation -->
+  <div class="topnav">
+    <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a class="active" href="projects.html">Projects</a>
     <a href="twitter.html">Twitter</a>
@@ -99,82 +21,81 @@
 
     <!-- Profile Section -->
     <div class="profile-section">
-      <img src="Photos/Headshot.jpg" class="profile" alt="Profile Picture" title="Headshot" />
+      <img src="Photos/Headshot.jpg" class="profile" alt="Profile Picture" />
       <div>
         <p class="bio">
-          <strong>Software Engineer</strong><br>
-          B.S. Mathematics (Concentration in Statistics)<br>
+          <strong>Tucker Yazdani</strong><br />
+          Software Engineer<br />
+          B.S. Mathematics, Statistics Concentration
         </p>
       </div>
     </div>
 
-    <!-- Projects -->
     <h1>Projects</h1>
 
+    <!-- Project: Reddit Street Journal -->
     <a href="https://github.com/tuckeryazdani/wsb_journal" target="_blank">
       <h3>The Reddit Street Journal (04/2022) — Updated (01/2023)</h3>
     </a>
     <ul>
       <li>Built a Python script that analyzes Reddit investing communities for trending stocks based on mention frequency.</li>
-      <li>Fetched real-time market data via the Yahoo Finance API to enrich insights.</li>
-      <li>Automated weekly Twitter posts using the Twitter API, delivering stock highlights to followers.</li>
-      <li>Enhanced functionality to auto-update this site's Twitter page and push changes using Git version control.</li>
-      <li>Implemented error logging to `.txt` files for tracking Twitter API exceptions.</li>
-      <li>
-        Twitter Updates: 
-        <a href="https://twitter.com/WSB_Journal" target="_blank">
-          The Reddit Street Journal Twitter
-        </a>
-      </li>
+      <li>Fetched real-time market data using Yahoo Finance API.</li>
+      <li>Automated weekly Twitter posts via Twitter API to report highlights.</li>
+      <li>Auto-updates Twitter section on this website and handles Git commits.</li>
+      <li>Includes `.txt` logging for error tracking.</li>
+      <li>Twitter: <a href="https://twitter.com/WSB_Journal" target="_blank">The Reddit Street Journal Twitter</a></li>
     </ul>
 
+    <!-- Project: Personal Website -->
     <a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank">
-      <h3>Portfolio: Personal Website (04/2022)</h3>
+      <h3>Portfolio Website (04/2022)</h3>
     </a>
     <ul>
-      <li>Designed and developed a responsive personal website to showcase education, experience, and portfolio projects.</li>
-      <li>Integrated a Twitter updates page, automatically pulling content from the Reddit Street Journal project.</li>
-      <li>Continuously evolving with upcoming features and improvements.</li>
+      <li>Built and deployed a personal website with project showcases and contact info.</li>
+      <li>Connected to Reddit Street Journal for live content on the Twitter page.</li>
+      <li>Structured using semantic HTML, CSS, and GitHub Pages deployment.</li>
     </ul>
 
+    <!-- Project: Senior Research -->
     <a href="https://github.com/tuckeryazdani/SeniorProject2019" target="_blank">
-      <h3>Senior Project: “Autonomizing Affine Digraph Ciphers” (12/2019)</h3>
+      <h3>Senior Project: Autonomizing Affine Digraph Ciphers (12/2019)</h3>
     </a>
     <ul>
-      <li>Engineered a Python application that applies linear algebra and number theory to decrypt affine digraph ciphers.</li>
-      <li>Authored a formal research paper detailing the methodology and implementation.</li>
-      <li>Presented findings to faculty and peers as part of the University of West Georgia's senior capstone.</li>
+      <li>Developed Python program to decrypt affine digraph ciphers using linear algebra and number theory.</li>
+      <li>Authored and presented formal research as part of capstone requirements.</li>
     </ul>
 
+    <!-- Project: xlwings Automation -->
     <a href="https://github.com/tuckeryazdani/xlwings/blob/main/xlwings.py" target="_blank">
       <h3>Financial Spreadsheet Automation with xlwings</h3>
     </a>
     <ul>
-      <li>Automated the creation and population of Excel-based financial spreadsheets using Python and the <code>xlwings</code> library.</li>
-      <li>Streamlined data workflows by programmatically generating formulas, formatting, and reports within Excel.</li>
+      <li>Created a Python tool to automate Excel financial reporting with the <code>xlwings</code> library.</li>
+      <li>Populates formulas, formats data, and streamlines reporting workflows.</li>
     </ul>
 
+    <!-- Project: Chess Engine -->
     <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022" target="_blank">
       <h3>Advanced Algorithms Project: Chess Engine (03/2022)</h3>
     </a>
     <ul>
-      <li>Developed a custom chess engine in Python as part of an Advanced Algorithms course at Kennesaw State University.</li>
-      <li>Implemented algorithmic strategies for move generation, board evaluation, and basic AI decision-making.</li>
+      <li>Designed and coded a functional chess engine using algorithmic principles in Python.</li>
+      <li>Implemented move generation, board evaluation, and AI logic.</li>
     </ul>
 
     <!-- Footer -->
     <footer>
       <div class="contact">
-        <h2>Contact Information</h2>
-        <p>Personal Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
       </div>
       <div class="links">
         <h2>Links</h2>
         <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
-          <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn" alt="LinkedIn" />
+          <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" alt="LinkedIn" />
         </a>
         <a href="https://github.com/tuckeryazdani/" target="_blank">
-          <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub" alt="GitHub" />
+          <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" alt="GitHub" />
         </a>
       </div>
     </footer>
