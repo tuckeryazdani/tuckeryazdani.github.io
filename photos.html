@@ -4,11 +4,95 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Photo Gallery | Tucker Yazdani</title>
-  <link rel="stylesheet" href="main.css" />
+  <link href="main.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    .topnav {
+      background-color: #333;
+      overflow: hidden;
+      padding: 0.5rem 1rem;
+    }
+
+    .topnav a {
+      color: #f4f4f9;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      display: inline-block;
+    }
+
+    .topnav a:hover {
+      background-color: #575757;
+    }
+
+    .topnav a.active {
+      background-color: #0078d4;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    .profile-section {
+      display: flex;
+      align-items: center;
+      margin: 2rem 0;
+    }
+
+    .profile {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-right: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .bio {
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .photos img {
+      width: 200px;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      margin-top: 2rem;
+      color: #0078d4;
+    }
+
+    .social {
+      margin: 0 10px;
+    }
+
+    p {
+      margin: 0.5rem 0;
+    }
+  </style>
 </head>
 <body>
 
-  <div class="topnav">
+  <div class="topnav"> 
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="projects.html">Projects</a>
@@ -23,47 +107,69 @@
       <img src="Photos/Headshot.jpg" class="profile" alt="Profile Picture" />
       <div>
         <p class="bio">
-          <strong>Tucker Yazdani</strong><br />
-          Software Engineer
+          <strong>Software Engineer</strong><br>
+          B.S. Mathematics (Concentration in Statistics)
         </p>
       </div>
     </div>
 
-    <!-- Travel Photo Gallery -->
-    <h2>Photos</h2>
+    <!-- Photo Gallery -->
+    <h2>Chicago Adventures</h2>
     <div class="photos">
-      <a href="Photos/chicago_skydeck_day.jpg" target="_blank"><img src="Photos/chicago_skydeck_day.jpg" alt="Chicago Skydeck Day" /></a>
-      <a href="Photos/chicago_skydeck_night.jpg" target="_blank"><img src="Photos/chicago_skydeck_night.jpg" alt="Chicago Skydeck Night" /></a>
-      <a href="Photos/chicago_skydeck_laying_night.jpg" target="_blank"><img src="Photos/chicago_skydeck_laying_night.jpg" alt="Chicago Skydeck Laying Night" /></a>
-      <a href="Photos/chicago_riverwalk.jpg" target="_blank"><img src="Photos/chicago_riverwalk.jpg" alt="Chicago Riverwalk" /></a>
-      <a href="Photos/dinner_river.jpg" target="_blank"><img src="Photos/dinner_river.jpg" alt="Dinner by the River" /></a>
-      <a href="Photos/chicago_riverwalk_boat.jpg" target="_blank"><img src="Photos/chicago_riverwalk_boat.jpg" alt="Chicago Riverwalk Boat" /></a>
+      <a href="Photos/chicago_skydeck_day.jpg" target="_blank">
+        <img src="Photos/chicago_skydeck_day.jpg" alt="Chicago Skydeck Day" />
+      </a>
+      <a href="Photos/chicago_skydeck_night.jpg" target="_blank">
+        <img src="Photos/chicago_skydeck_night.jpg" alt="Chicago Skydeck Night" />
+      </a>
+      <a href="Photos/chicago_skydeck_laying_night.jpg" target="_blank">
+        <img src="Photos/chicago_skydeck_laying_night.jpg" alt="Chicago Skydeck Laying Night" />
+      </a>
+      <a href="Photos/chicago_riverwalk.jpg" target="_blank">
+        <img src="Photos/chicago_riverwalk.jpg" alt="Chicago Riverwalk" />
+      </a>
+      <a href="Photos/dinner_river.jpg" target="_blank">
+        <img src="Photos/dinner_river.jpg" alt="Dinner by the River" />
+      </a>
+      <a href="Photos/chicago_riverwalk_boat.jpg" target="_blank">
+        <img src="Photos/chicago_riverwalk_boat.jpg" alt="Chicago Riverwalk Boat" />
+      </a>
     </div>
 
-    <!-- Cooking Photo Gallery -->
-    <h2>Cooking</h2>
+    <!-- Cooking Section -->
+    <h2>Cooking 🧑‍🍳</h2>
     <div class="photos">
-      <a href="Photos/FettuciniChickenBasilPesto.jpeg" target="_blank"><img src="Photos/FettuciniChickenBasilPesto.jpeg" alt="Fettuccini Chicken Basil Pesto" /></a>
-      <a href="Photos/GnocchiChickenAlfredo.jpeg" target="_blank"><img src="Photos/GnocchiChickenAlfredo.jpeg" alt="Gnocchi Chicken Alfredo" /></a>
-      <a href="Photos/RedCurryChickenAndRice.jpeg" target="_blank"><img src="Photos/RedCurryChickenAndRice.jpeg" alt="Red Curry Chicken and Rice" /></a>
-      <a href="Photos/RigatoniChickenVodkaSauce.jpeg" target="_blank"><img src="Photos/RigatoniChickenVodkaSauce.jpeg" alt="Rigatoni Chicken Vodka Sauce" /></a>
-      <a href="Photos/ShrimpPenoArrabbiata.jpeg" target="_blank"><img src="Photos/ShrimpPenoArrabbiata.jpeg" alt="Shrimp Peno Arrabbiata" /></a>
+      <a href="Photos/FettuciniChickenBasilPesto.jpeg" target="_blank">
+        <img src="Photos/FettuciniChickenBasilPesto.jpeg" alt="Fettucini Chicken Basil Pesto" />
+      </a>
+      <a href="Photos/GnocchiChickenAlfredo.jpeg" target="_blank">
+        <img src="Photos/GnocchiChickenAlfredo.jpeg" alt="Gnocchi Chicken Alfredo" />
+      </a>
+      <a href="Photos/RedCurryChickenAndRice.jpeg" target="_blank">
+        <img src="Photos/RedCurryChickenAndRice.jpeg" alt="Red Curry Chicken and Rice" />
+      </a>
+      <a href="Photos/RigatoniChickenVodkaSauce.jpeg" target="_blank">
+        <img src="Photos/RigatoniChickenVodkaSauce.jpeg" alt="Rigatoni Chicken Vodka Sauce" />
+      </a>
+      <a href="Photos/ShrimpPenoArrabbiata.jpeg" target="_blank">
+        <img src="Photos/ShrimpPenoArrabbiata.jpeg" alt="Shrimp Peno Arrabbiata" />
+      </a>
     </div>
 
+    <!-- Contact & Links -->
     <h2>Contact Information</h2>
-    <p>Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
+    <p>Personal Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
 
     <h2>Links</h2>
     <p>
-      <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" alt="LinkedIn" /></a>
-      <a href="https://github.com/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" alt="GitHub" /></a>
+      <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
+        <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/tuckeryazdani/" target="_blank">
+        <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub" alt="GitHub" />
+      </a>
     </p>
 
   </div>
-
-  <footer>
-    &copy; 2025 Tucker Yazdani
-  </footer>
-
 </body>
 </html>
