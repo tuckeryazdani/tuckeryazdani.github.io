@@ -3,101 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Personal Website</title>
-  <link href="main.css" rel="stylesheet" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background-color: #f4f4f9;
-      color: #333;
-    }
-
-    .topnav {
-      background-color: #333;
-      overflow: hidden;
-      padding: 0.5rem 1rem;
-    }
-
-    .topnav a {
-      color: #f4f4f9;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      display: inline-block;
-    }
-
-    .topnav a:hover {
-      background-color: #575757;
-    }
-
-    .topnav a.active {
-      background-color: #0078d4;
-    }
-
-    .content {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 1rem;
-    }
-
-    .profile-section {
-      display: flex;
-      align-items: center;
-      margin-bottom: 2rem;
-    }
-
-    .profile {
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      margin-right: 1rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    .bio {
-      font-size: 1rem;
-      line-height: 1.8;
-    }
-
-    h2 {
-      margin-top: 2rem;
-      color: #0078d4;
-    }
-
-    .photos {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    .photos img {
-      width: 200px;
-      height: 230px;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      object-fit: cover;
-    }
-
-    .social {
-      margin: 0 10px;
-    }
-
-    a img.social {
-      vertical-align: middle;
-    }
-
-    p {
-      margin: 0.5rem 0;
-    }
-  </style>
+  <title>Tucker Yazdani | Home</title>
+  <link rel="stylesheet" href="main.css" />
 </head>
 <body>
 
-  <div class="topnav"> 
-    <a class="active" href="https://tuckeryazdani.github.io/">Home</a>
+  <!-- Navigation -->
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="projects.html">Projects</a>
     <a href="twitter.html">Twitter</a>
@@ -105,37 +18,47 @@
   </div>
 
   <div class="content">
-    
+
     <!-- Profile Section -->
-<div class="profile-section">
-  <img src="Photos/Headshot.jpg" class="profile" width="150" height="150" alt="Profile Picture" title="Headshot">
-  <div>
-    <p class="bio">
-      <strong>Software Engineer</strong><br>
-      B.S. Mathematics (Concentration in Statistics)<br>
+    <div class="profile-section">
+      <img src="Photos/Headshot.jpg" class="profile" alt="Profile Picture" />
+      <div>
+        <p class="bio">
+          <strong>Tucker Yazdani</strong><br />
+          Software Engineer<br />
+          B.S. in Mathematics (Concentration in Statistics)
+        </p>
+      </div>
+    </div>
+
+    <!-- Intro Section -->
+    <h2>Welcome to My Website</h2>
+    <p>
+      This site serves as a central hub for my professional and personal projects.
+      It's built with HTML and CSS to demonstrate both functionality and simplicity.
     </p>
-  </div>
-</div>
-    <!-- Bio -->
-    <h2>Personal Website</h2>
-    <p>This is my personal website built to be a directory of links to projects I have worked on. This website also serves to showcase my knowledge of HTML and CSS.</p>
+    <p><strong>Note:</strong> This site is a work in progress — more content coming soon!</p>
 
-    <!-- Contact Info -->
-    <h2>Contact Information</h2>
-    <p>Personal Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
+    <!-- Contact -->
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
 
-    <!-- Social Links -->
+    <!-- Social Icons -->
     <h2>Links</h2>
     <p>
       <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
-        <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn" alt="LinkedIn" />
+        <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" alt="LinkedIn" />
       </a>
       <a href="https://github.com/tuckeryazdani/" target="_blank">
-        <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub" alt="GitHub" />
+        <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" alt="GitHub" />
       </a>
     </p>
 
   </div>
+
+  <footer>
+    &copy; 2025 Tucker Yazdani. All rights reserved.
+  </footer>
 
 </body>
 </html>
