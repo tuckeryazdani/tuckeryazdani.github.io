@@ -33,6 +33,35 @@ body {
   padding: 2rem 1rem;
 }
 
+/* Photo galleries */
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.photos img {
+  width: 200px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.photos figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.photos figcaption {
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
+  text-align: center;
+  color: #555;
+}
+
 /* Profile */
 .profile-section {
   display: flex;
