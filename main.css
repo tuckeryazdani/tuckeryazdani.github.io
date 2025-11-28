@@ -82,9 +82,18 @@ footer {
 
 /* Photos */
 .photos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  display: block;
+}
+
+.photos figure {
+  margin-bottom: 1.5rem;
+}
+
+.photos img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
 }
 
 .photos img {
