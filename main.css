@@ -100,14 +100,6 @@ footer {
   margin: 0 auto;
 }
 
-.photos img {
-  width: 200px;
-  height: 230px;
-  border-radius: 10px;
-  object-fit: cover;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
 /* Social */
 .social {
   margin: 0 10px;
