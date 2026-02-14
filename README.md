@@ -15,3 +15,6 @@ This repository contains the source code for my personal website. The code is ho
 
 You can view the source code here:  
 📁 [GitHub Repository](https://github.com/tuckeryazdani/tuckeryazdani.github.io/tree/gh-pages)  
+
+This is also hosted at
+tuckeryazdani.com through Google Cloud/Firebase
