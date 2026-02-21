@@ -1,0 +1,135 @@
+:root {
+  color-scheme: dark;
+  --bg: #090d15;
+  --card: #111b2e;
+  --line: #213455;
+  --text: #e8f0ff;
+  --muted: #9fb3d9;
+  --accent: #4ea2ff;
+  --good: #36d278;
+  --bad: #ff667a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: radial-gradient(circle at top, #12203a 0%, var(--bg) 45%);
+  color: var(--text);
+}
+
+.hero {
+  text-align: center;
+  padding: 2.5rem 1rem 1rem;
+}
+
+.eyebrow {
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+}
+
+.subtitle {
+  margin: 0.7rem auto 0;
+  color: var(--muted);
+  max-width: 700px;
+}
+
+.layout {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01));
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem;
+  backdrop-filter: blur(2px);
+}
+
+.highlight {
+  border-color: var(--accent);
+}
+
+.stock-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
+  gap: 0.75rem;
+}
+
+.label {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.value {
+  margin: 0.2rem 0 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.meta,
+.context {
+  color: var(--muted);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.65rem;
+  text-align: left;
+}
+
+th {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.positive {
+  color: var(--good);
+}
+
+.negative {
+  color: var(--bad);
+}
+
+blockquote {
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent);
+  color: #d3e2ff;
+  white-space: pre-line;
+}
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 1.5rem 1rem 2rem;
+}
+
+@media (max-width: 760px) {
+  .stock-row {
+    grid-template-columns: 1fr;
+  }
+}

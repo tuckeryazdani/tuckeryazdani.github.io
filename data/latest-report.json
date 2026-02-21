@@ -1,0 +1,37 @@
+{
+  "report_date": "2026-02-21",
+  "top_stock": {
+    "stock_name": "Nvidia",
+    "ticker": "NVDA",
+    "mentions": 128,
+    "weekly_change_percent": 4.37,
+    "seasonal_context": "Nvidia (NVDA) stock price tends to be higher in the winter. Next season (spring) tends to be lower than winter."
+  },
+  "leaderboard": [
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "mentions": 128,
+      "weekly_change_percent": 4.37
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "mentions": 104,
+      "weekly_change_percent": -2.15
+    },
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "mentions": 83,
+      "weekly_change_percent": 1.22
+    },
+    {
+      "stock_name": "Meta",
+      "ticker": "META",
+      "mentions": 61,
+      "weekly_change_percent": 0.63
+    }
+  ],
+  "weekly_summary": "Top trending stock on Wall Street Bets\n(2026-02-21)\n\nStock: Nvidia\n128 mention(s)\n\n$4.37 change in value the past 7 days.\nNvidia (NVDA) stock price tends to be higher in the winter.\nNext season (spring) tends to be lower than winter."
+}

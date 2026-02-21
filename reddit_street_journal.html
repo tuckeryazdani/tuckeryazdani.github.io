@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reddit Street Journal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">tuckeryazdani.github.io</p>
+      <h1>Reddit Street Journal</h1>
+      <p class="subtitle">
+        Live-style view of WallStreetBets ticker chatter, weekly price deltas, and seasonal context.
+      </p>
+    </header>
+
+    <main class="layout">
+      <section class="card highlight" id="top-stock-card">
+        <h2>Top Trending Stock</h2>
+        <p class="meta" id="report-date">Loading report date…</p>
+        <div class="stock-row">
+          <div>
+            <p class="label">Ticker</p>
+            <p class="value" id="top-ticker">--</p>
+          </div>
+          <div>
+            <p class="label">Mentions</p>
+            <p class="value" id="top-mentions">--</p>
+          </div>
+          <div>
+            <p class="label">7-Day Change</p>
+            <p class="value" id="top-change">--</p>
+          </div>
+        </div>
+        <p id="seasonal-context" class="context"></p>
+      </section>
+
+      <section class="card">
+        <h2>Leaderboard</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Stock</th>
+              <th>Ticker</th>
+              <th>Mentions</th>
+              <th>7-Day Δ</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboard-body">
+            <tr>
+              <td colspan="4">Loading…</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="card">
+        <h2>Weekly Summary</h2>
+        <blockquote id="weekly-summary">Loading summary…</blockquote>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Powered by Reddit API, Yahoo Finance, and OpenAI workflows from this repository.
+      </p>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
