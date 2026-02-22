@@ -53,10 +53,11 @@ Open `http://localhost:8000`.
 
 ## Netlify Deployment
 
-If Netlify is configured to run Jekyll (`bundle exec jekyll build`), override it for this static HTML/CSS/JS site:
+This repo includes `netlify.toml` configured to produce a `_site` folder and publish from `_site`.
+This avoids failures when a Netlify site still expects `_site` as the deploy directory.
 
-1. Commit `netlify.toml` (included in this repo).
-2. In Netlify **Site settings → Build & deploy → Build settings**, clear any old build command if present in UI.
+1. Commit and push `netlify.toml`.
+2. In Netlify **Site settings → Build & deploy → Build settings**, clear old UI overrides if present.
 3. Trigger a new deploy.
 
 This site does not require Ruby, Bundler, or Jekyll.
