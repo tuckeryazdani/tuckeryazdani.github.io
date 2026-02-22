@@ -49,3 +49,14 @@ Open `http://localhost:8000`.
 - Replace `TODO_EMAIL`, `TODO_LINKEDIN_URL`, `TODO_GITHUB_URL`, `TODO_TWITTER_URL`, `TODO_GITHUB_PAGES_URL`.
 - Add role-specific experience bullets and technologies where marked `Add details`.
 - Add a `resume.pdf` file to root, then update hero resume link.
+
+
+## Netlify Deployment
+
+If Netlify is configured to run Jekyll (`bundle exec jekyll build`), override it for this static HTML/CSS/JS site:
+
+1. Commit `netlify.toml` (included in this repo).
+2. In Netlify **Site settings → Build & deploy → Build settings**, clear any old build command if present in UI.
+3. Trigger a new deploy.
+
+This site does not require Ruby, Bundler, or Jekyll.
