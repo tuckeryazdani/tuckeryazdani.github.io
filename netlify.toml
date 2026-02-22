@@ -1,0 +1,6 @@
+[build]
+  command = "rm -rf _site && mkdir -p _site && find . -mindepth 1 -maxdepth 1 ! -name _site ! -name .git -exec cp -R {} _site/ \;"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "20"

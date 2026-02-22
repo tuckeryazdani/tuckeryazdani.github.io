@@ -3,189 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tucker Yazdani | Data Engineer Portfolio</title>
-    <meta
-      name="description"
-      content="Data Engineering portfolio for Tucker Yazdani featuring cloud data pipelines, analytics platforms, and production-grade ETL systems."
-    />
-    <meta name="author" content="Tucker Yazdani" />
+    <title>Tucker Yazdani | Data Engineer</title>
+    <meta name="description" content="Tucker Yazdani - Data Engineer in Chicago, IL. Portfolio focused on production ETL pipelines, data quality, and reliability." />
     <meta property="og:title" content="Tucker Yazdani | Data Engineer" />
-    <meta
-      property="og:description"
-      content="Modern data engineering portfolio with featured projects, technical architecture, and impact metrics."
-    />
+    <meta property="og:description" content="Data engineering portfolio with experience, project case study, and contact information." />
     <meta property="og:type" content="website" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <div class="page-loader" aria-hidden="true"><div class="loader-dot"></div></div>
-
-    <header class="site-header" id="top">
-      <a class="logo" href="#top" aria-label="Go to top of page">TY</a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#architecture">Architecture</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">Tucker Yazdani</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
     </header>
 
-    <main>
-      <section class="hero section" id="hero">
-        <p class="eyebrow">Data Engineer</p>
+    <main class="container">
+      <section class="card" id="hero">
+        <p class="eyebrow">Chicago, IL</p>
         <h1>Tucker Yazdani</h1>
-        <p class="hero-subtitle">
-          I build reliable, scalable data platforms that turn raw data into trusted decisions for product and business teams.
+        <p class="subtitle">Data Engineer</p>
+        <p>
+          3 years building production ETL pipelines using Python, SQL, Spark, Airflow across AWS and Azure, with a focus on data quality and reliability in regulated healthcare and financial environments handling sensitive client data and PII.
         </p>
-        <ul class="stack-list" aria-label="Technology stack">
+        <div class="btn-row">
+          <a class="btn primary" href="mailto:TODO_EMAIL">Email</a>
+          <a class="btn ghost" href="TODO_LINKEDIN_URL">LinkedIn</a>
+          <a class="btn ghost" href="TODO_GITHUB_URL">GitHub</a>
+          <!-- TODO: Add resume file path when resume PDF is available -->
+          <a class="btn ghost" href="#">Download Resume (TODO)</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Proof Bar</h2>
+        <ul class="chips" aria-label="Core technical skills">
           <li>Python</li>
           <li>SQL</li>
+          <li>Spark</li>
+          <li>Airflow</li>
           <li>Snowflake</li>
           <li>Databricks</li>
-          <li>Airflow</li>
           <li>AWS</li>
           <li>Azure</li>
+          <li>GCP BigQuery</li>
         </ul>
-        <div class="hero-actions">
-          <a class="button primary" href="resume.pdf" download>Download Resume</a>
-          <a class="button secondary" href="#contact">Contact Me</a>
-        </div>
       </section>
 
-      <section class="section" id="about">
-        <h2>About Me</h2>
-        <p>
-          I'm a data engineer focused on designing platforms that are easy to trust, cost-efficient to operate, and fast to iterate.
-          My work combines software engineering discipline with analytical rigor to deliver resilient data products.
-        </p>
-        <p>
-          I specialize in orchestrating cloud-native pipelines, building governed warehouse models, and enabling teams with self-serve
-          analytics infrastructure.
-        </p>
-        <div class="skills-grid">
-          <article>
-            <h3>Cloud</h3>
-            <p>AWS (S3, Lambda, Glue), Azure (Data Factory, Synapse), IAM, Infrastructure fundamentals</p>
-          </article>
-          <article>
-            <h3>Data Engineering</h3>
-            <p>ETL/ELT design, batch + incremental processing, orchestration, data quality, observability, dimensional modeling</p>
-          </article>
-          <article>
-            <h3>Programming</h3>
-            <p>Python, SQL, JavaScript, Bash, data-oriented API integration and automation</p>
-          </article>
-          <article>
-            <h3>Tools</h3>
-            <p>Snowflake, Databricks, Airflow, dbt, GitHub Actions, Power BI/Tableau, CI/CD workflows</p>
-          </article>
+      <section class="card">
+        <h2>Featured Project</h2>
+        <h3>The Reddit Street Journal <span class="role-meta">(Completed Jun 2024)</span></h3>
+        <p><strong>Problem:</strong> Add details</p>
+        <div class="todo">
+          <ul>
+            <li>TODO: Describe the exact problem statement this project solves.</li>
+          </ul>
         </div>
+        <p><strong>Data sources:</strong> Reddit discussions, Yahoo Finance live price data.</p>
+        <p><strong>Pipeline steps:</strong> Identify trending stocks from Reddit, fetch live price data, generate AI powered summaries, publish to Twitter and GitHub Pages.</p>
+        <p><strong>Deployment and automation:</strong> Migration from Docker and GCP to Google Cloud Jobs and SQL with automated DataFrame ingestion and caching.</p>
+        <p><a href="projects.html">Read full case study →</a></p>
       </section>
 
-      <section class="section" id="projects">
-        <div class="section-heading">
-          <h2>Featured Projects</h2>
-          <div class="filter-group" role="group" aria-label="Filter projects by technology">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="python">Python</button>
-            <button class="filter-btn" data-filter="snowflake">Snowflake</button>
-            <button class="filter-btn" data-filter="airflow">Airflow</button>
-            <button class="filter-btn" data-filter="aws">AWS</button>
-          </div>
-        </div>
-
-        <div class="projects-grid">
-          <article class="project-card" data-tech="python snowflake airflow aws">
-            <h3>Retail Revenue Intelligence Pipeline</h3>
-            <p class="problem"><strong>Problem:</strong> Finance and operations teams lacked a unified daily revenue view across 8 source systems.</p>
-            <div class="diagram-placeholder" aria-label="Architecture diagram placeholder">
-              Source APIs → Airflow DAGs → S3 Bronze/Silver → Snowflake Gold Marts
-            </div>
-            <p><strong>Technologies:</strong> Python, Airflow, AWS S3, Snowflake, dbt</p>
-            <p><strong>Impact:</strong> Cut reporting latency from 24h to 45m and improved data quality SLA to 99.8%.</p>
-            <a href="https://github.com/tuckeryazdani" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
-          </article>
-
-          <article class="project-card" data-tech="python databricks azure">
-            <h3>Customer Churn Feature Platform</h3>
-            <p class="problem"><strong>Problem:</strong> ML teams needed reliable, versioned feature pipelines for churn prediction use cases.</p>
-            <div class="diagram-placeholder" aria-label="Architecture diagram placeholder">
-              Event Stream → Delta Lake → Feature Jobs → Model Serving
-            </div>
-            <p><strong>Technologies:</strong> Python, Databricks, Delta Lake, Azure Data Factory</p>
-            <p><strong>Impact:</strong> Reduced feature pipeline failures by 70% and accelerated experimentation cycles by 2.5x.</p>
-            <a href="https://github.com/tuckeryazdani" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
-          </article>
-
-          <article class="project-card" data-tech="python aws">
-            <h3>Data Quality Automation Framework</h3>
-            <p class="problem"><strong>Problem:</strong> Analysts spent hours manually validating schema drifts and broken upstream feeds.</p>
-            <div class="diagram-placeholder" aria-label="Architecture diagram placeholder">
-              Ingestion Jobs → Validation Rules → Alerting + Incident Dashboard
-            </div>
-            <p><strong>Technologies:</strong> Python, Great Expectations, AWS Lambda, CloudWatch</p>
-            <p><strong>Impact:</strong> Prevented 30+ monthly data incidents and reduced mean time to detect issues by 60%.</p>
-            <a href="https://github.com/tuckeryazdani" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="experience">
-        <h2>Experience Timeline</h2>
+      <section class="card">
+        <h2>Experience Preview</h2>
         <div class="timeline">
           <article class="timeline-item">
-            <span class="timeline-date">2023 - Present</span>
-            <h3>Data Engineer</h3>
-            <p>Built cloud ETL pipelines, implemented observability, and standardized reusable data models for cross-functional analytics teams.</p>
+            <h3>American College of Chest Physicians — Data Engineer</h3>
+            <p class="role-meta">Glenview, IL · Jul 2024 to Dec 2025</p>
           </article>
           <article class="timeline-item">
-            <span class="timeline-date">2021 - 2023</span>
-            <h3>Software Engineer</h3>
-            <p>Developed backend automation services and API integrations powering internal analytics and operational workflows.</p>
+            <h3>StoneX Group Inc. — Data Engineer</h3>
+            <p class="role-meta">Chicago, IL · Sep 2022 to Dec 2023</p>
           </article>
           <article class="timeline-item">
-            <span class="timeline-date">2019 - 2021</span>
-            <h3>Analytics Engineer</h3>
-            <p>Partnered with stakeholders to define metrics, create semantic models, and deliver executive-ready dashboards.</p>
+            <h3>ArrayFire (acquired by Intel) — Software Development Intern</h3>
+            <p class="role-meta">Atlanta, GA · Mar 2022 to Apr 2022</p>
+          </article>
+          <article class="timeline-item">
+            <h3>Equifax — Data Engineer Intern</h3>
+            <p class="role-meta">Remote · Jan 2022 to Feb 2022</p>
           </article>
         </div>
-      </section>
-
-      <section class="section" id="architecture">
-        <h2>Technical Architecture</h2>
-        <p>Example reference architecture for a modern analytics stack with governance, orchestration, and serving layers.</p>
-        <div class="architecture-grid" role="img" aria-label="Reference data platform architecture">
-          <div>Data Sources</div>
-          <div>Ingestion + Orchestration</div>
-          <div>Lakehouse / Warehouse</div>
-          <div>Transformation + Data Quality</div>
-          <div>BI + ML Consumption</div>
-        </div>
-      </section>
-
-      <section class="section" id="contact">
-        <h2>Contact</h2>
-        <p>Open to data engineering opportunities, high-impact platform work, and collaboration with product-focused teams.</p>
-        <ul class="contact-list">
-          <li>Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank" rel="noopener noreferrer">linkedin.com/in/tuckeryazdani</a></li>
-          <li>GitHub: <a href="https://github.com/tuckeryazdani/" target="_blank" rel="noopener noreferrer">github.com/tuckeryazdani</a></li>
-        </ul>
       </section>
     </main>
 
     <footer>
-      <p>© <span id="year"></span> Tucker Yazdani. Built with HTML, CSS, and JavaScript.</p>
+      <div class="container">© <span id="year"></span> Tucker Yazdani</div>
     </footer>
-
-    <script src="script.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
