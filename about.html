@@ -1,137 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Me | Tucker Yazdani</title>
-  <link href="main.css" rel="stylesheet" />
-</head>
-<body>
-
-  <!-- Navigation -->
-  <div class="topnav"> 
-    <a href="index.html">Home</a>
-    <a class="active" href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="twitter.html">Twitter</a>
-    <a href="photos.html">Photos</a>
-  </div>
-
-  <div class="content">
-
-    <!-- Profile Section -->
-    <div class="profile-section">
-      <img src="Photos/Headshot.jpg" class="profile" alt="Profile Picture" />
-      <div>
-        <p class="bio">
-          <strong>Software Engineer</strong><br>
-          B.S. Mathematics (Concentration in Statistics)<br>
-          Passionate about data engineering, automation, and building impactful software solutions.
-        </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Tucker Yazdani</title>
+    <meta name="description" content="About Tucker Yazdani, Data Engineer based in Chicago, IL." />
+    <meta property="og:title" content="About | Tucker Yazdani" />
+    <meta property="og:description" content="Background, education, and working style." />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">Tucker Yazdani</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
       </div>
-    </div>
+    </header>
 
-<!-- About Me -->
-<h1>About Me</h1>
-<p>
-  I'm Tucker Yazdani, a Data Engineer based in Chicago with three years of experience designing scalable ETL pipelines and modern data infrastructure. My expertise lies in automating complex workflows across cloud platforms such as AWS, Azure, Snowflake, and Databricks to support enterprise analytics and reporting.
-</p>
-<p>
-  I specialize in building end-to-end data solutions using Python, SQL, and Airflow—from integrating APIs and orchestrating secure data transfers to developing MDM pipelines and deploying business intelligence dashboards with Tableau and Power BI.
-</p>
-<p>
-  Outside of my professional roles, I maintain <a href="https://github.com/tuckeryazdani/wsb_journal" target="_blank">The Reddit Street Journal</a>, an automated data pipeline that scrapes Reddit for trending stock mentions and publishes insights via Twitter. This website also serves as a living portfolio of my ongoing projects and technical interests.
-</p>
-<p>
-  I hold a B.S. in Mathematics with a concentration in Statistics and Actuarial Science from the University of West Georgia. I'm driven by a passion for simplifying complex data challenges and building tools that deliver measurable value.
-</p>
+    <main class="container">
+      <section class="card">
+        <h1>About</h1>
+        <p>
+          Tucker Yazdani is a Data Engineer in Chicago, IL with 3 years building production ETL pipelines using Python, SQL, Spark, and Airflow across AWS and Azure. Work includes sensitive client data and PII in regulated healthcare and financial environments, with a focus on data quality and reliability.
+        </p>
+      </section>
 
+      <section class="card">
+        <h2>Education</h2>
+        <p><strong>University of West Georgia</strong> — BS Mathematics (Stats and Actuarial Science), Dec 2019, Carrollton, GA</p>
+        <ul>
+          <li>Dean's List</li>
+          <li>Department Scholarship</li>
+        </ul>
+      </section>
 
-    <!-- Education -->
-    <h2>Education</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Degree</th>
-          <th>University</th>
-          <th>Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>B.S. in Mathematics (Concentration in Statistics)</td>
-          <td>University of West Georgia</td>
-          <td>Dec 2019</td>
-        </tr>
-      </tbody>
-    </table>
+      <section class="card">
+        <h2>Working Style</h2>
+        <ul>
+          <li>Focuses on data quality and reliability.</li>
+          <li>Builds in regulated environments where data handling requirements are strict.</li>
+          <li>TODO: Add preferred collaboration style and communication preferences.</li>
+        </ul>
+      </section>
+    </main>
 
-    <!-- Experience -->
-    <h2>Experience</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Role</th>
-          <th>Company</th>
-          <th>Dates</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Data Engineer</td>
-          <td>American College of Chest Physicians</td>
-          <td>Jul 2024 – Present</td>
-        </tr>
-        <tr>
-          <td>Data Engineer</td>
-          <td>StoneX</td>
-          <td>Sep 2022 – Dec 2023</td>
-        </tr>
-        <tr>
-          <td>Software Development Intern</td>
-          <td>ArrayFire (acquired by Intel)</td>
-          <td>Mar 2022 – Apr 2022</td>
-        </tr>
-        <tr>
-          <td>Data Engineer Intern</td>
-          <td>Equifax</td>
-          <td>Jan 2022 – Feb 2022</td>
-        </tr>
-        <tr>
-          <td>Mathematics Instructor</td>
-          <td>University Instructors</td>
-          <td>Jan 2020 - Dec 2021</td>
-        </tr>
-        <tr>
-          <td>Mathematics Tutor</td>
-          <td>University of West Georgia</td>
-          <td>Jan 2019 – Dec 2019</td>
-        </tr>
-        <tr>
-          <td>ITS Assistant</td>
-          <td>University of West Georgia</td>
-          <td>Jan 2017 – Dec 2018</td>
-        </tr>      </tbody>
-    </table>
-
-    <!-- Contact -->
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
-
-    <!-- Social -->
-    <h2>Social</h2>
-    <p>
-      <a class="social-link" href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
-        <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" width="20" height="20" alt="LinkedIn" title="LinkedIn" />
-        LinkedIn
-      </a>
-      <br>
-      <a class="social-link" href="https://github.com/tuckeryazdani/" target="_blank">
-        <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" width="20" height="20" alt="GitHub" title="GitHub" />
-        GitHub
-      </a>
-    </p>
-
-  </div>
-</body>
+    <footer>
+      <div class="container">© <span id="year"></span> Tucker Yazdani</div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
