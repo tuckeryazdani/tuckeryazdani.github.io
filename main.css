@@ -345,3 +345,149 @@ footer {
     padding: 2rem;
   }
 }
+
+.topnav {
+  width: min(1100px, 92vw);
+  margin: 1rem auto 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.9rem;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.topnav a:hover,
+.topnav a.active {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+.content {
+  width: min(1100px, 92vw);
+  margin: 1rem auto 2rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  padding: clamp(1rem, 2vw, 1.75rem);
+}
+
+.photo-header p {
+  margin-top: -0.25rem;
+  color: var(--muted);
+}
+
+.photo-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+}
+
+.photo-tags span {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.photo-gallery {
+  margin-top: 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+}
+
+.photo-card {
+  margin: 0;
+}
+
+.photo-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 0.85rem;
+  border: 1px solid var(--border);
+  display: block;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.photo-card img:hover {
+  transform: scale(1.02);
+  box-shadow: var(--shadow);
+}
+
+.photo-note {
+  margin-top: 1rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  padding: 2.5rem 1rem 1rem;
+  background: color-mix(in srgb, #000 82%, transparent);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fade-in 0.2s ease;
+}
+
+.lightbox:target {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: min(1100px, 96vw);
+  max-height: 86vh;
+  width: auto;
+  height: auto;
+  border-radius: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 0.9rem;
+  right: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 700px) {
+  .photo-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 980px) {
+  .photo-gallery {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

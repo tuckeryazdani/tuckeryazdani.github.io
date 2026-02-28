@@ -2,150 +2,109 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Photo Gallery | Tucker Yazdani</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photos | Tucker Yazdani</title>
+  <meta name="description" content="Lifestyle, travel, and activity photos from Tucker Yazdani." />
   <link href="main.css" rel="stylesheet" />
 </head>
-<body>
-
-  <div class="topnav"> 
+<body class="photo-page">
+  <div class="topnav" aria-label="Main navigation">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="projects.html">Projects</a>
     <a href="twitter.html">Twitter</a>
-    <a class="active" href="photos.html">Photos</a>
+    <a class="active" href="photos.html" aria-current="page">Photos</a>
   </div>
 
-  <div class="content">
-
-    <!-- Profile Section -->
-    <div class="profile-section">
-      <img src="Photos/headshot3.png" class="profile" alt="Profile Picture" />
-      <div>
-        <p class="bio">
-          <strong>Software Engineer</strong><br>
-          B.S. Mathematics (Concentration in Statistics)
-        </p>
+  <main class="content">
+    <header class="photo-header">
+      <h1>Photos</h1>
+      <p>Collection of travel, lifestyle, and activity moments.</p>
+      <div class="photo-tags" aria-label="Photo categories">
+        <span>Travel</span>
+        <span>City</span>
+        <span>Food</span>
+        <span>Seasonal</span>
       </div>
-    </div>
-<!-- Cooking Section -->
-<h2>Cooking 🧑‍🍳</h2>
-<div class="photos">
-  <!-- Begin Cooking Photos -->
-  <figure>
-    <a href="Photos/SteakDinner.jpeg" target="_blank">
-      <img src="Photos/SteakDinner.jpeg" alt="Steak Dinner" />
-    </a>
-    <figcaption>Steak Dinner</figcaption>
-  </figure>
+    </header>
 
-  
-  <figure>
-    <a href="Photos/GnocchiChickenAlfredo.jpeg" target="_blank">
-      <img src="Photos/GnocchiChickenAlfredo.jpeg" alt="Gnocchi Chicken Alfredo" />
-    </a>
-    <figcaption>Gnocchi Chicken Alfredo</figcaption>
-  </figure>
+    <section class="photo-gallery" aria-label="Photo gallery">
+      <figure class="photo-card">
+        <a href="#photo-1"><img src="Photos/chicago_skydeck_laying_night.jpg" alt="Gallery image placeholder: Chicago Skydeck at night" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-2"><img src="Photos/GnocchiChickenAlfredo.jpeg" alt="Gallery image placeholder: Gnocchi chicken alfredo meal" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-3"><img src="Photos/chicago_deepdish.jpg" alt="Gallery image placeholder: Chicago deep dish pizza" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-4"><img src="Photos/chicago_riverwalk_boat.jpg" alt="Gallery image placeholder: Chicago riverwalk and boat" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-5"><img src="Photos/SteakDinner.jpeg" alt="Gallery image placeholder: Steak dinner" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-6"><img src="Photos/dinner_river.jpg" alt="Gallery image placeholder: Dinner by the river" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-7"><img src="Photos/PizzaCooked.jpeg" alt="Gallery image placeholder: Homemade baked pizza" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-8"><img src="Photos/RedCurryChickenAndRice.JPG" alt="Gallery image placeholder: Red curry chicken and rice" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-9"><img src="Photos/chicago_skydeck_day.jpg" alt="Gallery image placeholder: Chicago Skydeck daytime view" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-10"><img src="Photos/new_years.jpg" alt="Gallery image placeholder: New year celebration" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-11"><img src="Photos/PizzaUncooked.jpeg" alt="Gallery image placeholder: Homemade uncooked pizza" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-12"><img src="Photos/chicago_skydeck_night.jpg" alt="Gallery image placeholder: Chicago Skyline at night" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-13"><img src="Photos/ShrimpPenoArrabbiata.jpeg" alt="Gallery image placeholder: Shrimp arrabbiata pasta" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-14"><img src="Photos/RigatoniChickenVodkaSauce.jpeg" alt="Gallery image placeholder: Rigatoni with chicken vodka sauce" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-15"><img src="Photos/jack_frost.jpg" alt="Gallery image placeholder: Winter jack frost scene" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-16"><img src="Photos/chicago_riverwalk.jpg" alt="Gallery image placeholder: Chicago riverwalk view" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-17"><img src="Photos/FettuciniChickenBasilPesto.jpeg" alt="Gallery image placeholder: Fettuccini chicken basil pesto" loading="lazy" /></a>
+      </figure>
+      <figure class="photo-card">
+        <a href="#photo-18"><img src="Photos/riverwalk_dinner_facing.jpg" alt="Gallery image placeholder: Riverwalk dinner facing skyline" loading="lazy" /></a>
+      </figure>
+    </section>
 
-  <figure>
-    <a href="Photos/RedCurryChickenAndRice.JPG" target="_blank">
-      <img src="Photos/RedCurryChickenAndRice.JPG" alt="Red Curry Chicken and Rice" />
-    </a>
-    <figcaption>Red Curry Chicken and Rice</figcaption>
-  </figure>
+    <aside class="photo-note">Tap or click any image to enlarge.</aside>
+  </main>
 
-  <figure>
-    <a href="Photos/RigatoniChickenVodkaSauce.jpeg" target="_blank">
-      <img src="Photos/RigatoniChickenVodkaSauce.jpeg" alt="Rigatoni Chicken Vodka Sauce" />
-    </a>
-    <figcaption>Rigatoni Chicken Vodka Sauce</figcaption>
-  </figure>
-
-  <figure>
-    <a href="Photos/ShrimpPenoArrabbiata.jpeg" target="_blank">
-      <img src="Photos/ShrimpPenoArrabbiata.jpeg" alt="Shrimp Peno Arrabbiata" />
-    </a>
-    <figcaption>Shrimp Peno Arrabbiata</figcaption>
-  </figure>
-  <figure>
-    <a href="Photos/PizzaUncooked.jpeg" target="_blank">
-      <img src="Photos/PizzaUncooked.jpeg" alt="Homemade Pizza Uncooked" />
-    </a>
-    <figcaption>Homemade Uncooked Pizza</figcaption>
-  </figure>
-  <figure>
-    <a href="Photos/PizzaCooked.jpeg" target="_blank">
-      <img src="Photos/PizzaCooked.jpeg" alt="Homemade Pizza Cooked" />
-    </a>
-    <figcaption>Homemade Cooked Pizza</figcaption>
-  </figure>
-</div>
-
-<!-- Chicago Adventures -->
-<h2>Chicago Adventures</h2>
-<div class="photos">
-  <figure>
-    <a href="Photos/chicago_skydeck_day.jpg" target="_blank">
-      <img src="Photos/chicago_skydeck_day.jpg" alt="Chicago Skydeck Day" />
-    </a>
-    <figcaption>Chicago Skydeck Day</figcaption>
-  </figure>
-
-  <figure>
-    <a href="Photos/chicago_skydeck_night.jpg" target="_blank">
-      <img src="Photos/chicago_skydeck_night.jpg" alt="Chicago Skydeck Night" />
-    </a>
-    <figcaption>Chicago Skydeck Night</figcaption>
-  </figure>
-
-  <figure>
-    <a href="Photos/chicago_skydeck_laying_night.jpg" target="_blank">
-      <img src="Photos/chicago_skydeck_laying_night.jpg" alt="Chicago Skydeck Laying Night" />
-    </a>
-    <figcaption>Chicago Skydeck Laying Night</figcaption>
-  </figure>
-
-  <figure>
-    <a href="Photos/chicago_riverwalk.jpg" target="_blank">
-      <img src="Photos/chicago_riverwalk.jpg" alt="Chicago Riverwalk" />
-    </a>
-    <figcaption>Chicago Riverwalk</figcaption>
-  </figure>
-
-  <figure>
-    <a href="Photos/dinner_river.jpg" target="_blank">
-      <img src="Photos/dinner_river.jpg" alt="Dinner by the River" />
-    </a>
-    <figcaption>Dinner by the River</figcaption>
-  </figure>
-
-  <figure>
-    <a href="Photos/chicago_riverwalk_boat.jpg" target="_blank">
-      <img src="Photos/chicago_riverwalk_boat.jpg" alt="Chicago Riverwalk Boat" />
-    </a>
-    <figcaption>Chicago Riverwalk Boat</figcaption>
-  </figure>
-</div>
-
-
-    <!-- Contact -->
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
-
-    <!-- Social -->
-    <h2>Social</h2>
-    <p>
-      <a class="social-link" href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
-        <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" width="20" height="20" alt="LinkedIn" title="LinkedIn" />
-        LinkedIn
-      </a>
-      <br>
-      <a class="social-link" href="https://github.com/tuckeryazdani/" target="_blank">
-        <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" width="20" height="20" alt="GitHub" title="GitHub" />
-        GitHub
-      </a>
-    </p>
-
-  </div>
+  <div id="photo-1" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/chicago_skydeck_laying_night.jpg" alt="Enlarged view of Chicago Skydeck at night" loading="lazy" /></div>
+  <div id="photo-2" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/GnocchiChickenAlfredo.jpeg" alt="Enlarged view of gnocchi chicken alfredo meal" loading="lazy" /></div>
+  <div id="photo-3" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/chicago_deepdish.jpg" alt="Enlarged view of Chicago deep dish pizza" loading="lazy" /></div>
+  <div id="photo-4" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/chicago_riverwalk_boat.jpg" alt="Enlarged view of Chicago riverwalk and boat" loading="lazy" /></div>
+  <div id="photo-5" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/SteakDinner.jpeg" alt="Enlarged view of steak dinner" loading="lazy" /></div>
+  <div id="photo-6" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/dinner_river.jpg" alt="Enlarged view of dinner by the river" loading="lazy" /></div>
+  <div id="photo-7" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/PizzaCooked.jpeg" alt="Enlarged view of homemade baked pizza" loading="lazy" /></div>
+  <div id="photo-8" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/RedCurryChickenAndRice.JPG" alt="Enlarged view of red curry chicken and rice" loading="lazy" /></div>
+  <div id="photo-9" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/chicago_skydeck_day.jpg" alt="Enlarged daytime view from Chicago Skydeck" loading="lazy" /></div>
+  <div id="photo-10" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/new_years.jpg" alt="Enlarged view of new year celebration" loading="lazy" /></div>
+  <div id="photo-11" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/PizzaUncooked.jpeg" alt="Enlarged view of homemade uncooked pizza" loading="lazy" /></div>
+  <div id="photo-12" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/chicago_skydeck_night.jpg" alt="Enlarged nighttime Chicago skyline from Skydeck" loading="lazy" /></div>
+  <div id="photo-13" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/ShrimpPenoArrabbiata.jpeg" alt="Enlarged view of shrimp arrabbiata pasta" loading="lazy" /></div>
+  <div id="photo-14" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/RigatoniChickenVodkaSauce.jpeg" alt="Enlarged view of rigatoni with chicken vodka sauce" loading="lazy" /></div>
+  <div id="photo-15" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/jack_frost.jpg" alt="Enlarged winter jack frost scene" loading="lazy" /></div>
+  <div id="photo-16" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/chicago_riverwalk.jpg" alt="Enlarged view of Chicago riverwalk" loading="lazy" /></div>
+  <div id="photo-17" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/FettuciniChickenBasilPesto.jpeg" alt="Enlarged view of fettuccini chicken basil pesto" loading="lazy" /></div>
+  <div id="photo-18" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/riverwalk_dinner_facing.jpg" alt="Enlarged view of riverwalk dinner facing skyline" loading="lazy" /></div>
 </body>
 </html>
