@@ -6,20 +6,23 @@
     <title>Contact | Tucker Yazdani</title>
     <meta name="description" content="Contact Tucker Yazdani for data engineering opportunities." />
     <meta property="og:title" content="Contact | Tucker Yazdani" />
-    <meta property="og:description" content="Contact form and profile links placeholder." />
+    <meta property="og:description" content="Email and professional profile links for Tucker Yazdani." />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="Photos/headshot3.png" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="logo" href="index.html">Tucker Yazdani</a>
+        <a class="brand" href="index.html">
+          <img class="brand-avatar" src="Photos/headshot3.png" alt="Tucker Yazdani" loading="lazy" />
+          <span class="logo">Tucker Yazdani</span>
+        </a>
         <nav class="nav-links" aria-label="Main navigation">
           <a href="index.html">Home</a>
-          <a href="projects.html">Projects</a>
-          <a href="reddit-street-journal.html">Reddit Street Journal</a>
-          <a href="experience.html">Experience</a>
           <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
           <a href="contact.html">Contact</a>
         </nav>
         <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
@@ -29,29 +32,24 @@
     <main class="container">
       <section class="card">
         <h1>Contact</h1>
-        <div class="btn-row">
-          <a class="btn primary" href="mailto:TODO_EMAIL">Email</a>
-          <a class="btn ghost" href="TODO_LINKEDIN_URL">LinkedIn</a>
-        </div>
-        <div class="todo" style="margin-top: 0.8rem;">
-          <p><strong>TODO:</strong> Replace placeholders with your real email and LinkedIn URL.</p>
-        </div>
+        <p>Feel free to reach out for data engineering opportunities or collaboration.</p>
       </section>
 
-      <section class="card">
-        <h2>Send a Message</h2>
-        <form action="mailto:TODO_EMAIL" method="post" enctype="text/plain">
-          <label for="name">Name</label>
-          <input id="name" name="name" type="text" required />
+      <section class="contact-grid">
+        <article class="card">
+          <h2>Email</h2>
+          <p><a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
+        </article>
 
-          <label for="reply">Your Email</label>
-          <input id="reply" name="reply" type="email" required />
+        <article class="card">
+          <h2>LinkedIn</h2>
+          <p><a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank" rel="noopener noreferrer">linkedin.com/in/tuckeryazdani</a></p>
+        </article>
 
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="6" required></textarea>
-
-          <button class="btn primary" type="submit">Send via Email App</button>
-        </form>
+        <article class="card">
+          <h2>GitHub</h2>
+          <p><a href="https://github.com/tuckeryazdani/" target="_blank" rel="noopener noreferrer">github.com/tuckeryazdani</a></p>
+        </article>
       </section>
     </main>
 

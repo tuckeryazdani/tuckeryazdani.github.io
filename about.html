@@ -4,22 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About | Tucker Yazdani</title>
-    <meta name="description" content="About Tucker Yazdani, Data Engineer based in Chicago, IL." />
+    <meta name="description" content="Professional background and technical focus for Tucker Yazdani, Data Engineer in Chicago." />
     <meta property="og:title" content="About | Tucker Yazdani" />
-    <meta property="og:description" content="Background, education, and working style." />
+    <meta property="og:description" content="Data engineering background, core technologies, and career focus." />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="Photos/headshot3.png" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="logo" href="index.html">Tucker Yazdani</a>
+        <a class="brand" href="index.html">
+          <img class="brand-avatar" src="Photos/headshot3.png" alt="Tucker Yazdani" loading="lazy" />
+          <span class="logo">Tucker Yazdani</span>
+        </a>
         <nav class="nav-links" aria-label="Main navigation">
           <a href="index.html">Home</a>
-          <a href="projects.html">Projects</a>
-          <a href="reddit-street-journal.html">Reddit Street Journal</a>
-          <a href="experience.html">Experience</a>
           <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
           <a href="contact.html">Contact</a>
         </nav>
         <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
@@ -28,28 +31,42 @@
 
     <main class="container">
       <section class="card">
+        <img class="about-photo" src="Photos/headshot3.png" alt="Headshot of Tucker Yazdani" />
         <h1>About</h1>
         <p>
-          Tucker Yazdani is a Data Engineer in Chicago, IL with 3 years building production ETL pipelines using Python, SQL, Spark, and Airflow across AWS and Azure. Work includes sensitive client data and PII in regulated healthcare and financial environments, with a focus on data quality and reliability.
+          I am a Data Engineer based in Chicago with 3 years of experience building production ETL pipelines using Python, SQL, Spark, and Airflow across AWS and Azure. My work centers on dependable data foundations, quality controls, and systems that perform reliably in regulated healthcare and financial settings.
         </p>
       </section>
 
-      <section class="card">
-        <h2>Education</h2>
-        <p><strong>University of West Georgia</strong> — BS Mathematics (Stats and Actuarial Science), Dec 2019, Carrollton, GA</p>
-        <ul>
-          <li>Dean's List</li>
-          <li>Department Scholarship</li>
-        </ul>
+      <section class="card grid-2">
+        <article>
+          <h2>Technical Focus</h2>
+          <ul>
+            <li>Production-grade ETL pipeline development.</li>
+            <li>Data quality and reliability in operational workflows.</li>
+            <li>Handling sensitive client data and PII with care.</li>
+          </ul>
+        </article>
+        <article>
+          <h2>Technologies I Use</h2>
+          <ul class="chips">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Spark</li>
+            <li>Airflow</li>
+            <li>Snowflake</li>
+            <li>Databricks</li>
+            <li>AWS</li>
+            <li>Azure</li>
+          </ul>
+        </article>
       </section>
 
       <section class="card">
-        <h2>Working Style</h2>
-        <ul>
-          <li>Focuses on data quality and reliability.</li>
-          <li>Builds in regulated environments where data handling requirements are strict.</li>
-          <li>TODO: Add preferred collaboration style and communication preferences.</li>
-        </ul>
+        <h2>Career Focus & Interests</h2>
+        <p>
+          I enjoy building and improving data platforms that help teams trust their reporting and analytics. I am especially interested in scalable pipeline architecture, operational reliability, and clear data workflows that support long-term growth.
+        </p>
       </section>
     </main>
 
