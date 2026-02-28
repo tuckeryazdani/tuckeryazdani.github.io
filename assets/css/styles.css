@@ -295,6 +295,55 @@ h2 {
   margin-top: 0.85rem;
 }
 
+
+.tech-label {
+  margin: 0.4rem 0 0.52rem;
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.experience-grid {
+  display: block;
+  border-left: 0;
+  padding-left: 1.35rem;
+}
+
+.experience-grid .timeline-item {
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--surface) 84%, var(--accent-soft));
+  border-radius: 14px;
+  padding: 1rem;
+  position: relative;
+}
+
+.experience-grid .timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -1.2rem;
+  top: 1.25rem;
+  width: 0.64rem;
+  height: 0.64rem;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+.experience-grid .timeline-item h2 {
+  margin-bottom: 0.35rem;
+  font-size: clamp(1.18rem, 2.2vw, 1.5rem);
+}
+
+.experience-grid .chips {
+  margin-top: 0.2rem;
+}
+
+.experience-grid .timeline-item + .timeline-item {
+  margin-top: 1rem;
+}
+
 form {
   display: grid;
   gap: 0.68rem;
@@ -334,6 +383,7 @@ footer {
   .stack-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
 }
 
 @media (max-width: 920px) {
@@ -341,5 +391,9 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     padding: 0.72rem 0;
+  }
+
+  .experience-grid {
+    padding-left: 0.92rem;
   }
 }
