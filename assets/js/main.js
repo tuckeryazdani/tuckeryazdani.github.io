@@ -10,6 +10,7 @@ if (toggle) {
   const setIcon = () => {
     toggle.textContent = root.getAttribute('data-theme') === 'dark' ? '☀️' : '🌙';
   };
+
   setIcon();
   toggle.addEventListener('click', () => {
     const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
@@ -20,13 +21,20 @@ if (toggle) {
 }
 
 const cards = document.querySelectorAll('.card');
-const reveal = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) entry.target.classList.add('visible');
-  });
-}, { threshold: 0.12 });
+if ('IntersectionObserver' in window) {
+  const reveal = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    },
+    { threshold: 0.12 }
+  );
 
-cards.forEach((card) => reveal.observe(card));
+  cards.forEach((card) => reveal.observe(card));
+} else {
+  cards.forEach((card) => card.classList.add('visible'));
+}
 
 const path = window.location.pathname.split('/').pop() || 'index.html';
 document.querySelectorAll('.nav-links a').forEach((link) => {
@@ -34,4 +42,5 @@ document.querySelectorAll('.nav-links a').forEach((link) => {
   if (href === path) link.classList.add('active');
 });
 
-document.getElementById('year').textContent = new Date().getFullYear();
+const year = document.getElementById('year');
+if (year) year.textContent = new Date().getFullYear();
