@@ -397,3 +397,57 @@ footer {
     padding-left: 0.92rem;
   }
 }
+
+.media-grid,
+.tweet-list {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.media-card {
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  background: var(--surface-soft);
+}
+
+.media-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.tweet-card {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 0.95rem;
+  background: color-mix(in srgb, var(--surface) 84%, var(--accent-soft));
+}
+
+.tweet-card h3 {
+  margin-bottom: 0.45rem;
+  font-size: 1.03rem;
+}
+
+.tweet-card p {
+  margin: 0.25rem 0;
+}
+
+@media (min-width: 860px) {
+  .media-grid,
+  .tweet-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1080px) {
+  .media-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .tweet-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
