@@ -1,110 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Photos | Tucker Yazdani</title>
-  <meta name="description" content="Lifestyle, travel, and activity photos from Tucker Yazdani." />
-  <link href="main.css" rel="stylesheet" />
-</head>
-<body class="photo-page">
-  <div class="topnav" aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="twitter.html">Twitter</a>
-    <a class="active" href="photos.html" aria-current="page">Photos</a>
-  </div>
-
-  <main class="content">
-    <header class="photo-header">
-      <h1>Photos</h1>
-      <p>Collection of travel, lifestyle, and activity moments.</p>
-      <div class="photo-tags" aria-label="Photo categories">
-        <span>Travel</span>
-        <span>City</span>
-        <span>Food</span>
-        <span>Seasonal</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photos | Tucker Yazdani</title>
+    <meta name="description" content="Photo gallery with cooking dishes and personal photos from Tucker Yazdani." />
+    <meta property="og:title" content="Photos | Tucker Yazdani" />
+    <meta property="og:description" content="Cooking creations and personal photos in a responsive gallery." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="Photos/PizzaCooked.jpeg" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <img class="brand-avatar" src="Photos/headshot3.png" alt="Tucker Yazdani" loading="lazy" />
+          <span class="logo">Tucker Yazdani</span>
+        </a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
       </div>
     </header>
 
-    <section class="photo-gallery" aria-label="Photo gallery">
-      <figure class="photo-card">
-        <a href="#photo-1"><img src="Photos/chicago_skydeck_laying_night.jpg" alt="Gallery image placeholder: Chicago Skydeck at night" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-2"><img src="Photos/GnocchiChickenAlfredo.jpeg" alt="Gallery image placeholder: Gnocchi chicken alfredo meal" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-3"><img src="Photos/chicago_deepdish.jpg" alt="Gallery image placeholder: Chicago deep dish pizza" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-4"><img src="Photos/chicago_riverwalk_boat.jpg" alt="Gallery image placeholder: Chicago riverwalk and boat" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-5"><img src="Photos/SteakDinner.jpeg" alt="Gallery image placeholder: Steak dinner" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-6"><img src="Photos/dinner_river.jpg" alt="Gallery image placeholder: Dinner by the river" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-7"><img src="Photos/PizzaCooked.jpeg" alt="Gallery image placeholder: Homemade baked pizza" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-8"><img src="Photos/RedCurryChickenAndRice.JPG" alt="Gallery image placeholder: Red curry chicken and rice" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-9"><img src="Photos/chicago_skydeck_day.jpg" alt="Gallery image placeholder: Chicago Skydeck daytime view" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-10"><img src="Photos/new_years.jpg" alt="Gallery image placeholder: New year celebration" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-11"><img src="Photos/PizzaUncooked.jpeg" alt="Gallery image placeholder: Homemade uncooked pizza" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-12"><img src="Photos/chicago_skydeck_night.jpg" alt="Gallery image placeholder: Chicago Skyline at night" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-13"><img src="Photos/ShrimpPenoArrabbiata.jpeg" alt="Gallery image placeholder: Shrimp arrabbiata pasta" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-14"><img src="Photos/RigatoniChickenVodkaSauce.jpeg" alt="Gallery image placeholder: Rigatoni with chicken vodka sauce" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-15"><img src="Photos/jack_frost.jpg" alt="Gallery image placeholder: Winter jack frost scene" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-16"><img src="Photos/chicago_riverwalk.jpg" alt="Gallery image placeholder: Chicago riverwalk view" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-17"><img src="Photos/FettuciniChickenBasilPesto.jpeg" alt="Gallery image placeholder: Fettuccini chicken basil pesto" loading="lazy" /></a>
-      </figure>
-      <figure class="photo-card">
-        <a href="#photo-18"><img src="Photos/riverwalk_dinner_facing.jpg" alt="Gallery image placeholder: Riverwalk dinner facing skyline" loading="lazy" /></a>
-      </figure>
-    </section>
+    <main class="container">
+      <section class="card">
+        <p class="eyebrow">Photos</p>
+        <h1>Photo Gallery</h1>
+        <p class="subtitle">A mix of food I love to cook and moments from around Chicago.</p>
+      </section>
 
-    <aside class="photo-note">Tap or click any image to enlarge.</aside>
-  </main>
+      <section class="card">
+        <h2>Cooking</h2>
+        <p>Dishes I have made recently, from pasta nights to pizza and steak.</p>
+        <div class="media-grid" aria-label="Cooking photos">
+          <figure class="media-card"><img src="Photos/GnocchiChickenAlfredo.jpeg" alt="Gnocchi with chicken alfredo" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/FettuciniChickenBasilPesto.jpeg" alt="Fettuccini chicken basil pesto" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/RigatoniChickenVodkaSauce.jpeg" alt="Rigatoni with chicken vodka sauce" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/ShrimpPenoArrabbiata.jpeg" alt="Shrimp arrabbiata pasta" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/RedCurryChickenAndRice.JPG" alt="Red curry chicken and rice" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/PizzaCooked.jpeg" alt="Homemade baked pizza" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/PizzaUncooked.jpeg" alt="Homemade uncooked pizza" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/SteakDinner.jpeg" alt="Steak dinner" loading="lazy" /></figure>
+        </div>
+      </section>
 
-  <div id="photo-1" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/chicago_skydeck_laying_night.jpg" alt="Enlarged view of Chicago Skydeck at night" loading="lazy" /></div>
-  <div id="photo-2" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/GnocchiChickenAlfredo.jpeg" alt="Enlarged view of gnocchi chicken alfredo meal" loading="lazy" /></div>
-  <div id="photo-3" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/chicago_deepdish.jpg" alt="Enlarged view of Chicago deep dish pizza" loading="lazy" /></div>
-  <div id="photo-4" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/chicago_riverwalk_boat.jpg" alt="Enlarged view of Chicago riverwalk and boat" loading="lazy" /></div>
-  <div id="photo-5" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/SteakDinner.jpeg" alt="Enlarged view of steak dinner" loading="lazy" /></div>
-  <div id="photo-6" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/dinner_river.jpg" alt="Enlarged view of dinner by the river" loading="lazy" /></div>
-  <div id="photo-7" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/PizzaCooked.jpeg" alt="Enlarged view of homemade baked pizza" loading="lazy" /></div>
-  <div id="photo-8" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/RedCurryChickenAndRice.JPG" alt="Enlarged view of red curry chicken and rice" loading="lazy" /></div>
-  <div id="photo-9" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/chicago_skydeck_day.jpg" alt="Enlarged daytime view from Chicago Skydeck" loading="lazy" /></div>
-  <div id="photo-10" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/new_years.jpg" alt="Enlarged view of new year celebration" loading="lazy" /></div>
-  <div id="photo-11" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/PizzaUncooked.jpeg" alt="Enlarged view of homemade uncooked pizza" loading="lazy" /></div>
-  <div id="photo-12" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/chicago_skydeck_night.jpg" alt="Enlarged nighttime Chicago skyline from Skydeck" loading="lazy" /></div>
-  <div id="photo-13" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/ShrimpPenoArrabbiata.jpeg" alt="Enlarged view of shrimp arrabbiata pasta" loading="lazy" /></div>
-  <div id="photo-14" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/RigatoniChickenVodkaSauce.jpeg" alt="Enlarged view of rigatoni with chicken vodka sauce" loading="lazy" /></div>
-  <div id="photo-15" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/jack_frost.jpg" alt="Enlarged winter jack frost scene" loading="lazy" /></div>
-  <div id="photo-16" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/chicago_riverwalk.jpg" alt="Enlarged view of Chicago riverwalk" loading="lazy" /></div>
-  <div id="photo-17" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/FettuciniChickenBasilPesto.jpeg" alt="Enlarged view of fettuccini chicken basil pesto" loading="lazy" /></div>
-  <div id="photo-18" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close image">×</a><img src="Photos/riverwalk_dinner_facing.jpg" alt="Enlarged view of riverwalk dinner facing skyline" loading="lazy" /></div>
-</body>
+      <section class="card">
+        <h2>Photos of Me</h2>
+        <p>Some personal favorites from the city, skyline, and seasonal moments.</p>
+        <div class="media-grid" aria-label="Personal photos">
+          <figure class="media-card"><img src="Photos/headshot3.png" alt="Headshot of Tucker Yazdani" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/chicago_skydeck_day.jpg" alt="Daytime skyline view from Chicago Skydeck" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/chicago_skydeck_night.jpg" alt="Night skyline view from Chicago Skydeck" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/chicago_skydeck_laying_night.jpg" alt="Night skyline view from Skydeck" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/chicago_riverwalk.jpg" alt="Chicago Riverwalk" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/chicago_riverwalk_boat.jpg" alt="Boat passing through Chicago Riverwalk" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/new_years.jpg" alt="New year celebration" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/jack_frost.jpg" alt="Winter jack frost scene" loading="lazy" /></figure>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">© <span id="year"></span> Tucker Yazdani</div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
