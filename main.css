@@ -233,6 +233,17 @@ h2 {
   background: color-mix(in srgb, var(--surface) 92%, var(--accent-soft));
 }
 
+.project-card .chips {
+  margin-bottom: 0;
+}
+
+.project-card .btn-row {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
 .section-heading {
   display: flex;
   flex-direction: column;
