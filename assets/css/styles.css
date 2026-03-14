@@ -263,6 +263,13 @@ h2 {
   justify-content: space-between;
 }
 
+.project-card .btn-row {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
 .chips {
   list-style: none;
   display: flex;
