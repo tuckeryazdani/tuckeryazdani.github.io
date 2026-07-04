@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tucker Yazdani | Data Engineer</title>
-    <meta name="description" content="Tucker Yazdani is a Data Engineer in Chicago building production ETL pipelines focused on data quality and reliability." />
-    <meta property="og:title" content="Tucker Yazdani | Data Engineer" />
+    <title>Tucker Yazdani | Data Engineer and Platform Engineer</title>
+    <meta name="description" content="Tucker Yazdani is a Data Engineer and Platform Engineer in Chicago building reliable data pipelines, cloud data platforms, and analytics systems." />
+    <meta property="og:title" content="Tucker Yazdani | Data Engineer and Platform Engineer" />
     <meta property="og:description" content="Portfolio featuring data engineering experience, projects, and contact information." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="Photos/headshot3.png" />
@@ -32,50 +32,137 @@
     </header>
 
     <main class="container">
-      <section class="card hero" id="hero">
-        <div>
-          <p class="eyebrow">Chicago, IL</p>
+      <section class="card hero premium-hero" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Chicago, IL · Data Platforms · Analytics Engineering</p>
           <h1>Tucker Yazdani</h1>
-          <p class="subtitle">Data Engineer</p>
-          <p>
-            I build production ETL pipelines with Python, SQL, Spark, and Airflow across AWS and Azure. My focus is delivering reliable, high-quality data systems in healthcare and financial environments handling sensitive data and PII.
+          <p class="subtitle hero-role">Data Engineer and Platform Engineer</p>
+          <p class="hero-intro">
+            I build reliable data pipelines, cloud data platforms, and analytics systems that turn raw data into trusted business intelligence.
           </p>
-          <div class="btn-row">
-            <a class="btn primary" href="projects.html">Projects</a>
-            <a class="btn ghost" href="experience.html">Resume</a>
+          <div class="hero-highlights" aria-label="Portfolio highlights">
+            <span>Production ETL</span>
+            <span>Cloud Data Platforms</span>
+            <span>Pipeline Reliability</span>
+          </div>
+          <div class="btn-row hero-actions">
+            <a class="btn primary" href="experience.html">Resume</a>
+            <a class="btn ghost" href="projects.html">Projects</a>
             <a class="btn ghost" href="contact.html">Contact</a>
           </div>
         </div>
         <div class="hero-media">
-          <img class="hero-photo" src="Photos/headshot3.png" alt="Headshot of Tucker Yazdani" fetchpriority="high" />
+          <div class="photo-frame">
+            <img class="hero-photo" src="Photos/headshot3.png" alt="Headshot of Tucker Yazdani" fetchpriority="high" />
+          </div>
+        </div>
+      </section>
+
+      <section class="card section-heading-card">
+        <p class="eyebrow">Technical Focus</p>
+        <h2>Modern data engineering across pipelines, platforms, and trusted analytics.</h2>
+        <div class="skill-categories" aria-label="Technical skill categories">
+          <article class="skill-card">
+            <h3>Data Engineering</h3>
+            <ul class="chips">
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Spark</li>
+              <li>Airflow</li>
+              <li>ETL Pipelines</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Cloud and Platforms</h3>
+            <ul class="chips">
+              <li>Azure</li>
+              <li>AWS</li>
+              <li>GCP BigQuery</li>
+              <li>Databricks</li>
+              <li>Snowflake</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Data Systems</h3>
+            <ul class="chips">
+              <li>Data Warehousing</li>
+              <li>Delta Lake</li>
+              <li>Data Quality</li>
+              <li>Pipeline Reliability</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="card case-study-card">
+        <div class="case-study-header">
+          <div>
+            <p class="eyebrow">Featured Project</p>
+            <h2>Reddit Street Journal <span class="role-meta">(Completed Jun 2024)</span></h2>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="reddit-street-journal.html">Read Case Study</a>
+            <a class="btn ghost" href="https://github.com/tuckeryazdani/Reddit_Street_Journal" target="_blank" rel="noopener noreferrer">View GitHub</a>
+          </div>
+        </div>
+        <div class="case-study-grid">
+          <article>
+            <h3>Problem</h3>
+            <p>Market conversations on Reddit move quickly, making it difficult to identify relevant stock trends and summarize signals consistently.</p>
+          </article>
+          <article>
+            <h3>Solution</h3>
+            <p>Automated pipeline to identify trending stocks from Reddit discussions, fetch live Yahoo Finance price data, generate AI-powered summaries, and publish outputs to Twitter and GitHub Pages.</p>
+          </article>
+          <article>
+            <h3>Tech Stack</h3>
+            <ul class="chips">
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Docker</li>
+              <li>GCP</li>
+              <li>Yahoo Finance</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Impact</h3>
+            <p>Created a repeatable publishing workflow that turns noisy social data into structured, timely market summaries.</p>
+          </article>
         </div>
       </section>
 
       <section class="card">
-        <h2>Technical Focus</h2>
-        <ul class="chips" aria-label="Core technologies">
-          <li>Python</li>
-          <li>SQL</li>
-          <li>Snowflake</li>
-          <li>Databricks</li>
-          <li>Airflow</li>
-          <li>Spark</li>
-          <li>AWS</li>
-          <li>Azure</li>
-          <li>GCP</li>
-        </ul>
+        <p class="eyebrow">Experience</p>
+        <h2>Built for reliability, quality, and business trust.</h2>
+        <div class="experience-highlights">
+          <span>Production ETL pipelines</span>
+          <span>Data quality and reliability</span>
+          <span>Cloud data infrastructure</span>
+          <span>Databricks and Snowflake platform work</span>
+          <span>Sensitive data and PII handling</span>
+          <span>Analytics and business intelligence support</span>
+          <span>Pipeline automation</span>
+        </div>
       </section>
 
-      <section class="card">
-        <h2>Featured Project</h2>
-        <h3>Reddit Street Journal <span class="role-meta">(Completed Jun 2024)</span></h3>
-        <p>
-          Automated pipeline to identify trending stocks from Reddit discussions, fetch live Yahoo Finance price data, generate AI-powered summaries, and publish outputs to Twitter and GitHub Pages.
-        </p>
-        <div class="btn-row">
-          <a class="btn primary" href="reddit-street-journal.html">Read Case Study</a>
-          <a class="btn ghost" href="https://github.com/tuckeryazdani/Reddit_Street_Journal" target="_blank" rel="noopener noreferrer">View GitHub</a>
-        </div>
+      <section class="card grid-2 about-contact-preview">
+        <article>
+          <p class="eyebrow">About</p>
+          <h2>Data-focused engineering with platform depth.</h2>
+          <p>
+            Tucker is a data focused engineer working across data engineering and platform engineering. His work centers on building reliable ingestion, transformation, storage, and analytics systems that help teams trust and use their data effectively.
+          </p>
+        </article>
+        <article class="contact-panel">
+          <p class="eyebrow">Contact</p>
+          <h2>Professional Links</h2>
+          <div class="link-list">
+            <a href="mailto:tuckeryazdani@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/tuckeryazdani/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="experience.html">Resume</a>
+          </div>
+        </article>
       </section>
     </main>
 

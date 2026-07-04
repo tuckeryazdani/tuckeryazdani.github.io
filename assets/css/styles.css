@@ -1,26 +1,32 @@
 :root {
-  --bg: #f4f7fb;
+  color-scheme: light;
+  --bg: #eef4fb;
   --surface: #ffffff;
   --surface-soft: #f8fbff;
+  --surface-glass: rgba(255, 255, 255, 0.74);
   --text: #0f172a;
   --muted: #475569;
   --border: #dbe4f0;
   --accent: #2563eb;
-  --accent-strong: #1d4ed8;
+  --accent-strong: #14b8a6;
+  --accent-hot: #7c3aed;
   --accent-soft: rgba(37, 99, 235, 0.1);
   --shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
   --shadow-soft: 0 10px 25px rgba(15, 23, 42, 0.06);
 }
 
 :root[data-theme='dark'] {
+  color-scheme: dark;
   --bg: #020617;
   --surface: #0b1120;
   --surface-soft: #111b30;
+  --surface-glass: rgba(11, 17, 32, 0.78);
   --text: #e5edf8;
   --muted: #9eb1ca;
   --border: #1e2a3f;
   --accent: #60a5fa;
-  --accent-strong: #93c5fd;
+  --accent-strong: #2dd4bf;
+  --accent-hot: #a78bfa;
   --accent-soft: rgba(96, 165, 250, 0.16);
   --shadow: 0 22px 48px rgba(2, 6, 23, 0.52);
   --shadow-soft: 0 12px 30px rgba(2, 6, 23, 0.42);
@@ -36,7 +42,10 @@ html {
 
 body {
   margin: 0;
-  background: radial-gradient(circle at top, var(--surface-soft), var(--bg) 52%);
+  background:
+    radial-gradient(circle at 16% 8%, color-mix(in srgb, var(--accent) 20%, transparent), transparent 28rem),
+    radial-gradient(circle at 88% 12%, color-mix(in srgb, var(--accent-hot) 16%, transparent), transparent 24rem),
+    linear-gradient(180deg, var(--surface-soft), var(--bg) 42rem);
   color: var(--text);
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   line-height: 1.65;
@@ -61,7 +70,7 @@ img {
   top: 0;
   z-index: 100;
   border-bottom: 1px solid var(--border);
-  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  background: var(--surface-glass);
   backdrop-filter: blur(14px);
 }
 
@@ -126,19 +135,19 @@ img {
 }
 
 main {
-  padding: 1.6rem 0 2.2rem;
+  padding: 2rem 0 2.8rem;
 }
 
 section + section {
-  margin-top: 1rem;
+  margin-top: 1.15rem;
 }
 
 .card {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 20px;
+  border-radius: 24px;
   box-shadow: var(--shadow-soft);
-  padding: 1.35rem;
+  padding: 1.45rem;
   opacity: 0;
   transform: translateY(8px);
   transition: opacity 0.45s ease, transform 0.45s ease;
@@ -151,8 +160,34 @@ section + section {
 
 .hero {
   display: grid;
-  gap: 1.2rem;
+  gap: 1.6rem;
   align-items: center;
+  min-height: 34rem;
+}
+
+.premium-hero {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--surface) 84%, var(--accent-soft)), var(--surface)),
+    var(--surface);
+}
+
+.premium-hero::before {
+  content: '';
+  position: absolute;
+  inset: -35% -20% auto auto;
+  width: 32rem;
+  height: 32rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 30%, transparent), transparent 66%);
+  pointer-events: none;
+}
+
+.hero-copy,
+.hero-media {
+  position: relative;
+  z-index: 1;
 }
 
 .hero-media {
@@ -161,10 +196,10 @@ section + section {
 }
 
 .hero-photo {
-  width: min(280px, 70vw);
+  width: min(300px, 72vw);
   aspect-ratio: 1;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 28px;
   border: 6px solid color-mix(in srgb, var(--accent) 20%, var(--surface));
   box-shadow: var(--shadow);
 }
@@ -196,7 +231,8 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(2rem, 5.2vw, 3.1rem);
+  font-size: clamp(2.55rem, 7vw, 5rem);
+  letter-spacing: -0.055em;
   margin-bottom: 0.4rem;
 }
 
@@ -219,7 +255,7 @@ h2 {
 
 .btn {
   display: inline-block;
-  padding: 0.65rem 0.95rem;
+  padding: 0.78rem 1.05rem;
   border-radius: 11px;
   text-decoration: none;
   font-weight: 700;
@@ -456,5 +492,130 @@ footer {
 
   .tweet-list {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+
+.hero-role {
+  color: var(--text);
+  font-size: clamp(1.25rem, 2.8vw, 1.75rem);
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+}
+
+.hero-intro {
+  max-width: 48rem;
+  color: var(--muted);
+  font-size: clamp(1.05rem, 2.2vw, 1.24rem);
+  margin-bottom: 1.2rem;
+}
+
+.hero-highlights,
+.experience-highlights,
+.link-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.hero-highlights span,
+.experience-highlights span,
+.link-list a {
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--border));
+  background: color-mix(in srgb, var(--surface) 82%, var(--accent-soft));
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.48rem 0.78rem;
+  font-weight: 750;
+  text-decoration: none;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.04);
+}
+
+.hero-actions {
+  margin-top: 1.35rem;
+}
+
+.photo-frame {
+  position: relative;
+  padding: 0.75rem;
+  border-radius: 36px;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 38%, transparent), color-mix(in srgb, var(--accent-hot) 24%, transparent));
+  box-shadow: var(--shadow);
+}
+
+.section-heading-card h2,
+.case-study-card > h2 {
+  max-width: 48rem;
+}
+
+.skill-categories,
+.case-study-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skill-card,
+.case-study-grid article,
+.contact-panel {
+  border: 1px solid color-mix(in srgb, var(--accent) 16%, var(--border));
+  border-radius: 18px;
+  padding: 1rem;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--surface) 90%, var(--accent-soft)), var(--surface));
+}
+
+.skill-card h3,
+.case-study-grid h3 {
+  margin-bottom: 0.55rem;
+}
+
+.case-study-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.experience-highlights {
+  margin-top: 1rem;
+}
+
+.link-list {
+  align-items: flex-start;
+}
+
+.link-list a:hover,
+.link-list a:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+@media (min-width: 860px) {
+  .skill-categories {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .case-study-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-links {
+    gap: 0.65rem;
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
   }
 }
