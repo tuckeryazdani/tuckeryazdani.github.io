@@ -1,63 +1,34 @@
-# Tucker Yazdani Portfolio (GitHub Pages)
+# Tucker Yazdani — Portfolio
 
-Modern multi-page portfolio built with HTML, CSS, and vanilla JavaScript.
+A responsive multi-page portfolio focused on data engineering and platform engineering. Built with semantic HTML, modern CSS, and small, dependency-free JavaScript enhancements.
 
-## File Structure
+## Pages
 
-```text
-/
-├── index.html
-├── projects.html
-├── experience.html
-├── about.html
-├── contact.html
-├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   ├── js/
-│   │   └── main.js
-│   └── img/
-│       └── README.md
-```
+- `index.html` — professional overview, capabilities, current role, and featured project
+- `about.html` — engineering approach and technical skill matrix
+- `experience.html` — current and previous professional experience
+- `projects.html` — project summaries organized by problem, contribution, technology, and outcome
+- `reddit-street-journal.html` — detailed project case study
+- `contact.html` — email and professional profiles
+- `photos.html` — personal photo gallery
+- `twitter.html` — archived Reddit Street Journal output
 
-## Features
-- Sticky top navigation with active-page highlight
-- Smooth scrolling support
-- Dark mode toggle with `localStorage` persistence
-- Responsive, accessible layout
-- SEO and Open Graph tags
-- Resume-safe content model with TODO placeholders for missing links/details
+## Local preview
 
-## Local Preview
+Run a static server from the repository root:
 
 ```bash
-python3 -m http.server 8000
+python -m http.server 8000
 ```
 
-Open `http://localhost:8000`.
+Then open `http://localhost:8000`.
 
-## GitHub Pages Deployment
+## Design and accessibility
 
-1. Push this repository to GitHub.
-2. Go to repository **Settings → Pages**.
-3. Under **Build and deployment**, select **Deploy from a branch**.
-4. Choose your publish branch (e.g., `main`) and folder (`/root`).
-5. Save and wait for deployment.
-6. Open the provided GitHub Pages URL.
+- Responsive desktop and mobile layouts
+- Keyboard-accessible mobile navigation
+- Persistent light/dark theme with system preference support
+- Visible focus states, a skip link, reduced-motion support, and semantic page structure
+- Shared styles in `assets/css/styles.css` and interactions in `assets/js/main.js`
 
-## TODO Setup Checklist
-- Replace `TODO_EMAIL`, `TODO_LINKEDIN_URL`, `TODO_GITHUB_URL`, `TODO_TWITTER_URL`, `TODO_GITHUB_PAGES_URL`.
-- Add role-specific experience bullets and technologies where marked `Add details`.
-- Add a `resume.pdf` file to root, then update hero resume link.
-
-
-## Netlify Deployment
-
-This repo includes `netlify.toml` configured to produce a `_site` folder and publish from `_site`.
-This avoids failures when a Netlify site still expects `_site` as the deploy directory.
-
-1. Commit and push `netlify.toml`.
-2. In Netlify **Site settings → Build & deploy → Build settings**, clear old UI overrides if present.
-3. Trigger a new deploy.
-
-This site does not require Ruby, Bundler, or Jekyll.
+The `gh-pages` branch deploys to Firebase Hosting through the workflows in `.github/workflows`.

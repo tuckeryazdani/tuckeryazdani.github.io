@@ -3,78 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3f7f6" />
     <title>About | Tucker Yazdani</title>
-    <meta name="description" content="Professional background and technical focus for Tucker Yazdani, Data Engineer in Chicago." />
+    <meta name="description" content="About Tucker Yazdani, a data engineer with platform engineering experience across Databricks, Snowflake, and Azure." />
     <meta property="og:title" content="About | Tucker Yazdani" />
-    <meta property="og:description" content="Data engineering background, core technologies, and career focus." />
+    <meta property="og:description" content="Data engineering with a platform mindset, focused on reliable pipelines and dependable enterprise analytics platforms." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="Photos/headshot3.png" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="index.html">
-          <img class="brand-avatar" src="Photos/headshot3.png" alt="Tucker Yazdani" loading="lazy" />
-          <span class="logo">Tucker Yazdani</span>
+        <a class="brand" href="index.html" aria-label="Tucker Yazdani, home">
+          <span class="brand-mark" aria-hidden="true">TY</span>
+          <span class="brand-copy"><strong>Tucker Yazdani</strong><small>Data &amp; Platform Engineering</small></span>
         </a>
-        <nav class="nav-links" aria-label="Main navigation">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="projects.html">Projects</a>
-          <a href="experience.html">Experience</a>
-          <a href="contact.html">Contact</a>
-          <a href="photos.html">Photos</a>
-          <a href="twitter.html">Twitter</a>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="sr-only">Open navigation</span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+        </button>
+        <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
+          <a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="experience.html">Experience</a><a href="contact.html">Contact</a>
         </nav>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme"><span class="theme-icon" aria-hidden="true">◐</span></button>
       </div>
     </header>
 
-    <main class="container">
-      <section class="card">
-        <img class="about-photo" src="Photos/headshot3.png" alt="Headshot of Tucker Yazdani" />
-        <p class="eyebrow">About</p>
-        <h1>Data engineering with a platform mindset.</h1>
-        <p>
-          Tucker is a data focused engineer working across data engineering and platform engineering. His work centers on building reliable ingestion, transformation, storage, and analytics systems that help teams trust and use their data effectively.
-        </p>
+    <main class="container" id="main-content">
+      <section class="page-hero about-hero section-space reveal">
+        <div>
+          <p class="eyebrow">About</p>
+          <h1>Data engineering with a <span class="accent-text">platform mindset.</span></h1>
+          <p class="page-lede">I work where data delivery and platform reliability meet—building the pipelines analysts depend on and supporting the services engineering teams use to run them.</p>
+        </div>
+        <div class="about-portrait">
+          <img src="Photos/headshot3.png" alt="Tucker Yazdani" />
+          <div><p class="mini-label">Based in</p><p>Chicago, Illinois</p></div>
+        </div>
       </section>
 
-      <section class="card grid-2">
-        <article>
-          <h2>Technical Focus</h2>
-          <ul>
-            <li>Production-grade ETL pipeline development.</li>
-            <li>Data quality and reliability in operational workflows.</li>
-            <li>Handling sensitive client data and PII with care.</li>
-          </ul>
-        </article>
-        <article>
-          <h2>Technologies I Use</h2>
-          <ul class="chips">
-            <li>Python</li>
-            <li>SQL</li>
-            <li>Spark</li>
-            <li>Airflow</li>
-            <li>Snowflake</li>
-            <li>Databricks</li>
-            <li>AWS</li>
-            <li>Azure</li>
-          </ul>
-        </article>
+      <section class="section-space reveal" aria-labelledby="approach-title">
+        <div class="section-heading split-heading">
+          <div><p class="eyebrow">How I work</p><h2 id="approach-title">Practical engineering, built for the people using it.</h2></div>
+          <p>I care about the unglamorous details that make data systems trustworthy: predictable processing, clear ownership, governed publishing, sensible access, and repeatable releases.</p>
+        </div>
+        <div class="principle-grid">
+          <article><span>01</span><h3>Reliability first</h3><p>Design workflows and operational practices that make failures easier to prevent, diagnose, and recover from.</p></article>
+          <article><span>02</span><h3>Shared-service thinking</h3><p>Support platform patterns that work across teams and portfolios without overstating any one contributor’s ownership.</p></article>
+          <article><span>03</span><h3>Clear delivery</h3><p>Prefer understandable code, governed outputs, and automation that makes changes safer to ship and support.</p></article>
+        </div>
       </section>
 
-      <section class="card">
-        <h2>Career Focus & Interests</h2>
-        <p>
-          I enjoy building and improving data platforms that help teams trust their reporting and analytics. I am especially interested in scalable pipeline architecture, operational reliability, and clear data workflows that support long-term growth.
-        </p>
+      <section class="section-space reveal" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2 id="skills-title">A toolkit spanning pipelines, platforms, and delivery.</h2>
+        </div>
+        <div class="skills-matrix">
+          <article>
+            <div class="skill-heading"><span class="skill-index">01</span><div><p class="mini-label">Core discipline</p><h3>Data engineering</h3></div></div>
+            <ul class="skill-list"><li>Python &amp; PySpark</li><li>SQL &amp; data modeling</li><li>Delta Lake</li><li>API ingestion</li><li>CDC processing</li><li>Governed datasets</li></ul>
+          </article>
+          <article>
+            <div class="skill-heading"><span class="skill-index">02</span><div><p class="mini-label">Shared services</p><h3>Platform engineering</h3></div></div>
+            <ul class="skill-list"><li>Databricks</li><li>Snowflake</li><li>Microsoft Azure</li><li>Cluster sizing</li><li>Service principals</li><li>Catalog integrations</li></ul>
+          </article>
+          <article>
+            <div class="skill-heading"><span class="skill-index">03</span><div><p class="mini-label">Operations</p><h3>Delivery &amp; support</h3></div></div>
+            <ul class="skill-list"><li>Databricks Asset Bundles</li><li>Azure DevOps</li><li>CI/CD</li><li>Production troubleshooting</li><li>Deployment automation</li><li>Airflow</li></ul>
+          </article>
+          <article>
+            <div class="skill-heading"><span class="skill-index">04</span><div><p class="mini-label">Additional experience</p><h3>Data ecosystem</h3></div></div>
+            <ul class="skill-list"><li>SQL Server &amp; SSIS</li><li>Pandas &amp; Polars</li><li>Snowpark</li><li>AWS</li><li>GCP &amp; BigQuery</li><li>Docker</li></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-note section-space reveal">
+        <p class="eyebrow">Current focus</p>
+        <div><h2>Supporting the path from source systems to trusted analytics.</h2><p>At Conagra Brands, I build enterprise data pipelines while also contributing to the shared Databricks services those pipelines run on. I separately support Snowflake platform engineering.</p></div>
+        <a class="text-link" href="experience.html">See how the role comes together <span aria-hidden="true">→</span></a>
       </section>
     </main>
 
-    <footer>
-      <div class="container">© <span id="year"></span> Tucker Yazdani</div>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div><span class="brand-mark small" aria-hidden="true">TY</span><p>Data Engineering &amp; Platform Engineering<br /><span>Chicago, Illinois</span></p></div>
+        <nav aria-label="Footer navigation"><a href="about.html">About</a><a href="projects.html">Projects</a><a href="experience.html">Experience</a><a href="photos.html">Photos</a></nav>
+        <p class="copyright">© <span id="year"></span> Tucker Yazdani</p>
+      </div>
     </footer>
     <script src="assets/js/main.js"></script>
   </body>

@@ -3,68 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3f7f6" />
     <title>Projects | Tucker Yazdani</title>
-    <meta name="description" content="Selected data engineering projects by Tucker Yazdani with architecture and technology details." />
+    <meta name="description" content="Selected data engineering projects by Tucker Yazdani, organized by problem, contribution, technology, and outcome." />
     <meta property="og:title" content="Projects | Tucker Yazdani" />
-    <meta property="og:description" content="Project cards with links, descriptions, and technologies." />
+    <meta property="og:description" content="Selected project work in automated data collection, enrichment, summarization, and publishing." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="Photos/headshot3.png" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="index.html">
-          <img class="brand-avatar" src="Photos/headshot3.png" alt="Tucker Yazdani" loading="lazy" />
-          <span class="logo">Tucker Yazdani</span>
-        </a>
-        <nav class="nav-links" aria-label="Main navigation">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="projects.html">Projects</a>
-          <a href="experience.html">Experience</a>
-          <a href="contact.html">Contact</a>
-          <a href="photos.html">Photos</a>
-          <a href="twitter.html">Twitter</a>
-        </nav>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <a class="brand" href="index.html" aria-label="Tucker Yazdani, home"><span class="brand-mark" aria-hidden="true">TY</span><span class="brand-copy"><strong>Tucker Yazdani</strong><small>Data &amp; Platform Engineering</small></span></a>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="sr-only">Open navigation</span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+        <nav class="nav-links" id="primary-navigation" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="experience.html">Experience</a><a href="contact.html">Contact</a></nav>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme"><span class="theme-icon" aria-hidden="true">◐</span></button>
       </div>
     </header>
 
-    <main class="container">
-      <section class="card">
-        <p class="eyebrow">Projects</p>
-        <h1>Project Portfolio</h1>
-        <p class="subtitle">Clear project summaries with architecture and implementation context.</p>
+    <main class="container" id="main-content">
+      <section class="page-hero section-space reveal">
+        <div><p class="eyebrow">Selected work</p><h1>Projects, explained from <span class="accent-text">problem to outcome.</span></h1></div>
+        <p class="page-lede">A closer look at how I structure data work: understand the problem, define my contribution, choose practical technology, and deliver a useful result.</p>
       </section>
 
-      <section class="project-grid">
-        <article class="card project-card">
-          <div>
-            <h2>Reddit Street Journal</h2>
-            <p class="role-meta">Completed Jun 2024</p>
-            <p>
-              Pipeline that identifies trending stocks from Reddit discussions, enriches them with Yahoo Finance data,
-              generates AI-powered summaries, and automates publication to Twitter and GitHub Pages.
-            </p>
-            <ul class="chips">
-              <li>Python</li>
-              <li>SQL</li>
-              <li>Docker</li>
-              <li>GCP</li>
-              <li>GitHub Pages</li>
-            </ul>
+      <section class="section-space reveal" aria-labelledby="rsj-title">
+        <article class="project-case-card">
+          <header class="project-case-header">
+            <div>
+              <p class="project-kicker">01 · Data pipeline &amp; publishing automation</p>
+              <h2 id="rsj-title">Reddit Street Journal</h2>
+              <p>A personal data product that turns fast-moving market conversations into structured weekly summaries.</p>
+            </div>
+            <p class="project-date">Completed<br /><strong>June 2024</strong></p>
+          </header>
+          <div class="project-detail-grid">
+            <section><span class="detail-index">01</span><h3>Problem</h3><p>Stock conversations on Reddit are noisy and change quickly, making it difficult to identify frequently discussed tickers and add useful market context consistently.</p></section>
+            <section><span class="detail-index">02</span><h3>My contribution</h3><p>Designed and built the automated workflow that collects discussions, detects stock mentions, enriches results with Yahoo Finance data, generates summaries, and publishes the output.</p></section>
+            <section><span class="detail-index">03</span><h3>Technology</h3><ul class="tag-list"><li>Python</li><li>SQL</li><li>Docker</li><li>GCP</li><li>Yahoo Finance</li><li>GitHub Pages</li></ul></section>
+            <section><span class="detail-index">04</span><h3>Outcome</h3><p>Created a repeatable publishing workflow that converts unstructured social discussion into structured, timely market summaries.</p></section>
           </div>
-          <div class="btn-row">
-            <a class="btn primary" href="reddit-street-journal.html">Case Study</a>
-            <a class="btn ghost" href="https://x.com/WSB_Journal">Twitter</a>
-            <a class="btn ghost" href="twitter.html">Twitter Webpage</a>
-          </div>
+          <footer class="project-case-footer">
+            <p><span aria-hidden="true">↳</span> Explore the architecture, processing steps, and published output.</p>
+            <div class="btn-row">
+              <a class="btn primary" href="reddit-street-journal.html">Read case study</a>
+              <a class="btn secondary" href="https://github.com/tuckeryazdani/Reddit_Street_Journal" target="_blank" rel="noopener noreferrer">View source <span aria-hidden="true">↗</span></a>
+            </div>
+          </footer>
         </article>
+      </section>
+
+      <section class="project-method section-space reveal">
+        <p class="eyebrow">Project lens</p>
+        <div><h2>Built as a complete workflow—not an isolated script.</h2><p>The project covers ingestion, normalization, enrichment, summarization, scheduling, and publication. That end-to-end scope mirrors how I approach professional data engineering: make the whole path understandable and operable.</p></div>
+      </section>
+
+      <section class="contact-cta section-space reveal">
+        <div><p class="eyebrow">Professional work</p><h2>See how this approach carries into enterprise data platforms.</h2></div>
+        <a class="btn light" href="experience.html">View experience <span aria-hidden="true">→</span></a>
+      </section>
     </main>
 
-    <footer>
-      <div class="container">© <span id="year"></span> Tucker Yazdani</div>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div><span class="brand-mark small" aria-hidden="true">TY</span><p>Data Engineering &amp; Platform Engineering<br /><span>Chicago, Illinois</span></p></div>
+        <nav aria-label="Footer navigation"><a href="about.html">About</a><a href="projects.html">Projects</a><a href="experience.html">Experience</a><a href="photos.html">Photos</a></nav>
+        <p class="copyright">© <span id="year"></span> Tucker Yazdani</p>
+      </div>
     </footer>
     <script src="assets/js/main.js"></script>
   </body>

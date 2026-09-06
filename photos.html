@@ -3,74 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Photos | Tucker Yazdani</title>
-    <meta name="description" content="Photo gallery with cooking dishes and personal photos from Tucker Yazdani." />
-    <meta property="og:title" content="Photos | Tucker Yazdani" />
-    <meta property="og:description" content="Cooking creations and personal photos in a responsive gallery." />
+    <meta name="theme-color" content="#f3f7f6" />
+    <title>Beyond Work | Tucker Yazdani</title>
+    <meta name="description" content="Cooking and Chicago photography from Tucker Yazdani." />
+    <meta property="og:title" content="Beyond Work | Tucker Yazdani" />
+    <meta property="og:description" content="A personal photo gallery featuring cooking and Chicago." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="Photos/PizzaCooked.jpeg" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="index.html">
-          <img class="brand-avatar" src="Photos/headshot3.png" alt="Tucker Yazdani" loading="lazy" />
-          <span class="logo">Tucker Yazdani</span>
-        </a>
-        <nav class="nav-links" aria-label="Main navigation">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="projects.html">Projects</a>
-          <a href="experience.html">Experience</a>
-          <a href="contact.html">Contact</a>
-          <a href="photos.html">Photos</a>
-          <a href="twitter.html">Twitter</a>
-        </nav>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <a class="brand" href="index.html" aria-label="Tucker Yazdani, home"><span class="brand-mark" aria-hidden="true">TY</span><span class="brand-copy"><strong>Tucker Yazdani</strong><small>Data &amp; Platform Engineering</small></span></a>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="sr-only">Open navigation</span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+        <nav class="nav-links" id="primary-navigation" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="experience.html">Experience</a><a href="contact.html">Contact</a></nav>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme"><span class="theme-icon" aria-hidden="true">◐</span></button>
       </div>
     </header>
 
-    <main class="container">
-      <section class="card">
-        <p class="eyebrow">Photos</p>
-        <h1>Photo Gallery</h1>
-        <p class="subtitle">A mix of food I love to cook and moments from around Chicago.</p>
+    <main class="container" id="main-content">
+      <section class="page-hero section-space reveal">
+        <div><p class="eyebrow">Beyond work</p><h1>Cooking, Chicago, and life away from the keyboard.</h1></div>
+        <p class="page-lede">A small collection of food I’ve made and favorite moments from around the city.</p>
       </section>
 
-      <section class="card">
-        <h2>Cooking</h2>
-        <p>Dishes I have made recently, from pasta nights to pizza and steak.</p>
+      <section class="section-space reveal" aria-labelledby="cooking-title">
+        <div class="section-heading split-heading"><div><p class="eyebrow">In the kitchen</p><h2 id="cooking-title">Cooking</h2></div><p>From pasta nights to homemade pizza, curry, and steak.</p></div>
         <div class="media-grid" aria-label="Cooking photos">
           <figure class="media-card"><img src="Photos/GnocchiChickenAlfredo.jpeg" alt="Gnocchi with chicken alfredo" loading="lazy" /></figure>
-          <figure class="media-card"><img src="Photos/FettuciniChickenBasilPesto.jpeg" alt="Fettuccini chicken basil pesto" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/FettuciniChickenBasilPesto.jpeg" alt="Fettuccine chicken basil pesto" loading="lazy" /></figure>
           <figure class="media-card"><img src="Photos/RigatoniChickenVodkaSauce.jpeg" alt="Rigatoni with chicken vodka sauce" loading="lazy" /></figure>
           <figure class="media-card"><img src="Photos/ShrimpPenoArrabbiata.jpeg" alt="Shrimp arrabbiata pasta" loading="lazy" /></figure>
           <figure class="media-card"><img src="Photos/RedCurryChickenAndRice.JPG" alt="Red curry chicken and rice" loading="lazy" /></figure>
           <figure class="media-card"><img src="Photos/PizzaCooked.jpeg" alt="Homemade baked pizza" loading="lazy" /></figure>
-          <figure class="media-card"><img src="Photos/PizzaUncooked.jpeg" alt="Homemade uncooked pizza" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/PizzaUncooked.jpeg" alt="Homemade pizza before baking" loading="lazy" /></figure>
           <figure class="media-card"><img src="Photos/SteakDinner.jpeg" alt="Steak dinner" loading="lazy" /></figure>
         </div>
       </section>
 
-      <section class="card">
-        <h2>Photos of Me</h2>
-        <p>Some personal favorites from the city, skyline, and seasonal moments.</p>
-        <div class="media-grid" aria-label="Personal photos">
-          <figure class="media-card"><img src="Photos/headshot3.png" alt="Headshot of Tucker Yazdani" loading="lazy" /></figure>
-          <figure class="media-card"><img src="Photos/chicago_skydeck_day.jpg" alt="Daytime skyline view from Chicago Skydeck" loading="lazy" /></figure>
-          <figure class="media-card"><img src="Photos/chicago_skydeck_night.jpg" alt="Night skyline view from Chicago Skydeck" loading="lazy" /></figure>
-          <figure class="media-card"><img src="Photos/chicago_skydeck_laying_night.jpg" alt="Night skyline view from Skydeck" loading="lazy" /></figure>
+      <section class="section-space reveal" aria-labelledby="chicago-title">
+        <div class="section-heading split-heading"><div><p class="eyebrow">Around town</p><h2 id="chicago-title">Chicago &amp; life</h2></div><p>City views and a few personal favorites.</p></div>
+        <div class="media-grid" aria-label="Personal and Chicago photos">
+          <figure class="media-card"><img src="Photos/headshot3.png" alt="Tucker Yazdani" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/chicago_skydeck_day.jpg" alt="Daytime skyline from Chicago Skydeck" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/chicago_skydeck_night.jpg" alt="Night skyline from Chicago Skydeck" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/chicago_skydeck_laying_night.jpg" alt="Night view from Chicago Skydeck" loading="lazy" /></figure>
           <figure class="media-card"><img src="Photos/chicago_riverwalk.jpg" alt="Chicago Riverwalk" loading="lazy" /></figure>
-          <figure class="media-card"><img src="Photos/chicago_riverwalk_boat.jpg" alt="Boat passing through Chicago Riverwalk" loading="lazy" /></figure>
-          <figure class="media-card"><img src="Photos/new_years.jpg" alt="New year celebration" loading="lazy" /></figure>
-          <figure class="media-card"><img src="Photos/jack_frost.jpg" alt="Winter jack frost scene" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/chicago_riverwalk_boat.jpg" alt="Boat passing through the Chicago Riverwalk" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/new_years.jpg" alt="New Year celebration" loading="lazy" /></figure>
+          <figure class="media-card"><img src="Photos/jack_frost.jpg" alt="Winter Jack Frost scene" loading="lazy" /></figure>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div class="container">© <span id="year"></span> Tucker Yazdani</div>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div><span class="brand-mark small" aria-hidden="true">TY</span><p>Data Engineering &amp; Platform Engineering<br /><span>Chicago, Illinois</span></p></div>
+        <nav aria-label="Footer navigation"><a href="about.html">About</a><a href="projects.html">Projects</a><a href="experience.html">Experience</a><a href="photos.html">Photos</a></nav>
+        <p class="copyright">© <span id="year"></span> Tucker Yazdani</p>
+      </div>
     </footer>
     <script src="assets/js/main.js"></script>
   </body>
