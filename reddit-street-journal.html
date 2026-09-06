@@ -3,102 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3f7f6" />
     <title>Reddit Street Journal | Tucker Yazdani</title>
-    <meta name="description" content="Reddit Street Journal project: identifies trending stocks from Reddit, enriches with Yahoo Finance data, and publishes summaries." />
+    <meta name="description" content="A data engineering case study covering automated Reddit ingestion, market data enrichment, summarization, and publication." />
     <meta property="og:title" content="Reddit Street Journal | Tucker Yazdani" />
-    <meta property="og:description" content="Architecture and implementation summary for the Reddit Street Journal project." />
+    <meta property="og:description" content="Architecture and implementation details for an automated market intelligence data pipeline." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="Photos/headshot3.png" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="index.html">
-          <img class="brand-avatar" src="Photos/headshot3.png" alt="Tucker Yazdani" loading="lazy" />
-          <span class="logo">Tucker Yazdani</span>
-        </a>
-        <nav class="nav-links" aria-label="Main navigation">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="projects.html">Projects</a>
-          <a href="experience.html">Experience</a>
-          <a href="contact.html">Contact</a>
-          <a href="photos.html">Photos</a>
-          <a href="twitter.html">Twitter</a>
-        </nav>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <a class="brand" href="index.html" aria-label="Tucker Yazdani, home"><span class="brand-mark" aria-hidden="true">TY</span><span class="brand-copy"><strong>Tucker Yazdani</strong><small>Data &amp; Platform Engineering</small></span></a>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="sr-only">Open navigation</span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+        <nav class="nav-links" id="primary-navigation" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="experience.html">Experience</a><a href="contact.html">Contact</a></nav>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme"><span class="theme-icon" aria-hidden="true">◐</span></button>
       </div>
     </header>
 
-    <main class="container">
-      <section class="card">
-        <p class="eyebrow">Project Case Study</p>
-        <h1>Reddit Street Journal</h1>
-        <p class="role-meta">Completed Jun 2024</p>
-        <p>
-          This project identifies trending stocks from Reddit discussions, fetches live stock price data from Yahoo Finance,
-          generates AI-powered summaries, and publishes content to Twitter and GitHub Pages.
-        </p>
-        <div class="btn-row">
-          <a class="btn primary" href="https://github.com/tuckeryazdani/Reddit_Street_Journal" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-        </div>
+    <main class="container" id="main-content">
+      <section class="page-hero section-space reveal">
+        <div><p class="eyebrow">Project case study · Completed June 2024</p><h1>Reddit Street Journal</h1></div>
+        <div><p class="page-lede">An automated data product that identifies trending stocks in Reddit conversations, adds market context, and publishes structured summaries.</p><div class="btn-row"><a class="btn primary" href="https://github.com/tuckeryazdani/Reddit_Street_Journal" target="_blank" rel="noopener noreferrer">View source <span aria-hidden="true">↗</span></a><a class="btn secondary" href="twitter.html">See output</a></div></div>
       </section>
 
-      <section class="card case-study-card">
+      <section class="section-space reveal" aria-label="Project overview">
         <div class="case-study-grid">
-          <article>
-            <h2>Problem</h2>
-            <p>Reddit investing discussions are noisy and fast moving, making it difficult to consistently identify trending tickers and convert them into useful summaries.</p>
-          </article>
-          <article>
-            <h2>Solution</h2>
-            <p>An automated data workflow detects stock tickers, enriches them with live Yahoo Finance pricing, generates summaries, and publishes results to Twitter and GitHub Pages.</p>
-          </article>
-          <article>
-            <h2>Tech Stack</h2>
-            <ul class="chips">
-              <li>Python</li>
-              <li>SQL</li>
-              <li>Docker</li>
-              <li>GCP</li>
-              <li>Google Cloud Jobs</li>
-              <li>Yahoo Finance</li>
-              <li>Twitter</li>
-              <li>GitHub Pages</li>
-            </ul>
-          </article>
-          <article>
-            <h2>Impact</h2>
-            <p>The project turns unstructured social discussion into a repeatable publishing pipeline with structured outputs and automated distribution.</p>
-          </article>
+          <article><p class="mini-label">01 · Problem</p><h2>Noisy source data</h2><p>Market conversations move quickly, making it difficult to identify frequently discussed tickers and summarize the surrounding signals consistently.</p></article>
+          <article><p class="mini-label">02 · Contribution</p><h2>End-to-end workflow</h2><p>I designed and built the collection, ticker detection, market-data enrichment, summary generation, and publication workflow.</p></article>
+          <article><p class="mini-label">03 · Technology</p><h2>Practical stack</h2><ul class="tag-list"><li>Python</li><li>SQL</li><li>Docker</li><li>GCP</li><li>Yahoo Finance</li><li>GitHub Pages</li></ul></article>
+          <article><p class="mini-label">04 · Outcome</p><h2>Repeatable output</h2><p>The pipeline converts unstructured social discussion into structured, timely market summaries through an automated publishing process.</p></article>
         </div>
       </section>
 
-      <section class="card grid-2">
-        <article>
-          <h2>Pipeline Flow</h2>
-          <ol>
-            <li>Read Reddit discussions and detect trending stock tickers.</li>
-            <li>Fetch live price data from Yahoo Finance.</li>
-            <li>Generate AI-powered stock summaries.</li>
-            <li>Publish output to Twitter and GitHub Pages.</li>
-            <li>Run automation with DataFrame ingestion and caching improvements from the migration workflow.</li>
-          </ol>
-        </article>
-        <article>
-          <h2>Links</h2>
-          <div class="link-list">
-            <a href="https://github.com/tuckeryazdani/Reddit_Street_Journal" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://x.com/WSB_Journal" target="_blank" rel="noopener noreferrer">Twitter</a>
-            <a href="twitter.html">Twitter Webpage</a>
-          </div>
-        </article>
+      <section class="section-space reveal" aria-labelledby="pipeline-title">
+        <div class="section-heading split-heading"><div><p class="eyebrow">Pipeline flow</p><h2 id="pipeline-title">From conversation to published summary.</h2></div><p>Each stage has a clear responsibility, keeping collection, processing, enrichment, and distribution understandable.</p></div>
+        <ol class="flow-list">
+          <li>Collect relevant Reddit discussions.</li>
+          <li>Detect and normalize stock ticker mentions.</li>
+          <li>Enrich results with Yahoo Finance price data.</li>
+          <li>Generate structured market summaries.</li>
+          <li>Publish updates to X and GitHub Pages.</li>
+        </ol>
+      </section>
+
+      <section class="project-method section-space reveal">
+        <p class="eyebrow">Engineering approach</p>
+        <div><h2>A small project with production-minded boundaries.</h2><p>The workflow separates ingestion, transformation, enrichment, and publishing concerns. Containerization and cloud execution make the process repeatable, while the public archive makes the final output easy to inspect.</p></div>
+        <a class="text-link" href="projects.html">Back to projects <span aria-hidden="true">→</span></a>
+      </section>
+
+      <section class="contact-cta section-space reveal">
+        <div><p class="eyebrow">Project links</p><h2>Explore the code or the published archive.</h2></div>
+        <div class="btn-row"><a class="btn light" href="https://github.com/tuckeryazdani/Reddit_Street_Journal" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a class="btn outline-light" href="twitter.html">Output archive</a></div>
       </section>
     </main>
 
-    <footer>
-      <div class="container">© <span id="year"></span> Tucker Yazdani</div>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div><span class="brand-mark small" aria-hidden="true">TY</span><p>Data Engineering &amp; Platform Engineering<br /><span>Chicago, Illinois</span></p></div>
+        <nav aria-label="Footer navigation"><a href="about.html">About</a><a href="projects.html">Projects</a><a href="experience.html">Experience</a><a href="photos.html">Photos</a></nav>
+        <p class="copyright">© <span id="year"></span> Tucker Yazdani</p>
+      </div>
     </footer>
     <script src="assets/js/main.js"></script>
   </body>
