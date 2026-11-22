@@ -1640,6 +1640,75 @@ p {
   font-size: 0.9rem;
 }
 
+/* Role metadata and career summary */
+.role-overview:has(+ .role-tags) {
+  padding-bottom: 0.25rem;
+  border-bottom: 0;
+}
+
+.timeline-date span {
+  display: block;
+  margin-top: 0.4rem;
+  text-transform: none;
+}
+
+.timeline-role .tag-list {
+  margin-top: 1.4rem;
+}
+
+.career-heading {
+  margin: 3rem 0 1rem;
+}
+
+.career-list {
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--line-strong);
+  list-style: none;
+}
+
+.career-list li {
+  display: grid;
+  grid-template-columns: 10.5rem minmax(0, 1fr) minmax(0, 1fr);
+  align-items: baseline;
+  gap: 1.5rem;
+  padding: 1.3rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.career-date {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.career-list strong {
+  display: block;
+  color: var(--ink);
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.career-list small {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.career-list p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+}
+
+@media (max-width: 780px) {
+  .career-list li {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+}
+
 html.reveal-ready .reveal {
   opacity: 0;
   transform: translateY(18px);
